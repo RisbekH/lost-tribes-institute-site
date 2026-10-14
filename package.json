@@ -1,0 +1,12 @@
+{
+  "name": "lost-tribes-institute-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "js-yaml": "4.1.0",
+    "marked": "16.4.1"
+  }
+}

@@ -1,0 +1,45 @@
+# Posting screen for LostTribesInstitute.com (Decap CMS).
+# Sign in at https://losttribesinstitute.com/admin with GitHub.
+backend:
+  name: github
+  repo: RisbekH/lost-tribes-institute-site
+  branch: main
+  base_url: https://api.netlify.com
+  commit_messages:
+    create: 'New essay: {{slug}}'
+    update: 'Update essay: {{slug}}'
+    delete: 'Remove essay: {{slug}}'
+    uploadMedia: 'Upload image {{path}}'
+    deleteMedia: 'Remove image {{path}}'
+
+site_url: https://losttribesinstitute.com
+display_url: https://losttribesinstitute.com
+logo_url: ''
+
+media_folder: images/essays
+public_folder: /images/essays
+
+collections:
+  - name: essays
+    label: Essays
+    label_singular: Essay
+    description: Each essay you publish appears at the top of the Essays page about a minute later. Turn on "Draft" to save without publishing.
+    folder: content/essays
+    create: true
+    delete: true
+    extension: md
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: 'essays/{{slug}}.html'
+    summary: "{{date | date('MMM D, YYYY')}} — {{title}}{{draft | ternary(' (draft)', '')}}"
+    sortable_fields: ['date', 'title']
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, date_format: 'MMMM D, YYYY', time_format: false, format: 'YYYY-MM-DD' }
+      - { label: Author, name: author, widget: string, default: 'Richard Hewitt (Risbek)' }
+      - { label: 'Short summary (one or two sentences for the Essays list)', name: summary, widget: text, required: false }
+      - { label: 'Draft (not shown on the site)', name: draft, widget: boolean, default: false, required: false }
+      - { label: Essay, name: body, widget: markdown, hint: 'Paste from Google Docs here. Bold, italics, headings, lists and links carry over.' }
