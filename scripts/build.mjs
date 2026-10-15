@@ -63,7 +63,7 @@ const page = ({ title, desc, url, body, type = 'website' }) => `<!doctype html><
 .essay .body{font-size:1.08rem;line-height:1.75}
 .essay .body h2{margin:36px 0 10px}.essay .body h3{margin:28px 0 8px}
 .essay .body blockquote{margin:22px 0;padding:4px 0 4px 18px;border-left:3px solid var(--accent);color:var(--ink-2)}
-.essay .body img{height:auto;border-radius:4px}
+.essay .body img{max-width:100%;height:auto;border-radius:4px;display:block;margin:0 auto 6px}
 .essay .body table{border-collapse:collapse;display:block;overflow-x:auto}
 .essay .body td,.essay .body th{border:1px solid var(--rule);padding:6px 10px}
 .essay .body pre{overflow-x:auto}
