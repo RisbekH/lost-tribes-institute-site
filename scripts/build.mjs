@@ -4,7 +4,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { marked } from 'marked';
+import markedFootnote from 'marked-footnote';
 import yaml from 'js-yaml';
+
+marked.use(markedFootnote({ description: 'Notes' }));
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const OUT = path.join(ROOT, 'dist');
@@ -60,7 +63,8 @@ const page = ({ title, desc, url, body, type = 'website' }) => `<!doctype html><
 @media (max-width:720px){.es-item{grid-template-columns:1fr}.es-item time{padding-top:0}}
 .essay{max-width:44rem;margin:0 auto}
 .essay .dateline{font-family:var(--mono);font-size:12.5px;color:var(--ink-3);margin:0 0 28px}
-.essay .body{font-size:1.08rem;line-height:1.75}
+.essay .body{font-size:1.08rem;line-height:1.75;overflow-wrap:anywhere}
+.essay .body .footnotes{font-size:.95rem;border-top:1px solid var(--rule);margin-top:40px}
 .essay .body h2{margin:36px 0 10px}.essay .body h3{margin:28px 0 8px}
 .essay .body blockquote{margin:22px 0;padding:4px 0 4px 18px;border-left:3px solid var(--accent);color:var(--ink-2)}
 .essay .body img{max-width:100%;height:auto;border-radius:4px;display:block;margin:0 auto 6px}

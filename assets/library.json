@@ -3717,6 +3717,21 @@
    "kyrgyz"
   ],
   "kind": "book",
+  "note": "Kyrgyz-language book, 2006. 77 pages.",
+  "publicDomain": false,
+  "title": "Боз Үй",
+  "url": "",
+  "year": 2006,
+  "file": "papers/%D0%91%D0%BE%D0%B7%20%D2%AE%D0%B9.pdf",
+  "id": "book-hewitt-boz-uy"
+ },
+ {
+  "author": "Richard Hewitt (Risbek)",
+  "availability": "online",
+  "entries": [
+   "kyrgyz"
+  ],
+  "kind": "book",
   "note": "Russian edition, illustrated. 40 pages.",
   "publicDomain": false,
   "title": "Калпак (Russian edition)",
