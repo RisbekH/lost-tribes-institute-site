@@ -11,7 +11,7 @@ draft: false
 
 ## An unexpected address
 
-If you want to see how far Jesus travels, look at where he turns up. He is Isa in the Qur'an, honored as a prophet and as the Mesikh or Messiah by nearly two billion Muslims. He is Ishu and Isa Masih in India, painted in saffron robes and seated in the lotus position. He is Yesu and Ye Su in China, Jizu in Assam, Isa or Iso in Central Asia and possibly Japan, and Yeshua to the Jews who first walked with him. Gandhi kept his teachings close while keeping Western churches at arm's length. Japanese Pure Land believers who call on the name of Amida, the teacher of life and light, find their own hope echoed in his promise that whoever calls on the name of the Lord will be rescued.
+If you want to see how far Jesus travels, look at where he turns up. He is Isa in the Qur'an, honored as a prophet and as the Mesikh or Messiah by nearly two billion Muslims. He is Ishu and Isa Masih in India, painted in saffron robes and seated in the lotus position. He is Yesu and Ye Su in China, Jizu in Assam, Isa or Iso in Central Asia and possibly Japan, and Yeshua to the Jews who first walked with him. Gandhi kept his teachings close while keeping Western churches at arm's length. Japanese Pure Land believers who call on the name of Amida, the teacher of life and light, find their own hope echoed in the promise that whoever calls on the name of the Lord will be rescued.
 
 Now we have another title added to his long list of titles: the Tibetan Buddhist Encyclopedia, an online reference work for Buddhist terms, teachers, and texts. Among its entries is a page titled "Siddhartha Gautama Buddha prophecies Jesus." It sits in the category for Buddha Shakyamuni, alongside entries on sutras, meditation, and the lineages of Tibet. No other sage gets this kind of welcome across the religious spectrum. You will not find a page about Confucius in a Hindu reference work, or Mahavira in a Shinto one. But you will find Jesus, again and again, sitting comfortably inside other people's sacred traditions and ancient faiths.
 
@@ -23,7 +23,7 @@ Then, on his deathbed, the page says the Buddha spoke of a coming one called the
 
 The page credits these sayings to two sources: a manuscript kept at a "Praising Temple" in Chiang Mai, Thailand, and a text it names "Sutrapridot 3:107."
 
-Anyone who knows God's Eternal Script will hear the echoes immediately. Zechariah, prophesying in Persia's early years, spoke of one "they have pierced" whom the people would mourn as an only child. David's psalm described pierced hands and feet. Isaiah described a man of sorrows wounded for the wrongs of others. And John's account of Yeshua's death records the soldiers placing a crown of thorns on his head, nails in his hands and feet, and a spear piercing his side.
+Anyone who knows God's Eternal Script will hear the echoes immediately. Zechariah, prophesying in Persia's early years, spoke of one "they have pierced" whom the people would mourn as an only child. David's psalm described pierced hands and feet. Isaiah described a man of sorrows wounded for the wrongs of others. And the New Testament accounts of Yeshua's death record the soldiers placing a crown of thorns on his head, nails in his hands and feet, and a spear piercing his side.
 
 ## The Persian stage
 
@@ -31,11 +31,11 @@ What surprised me most is how closely the page follows the same historical frame
 
 The page places Siddhartha's birth in 563 BCE "on the edge of the Persian Empire." It notes that he left his father's palace at 29, shortly after Daniel began administering the regions near his home. It reminds readers that Darius decreed that every part of his kingdom must fear and revere the God of Daniel. And it lists the great prophetic background that Daniel carried with him into exile: Moses' promise of a coming prophet, David's pierced king, and Isaiah's suffering servant who would bring a book to lead people out of darkness.
 
-In other words, the writer saw what we have been discussing at our symposiums. The biblical stage moved east. Daniel, Ezekiel, Zechariah, Esther, Mordecai, and Nehemiah were making history in Babylon and Persia while Siddhartha was growing up just beyond Persia's eastern frontier. Royal decrees honoring Israel's God went out in many languages to many nations. A truth-seeker of the Shakya clan, born into an educated, aristocratic family, would have known Zechariah's pierced savior and heard of Judah's messiah.
+In other words, the writer saw what we have been discussing at our symposiums. The biblical stage moved east. Zechariah was prophesying in Persia while Siddhartha was growing up just beyond Persia's eastern frontier. Royal decrees honoring Israel's God went out in many languages to many nations. A truth-seeker of the Shakya clan, born into an educated, aristocratic family, would have known Zechariah's pierced savior and heard of Judah's messiah.
 
 ## The Magi question
 
-The page also raises a question I explored in Part II: who were the Magi? Since the Buddha seemed familiar with a coming King of Kings, the writer wonders whether the Magi of Matthew 2 were Buddhist priests. The page points out that the Magi were originally a priestly tribe of the Medes, the same people Zoroaster belonged to, and that one of the Magi, Bardiya, led a revolt against Cyrus's son Cambyses during the Buddha's lifetime.
+The page also raises a question I explored in Part II: who were the Magi? Since the Buddha seemed familiar with a coming King of Kings, the writer wonders whether the Magi of Matthew 2 were Buddhist priests. The page points out that the Magi were originally a priestly tribe of the Medes, the same people Zoroaster belonged to.
 
 Whether the Magi were Zoroastrian, Buddhist, or Israelite descendants who had kept the old prophecies alive, the point stands. Easterners, not Greek philosophers, Roman thinkers, or Jerusalem's scholars, were the first to read the prophets' timetable and travel to find the virgin's child. The East was watching for him.
 
