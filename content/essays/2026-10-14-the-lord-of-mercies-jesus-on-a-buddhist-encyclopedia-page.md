@@ -31,7 +31,7 @@ What surprised me most is how closely the page follows the same historical frame
 
 The page places Siddhartha's birth in 563 BCE "on the edge of the Persian Empire." It notes that he left his father's palace at 29, shortly after Daniel began administering the regions near his home. It reminds readers that Darius decreed that every part of his kingdom must fear and revere the God of Daniel. And it lists the great prophetic background that Daniel carried with him into exile: Moses' promise of a coming prophet, David's pierced king, and Isaiah's suffering servant who would bring a book to lead people out of darkness.
 
-In other words, the writer saw what we have been discussing at our symposiums. The biblical stage moved east. Zechariah was prophesying in Persia while Siddhartha was growing up just beyond Persia's eastern frontier. Royal decrees honoring Israel's God went out in many languages to many nations. A truth-seeker of the Shakya clan, born into an educated, aristocratic family, would have known Zechariah's pierced savior and heard of Judah's messiah.
+In other words, the writer saw what we have been discussing at our symposiums. The biblical stage moved east. Daniel, Ezekiel, and Zechariah, prophesying in Babylon and Persia, may have been Siddhartha's contemporaries while he was growing up and teaching just beyond Persia's eastern frontier. Royal decrees honoring Israel's God went out in many languages to many nations. A truth-seeker of the Shakya clan, born into an educated, aristocratic family, would have known Zechariah's pierced savior and heard of Judah's messiah.
 
 ## The Magi question
 
