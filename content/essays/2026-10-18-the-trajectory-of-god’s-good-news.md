@@ -1,13 +1,11 @@
 ---
-title: "The Trajectory of God’s Good News "
+title: "The International Trajectory of God’s Good News "
 date: 2026-10-18
 author: Lost Tribes Institute's Richard Hewitt (Risbek)
 summary: The Good News announced to the nations started with Abraham in Genesis
   and carries through to Revelation.
 draft: false
 ---
-# **The International Trajectory of God’s Good News** 
-
 Paul says Abraham heard the good news: "The Scripture, seeing ahead that God would set the nations right by faith, announced the good news in advance to Abraham: 'In you all the nations will be blessed.'" (Galatians 3:8) “All the nations” is central to Paul’s understanding of the Good News. He combines two verses. Genesis 12:3 says "all the *families* of the earth will be blessed through you." Genesis 18:18 says "all the *nations* of the earth." Greek 18:18 uses *ethnē* or "Gentiles." 
 
 This Good News announces that God will bless the nations, first through Abraham, then the promise narrows to Abraham's singular "seed" which Paul reads as the Messiah (Galatians 3:16).
