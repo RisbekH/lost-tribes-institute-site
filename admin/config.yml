@@ -16,6 +16,12 @@ site_url: https://losttribesinstitute.com
 display_url: https://losttribesinstitute.com
 logo_url: ''
 
+# Keep essay web addresses plain (no apostrophes or accents), so links paste cleanly into X and other sites
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: '-'
+
 media_folder: images/essays
 public_folder: /images/essays
 

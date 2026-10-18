@@ -27,6 +27,7 @@ for (const name of fs.readdirSync(ROOT)) {
 // 2. Read essays
 const dir = path.join(ROOT, 'content', 'essays');
 const essays = [];
+const redirects = [];
 for (const file of fs.existsSync(dir) ? fs.readdirSync(dir) : []) {
   if (!file.endsWith('.md')) continue;
   const raw = fs.readFileSync(path.join(dir, file), 'utf8');
@@ -36,7 +37,12 @@ for (const file of fs.existsSync(dir) ? fs.readdirSync(dir) : []) {
   if (data.draft) continue;
   const date = data.date ? new Date(data.date) : null;
   if (!data.title || !date || isNaN(date)) { console.warn(`Skipping ${file}: needs a title and a date`); continue; }
-  essays.push({ slug: file.replace(/\.md$/, ''), title: String(data.title), date, author: data.author || 'Richard Hewitt (Risbek)', summary: data.summary || '', html: marked.parse(body) });
+  const fileSlug = file.replace(/\.md$/, '');
+  // Web-safe address: no apostrophes, accents or other characters that break links on X and other sites
+  const slug = fileSlug.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+    .replace(/['’‘`]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  if (slug !== fileSlug) redirects.push(`/essays/${encodeURI(fileSlug)}  /essays/${slug}  301`, `/essays/${encodeURI(fileSlug)}.html  /essays/${slug}  301`);
+  essays.push({ slug, title: String(data.title), date, author: data.author || 'Richard Hewitt (Risbek)', summary: data.summary || '', html: marked.parse(body) });
 }
 essays.sort((a, b) => b.date - a.date || a.title.localeCompare(b.title));
 
@@ -117,5 +123,7 @@ const smPath = path.join(OUT, 'sitemap.xml');
 const extra = [`  <url><loc>${SITE}/essays</loc>${essays[0] ? `<lastmod>${iso(essays[0].date)}</lastmod>` : ''}</url>`,
   ...essays.map(e => `  <url><loc>${SITE}/essays/${e.slug}</loc><lastmod>${iso(e.date)}</lastmod></url>`)].join('\n');
 fs.writeFileSync(smPath, fs.readFileSync(smPath, 'utf8').replace('</urlset>', `${extra}\n</urlset>`));
+
+if (redirects.length) fs.appendFileSync(path.join(OUT, '_redirects'), redirects.join('\n') + '\n');
 
 console.log(`Built ${essays.length} essay(s) into dist/`);
