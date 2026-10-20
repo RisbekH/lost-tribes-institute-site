@@ -1615,15 +1615,20 @@
   "availability": "online",
   "entries": [
    "bnm",
-   "karen"
+   "karen",
+   "qiang",
+   "kyrgyz",
+   "naga"
   ],
   "kind": "paper",
-  "note": "",
+  "note": "1st Scientific Symposium, Aizawl, November 23, 2023. Lost Book memories, cave-dwelling memories and Israelite customs. Also on the Essays page.",
   "publicDomain": false,
-  "title": "Oral histories intersecting to build a picture of ancient Israelites throughout Asia",
+  "title": "Oral Histories Intersecting to Build a Picture of Ancient Israelites throughout Asia",
   "url": "https://www.academia.edu/110279027/ORAL_HISTORIES_INTERSECTING_TO_BUILD_A_PICTURE_OF_ANCIENT_ISRAELITES_THROUGHOUT_ASIA",
   "year": 2023,
-  "id": "paper-margot-crossing-oral-histories-intersecting-to-build-a-picture-of-ancient-israel"
+  "id": "paper-margot-crossing-oral-histories-intersecting-to-build-a-picture-of-ancient-israel",
+  "file": "papers/Oral%20Histories%20Intersecting%20to%20Build%20a%20Picture%20of%20Ancient%20Israelites%20throughout%20Asia.pdf",
+  "linkLabel": "Academia.edu"
  },
  {
   "author": "",
