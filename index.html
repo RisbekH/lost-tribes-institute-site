@@ -31,6 +31,23 @@
 .sym li{margin:3px 0}
 .sym .lab{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-top:12px}
 @media (max-width:720px){.sym{grid-template-columns:1fr}}
+.founder{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:40px;align-items:start}
+@media (max-width:860px){.founder{grid-template-columns:1fr;gap:28px}}
+.founder .name{font-size:clamp(2rem,4vw,2.8rem);margin:0 0 4px}
+.founder .role{font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;color:var(--ink-3);margin:0 0 20px}
+.founder .bio p{color:var(--ink-2);margin:0 0 14px;max-width:62ch}
+.founder blockquote{margin:24px 0;padding:2px 0 2px 20px;border-left:3px solid var(--accent);font-family:var(--display);font-size:1.3rem;line-height:1.4;color:var(--ink);max-width:34ch}
+.founder blockquote cite{display:block;margin-top:8px;font:500 13px var(--body);font-style:normal;color:var(--ink-3)}
+.founder .ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.works{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:6px 20px 14px}
+.works h3{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin:16px 0 4px}
+.works ul{list-style:none;margin:0;padding:0}
+.works li{border-bottom:1px solid var(--rule);padding:9px 0}
+.works li:last-child{border-bottom:0}
+.works a{color:var(--ink);text-decoration:none;font-weight:500;font-size:15px;line-height:1.35}
+.works a:hover{color:var(--accent)}
+.works small{display:block;font-size:13px;color:var(--ink-3);margin-top:2px}
+.works .new{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;background:var(--accent);color:var(--bg);border-radius:3px;padding:1px 6px;margin-right:6px;vertical-align:1px}
 .person h3{margin-bottom:2px}
 .contact-box{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:22px;max-width:40rem}
 .contact-box .addr{font-family:var(--mono);font-size:15px;word-break:break-all;margin:6px 0 12px}
@@ -40,7 +57,7 @@
 <main id="main"><div class="wrap">
 <section class="hero">
   <div>
-    <p class="eyebrow">Lost Tribes Institute</p>
+    <p class="eyebrow">Lost Tribes Institute · Founded by Margot Crossing</p>
     <h1>Tracing the scattered tribes of Israel among the nations</h1>
     <p class="lead">The Lost Tribes Institute is a network of scholars working with indigenous nations and other peoples who say they descend from the tribes of Israel's northern kingdom, exiled in the 8th century BC. Their traditions often carry biblical stories and customs of their own. The Institute organizes round tables and symposiums across Asia and publishes what is presented.</p>
     <div class="ctas"><a class="btn primary" href="map.html">Explore the world map</a><a class="btn" href="library.html">Browse the library</a><a class="btn" href="contact.html#invite">Invite us to speak</a></div>
@@ -53,6 +70,42 @@
   </div>
 </section>
 <div class="band" aria-label="Some of the peoples the Institute works with"><a class="ph" href="map.html#e-kyrgyz"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kyrgyz_man_with_ak-kalpak_hat_%28%D0%B0%D0%BA-%D0%BA%D0%B0%D0%BB%D0%BF%D0%B0%D0%BA_%D1%88%D0%B0%D0%BF%D0%BAa%29.jpg?width=900" alt="Kyrgyz elder in an ak-kalpak" loading="eager" decoding="async"><figcaption>Kyrgyz elder in an ak-kalpak<small>Photo: Petar Milošević · CC BY-SA 4.0</small></figcaption></a><a class="ph" href="map.html#e-karen"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Karen_woman_in_traditional_clothes_sitting_and_sewing.jpg?width=900" alt="Karen woman sewing in traditional dress" loading="eager" decoding="async"><figcaption>Karen woman sewing in traditional dress<small>Photo: Varvara Kless-Kaminskaia · CC BY-SA 4.0</small></figcaption></a><a class="ph" href="map.html#e-karbi"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Traditional-Karbi-Ornaments.jpg?width=900" alt="Karbi elder in traditional dress" loading="eager" decoding="async"><figcaption>Karbi elder in traditional dress<small>Photo: Dharamsing Teron · CC BY 3.0</small></figcaption></a><a class="ph" href="map.html#e-bnm"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/ChinWoman.jpg?width=900" alt="Chin elder, Lemro river" loading="eager" decoding="async"><figcaption>Chin elder, Lemro river<small>Photo: Jean-Marie Hullot · CC BY 3.0</small></figcaption></a><a class="ph" href="map.html#e-bnm"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Glimpses_of_Chapchar_Kut_Festival.jpg?width=900" alt="Mizo dancers at Chapchar Kut" loading="eager" decoding="async"><figcaption>Mizo dancers at Chapchar Kut<small>Photo: Seth Rokhum · CC0</small></figcaption></a></div>
+
+<section class="section" id="founder" aria-labelledby="founder-name">
+  <div class="section-head"><h2>Our founder</h2><a href="library.html?q=Crossing">All her work in the library →</a></div>
+  <div class="founder">
+    <div>
+      <h3 class="name" id="founder-name">Margot Crossing</h3>
+      <p class="role">Founder, Lost Tribes Institute · Researcher of oral history across Asia</p>
+      <div class="bio">
+        <p>Margot Crossing founded the Lost Tribes Institute to bring together the peoples, scholars and communities who trace their roots to the scattered tribes of Israel. Her own research follows a single thread across Asia: people after people who remember a sacred book they once had and lost.</p>
+        <p>She lived in Mizoram, northeast India, from 2009 to 2019, listening to the elders and researchers of the Zo peoples, the Mizo, Kuki and Chin. From there her work reaches to the hill tribes of Myanmar, the Karen, the Q’iang of southwest China and the Kyrgyz of Central Asia, linking their epics, chants and customs into one migration story.</p>
+        <p>She has presented at symposiums in Bishkek, Aizawl, Chiang Mai and Japan. She has also transcribed and republished the 19th-century accounts of Francis Mason and George Moore on the Karen. Her book <a href="https://www.amazon.com/dp/B0HJF1F23P" rel="noopener"><i>From Promise to Restoration</i></a> is a six-week study of the prophets’ promise that scattered Israel and the nations will be restored.</p>
+      </div>
+      <blockquote>“We have all heard about the peoples of ‘The Book.’ Even more epic may be the collective memories of the peoples of ‘The Lost Book.’”<cite>From <a href="essays/2026-10-20-the-peoples-of-the-lost-book.html">The Peoples of the Lost Book</a>, Bishkek, 2019</cite></blockquote>
+      <div class="ctas"><a class="btn primary" href="essays/2026-10-20-the-peoples-of-the-lost-book.html">Read her essay</a><a class="btn" href="contact.html#invite">Invite Margot to speak</a><a class="btn" href="https://losttribesinstitute.academia.edu/MargotCROSSING" rel="noopener">Academia.edu</a></div>
+    </div>
+    <aside class="works" aria-label="Margot Crossing’s work">
+      <h3>Essay</h3>
+      <ul><li><a href="essays/2026-10-20-the-peoples-of-the-lost-book.html"><span class="new">New</span>The Peoples of the Lost Book</a><small>Connecting northeast India to Central Asian migration through oral history · 2019</small></li></ul>
+      <h3>Book</h3>
+      <ul><li><a href="https://www.amazon.com/dp/B0HJF1F23P" rel="noopener">From Promise to Restoration</a><small>The Prophetic Journey of Israel and the Fullness of the Nations · 2026</small></li></ul>
+      <h3>Papers</h3>
+      <ul>
+        <li><a href="https://www.academia.edu/110279027/ORAL_HISTORIES_INTERSECTING_TO_BUILD_A_PICTURE_OF_ANCIENT_ISRAELITES_THROUGHOUT_ASIA" rel="noopener">Oral histories intersecting to build a picture of ancient Israelites throughout Asia</a><small>2023</small></li>
+        <li><a href="https://www.academia.edu/111242082/HOW_DID_THE_MANASI_reach_NE_India" rel="noopener">How did the Manasi reach northeast India?</a><small>2023</small></li>
+        <li><a href="https://www.academia.edu/28231140/MIZORAM_Lost_Tribe_of_Israel_by_Margot_Crossing" rel="noopener">Mizoram: Lost Tribe of Israel</a></li>
+        <li><a href="https://www.academia.edu/117719511/Karen_of_Burmah_a_remnant_of_ten_tribes_of_Israel_by_Dr_Mason_Part_I_1834" rel="noopener">The Karen of Burmah: A Remnant of the Ten Tribes of Israel</a><small>Francis Mason, 1834–35 · transcribed by Margot Crossing</small></li>
+      </ul>
+      <h3>Talks</h3>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=OeKgq5tX4XI" rel="noopener">Karen, a lost tribe of Israel, and other Lost Book peoples</a><small>Chiang Mai symposium, 2024</small></li>
+        <li><a href="https://www.youtube.com/watch?v=gk6kgYq9PKM" rel="noopener">Sons of Joseph</a><small>Japan, 2025</small></li>
+        <li><a href="https://www.youtube.com/watch?v=QRlWzrIk4jA" rel="noopener">Restoration of Israel leads to the restoration of all things</a><small>Parts 1 and 2 · 2024</small></li>
+      </ul>
+    </aside>
+  </div>
+</section>
 
 <section class="section">
   <div class="section-head"><h2>Nations and peoples who say they come from ancient Israel</h2><a href="map.html">Open the map →</a></div>
@@ -91,7 +144,7 @@
 
 <section class="section">
   <div class="section-head"><h2>People</h2><a href="contact.html">Contact →</a></div>
-  <div class="grid"><article class="card person"><h3>Margot Crossing</h3><span class="meta">Founder</span><p>Independent researcher of the Zo peoples of Mizoram and Manipur, the hill tribes of Myanmar, the Q&#x27;iang of southwest China and the Kyrgyz. Author of the “Lost Book Peoples” studies and From Promise to Restoration.</p><a class=more href=https://losttribesinstitute.academia.edu/MargotCROSSING rel=noopener>Their work →</a></article><article class="card person"><h3>Richard Hewitt (Risbek)</h3><span class="meta">Researcher and speaker</span><p>Lived in Kyrgyzstan from 1994 to 2013. Speaker at symposiums hosted by Kyrgyzstan&#x27;s Ministry of Culture and author of books on the Kyrgyz, Scripture and the nations.</p><a class=more href=https://losttribesinstitute.academia.edu/RichardRisbekHewitt rel=noopener>Their work →</a></article></div>
+  <div class="grid"><article class="card person"><h3>Margot Crossing</h3><span class="meta">Founder</span><p>Independent researcher of the Zo peoples of Mizoram and Manipur, the hill tribes of Myanmar, the Q&#x27;iang of southwest China and the Kyrgyz. Author of the “Lost Book Peoples” studies and From Promise to Restoration.</p><a class=more href="#founder">Her work →</a></article><article class="card person"><h3>Richard Hewitt (Risbek)</h3><span class="meta">Researcher and speaker</span><p>Lived in Kyrgyzstan from 1994 to 2013. Speaker at symposiums hosted by Kyrgyzstan&#x27;s Ministry of Culture and author of books on the Kyrgyz, Scripture and the nations.</p><a class=more href=https://losttribesinstitute.academia.edu/RichardRisbekHewitt rel=noopener>Their work →</a></article></div>
 </section>
 </div></main>
 <footer class="foot"><div class="in">

@@ -69,6 +69,7 @@
   <div class="kinds" id="kinds" role="group" aria-label="Type"></div>
   <select id="entry" aria-label="Filter by people or nation"><option value="">All peoples and nations</option></select>
   <label><input type="checkbox" id="here"> Hosted here</label>
+  <button type="button" class="kinds-btn copy" id="crossing">Work by Margot Crossing</button>
   <button type="button" class="kinds-btn copy" id="hewitt">Books by Richard Hewitt</button>
 </div>
 <p class="count" id="count" role="status">Loading the library…</p>
@@ -110,6 +111,7 @@ let tm;$('q').addEventListener('input',ev=>{clearTimeout(tm);tm=setTimeout(()=>{
 $('entry').addEventListener('change',ev=>{S.entry=ev.target.value;S.shown=80;render();});
 $('here').addEventListener('change',ev=>{S.here=ev.target.checked;render();});
 $('more').addEventListener('click',()=>{S.shown+=80;render();});
+$('crossing').addEventListener('click',()=>{$('q').value='Crossing';S.q='Crossing';S.shown=80;render();});
 $('hewitt').addEventListener('click',()=>{$('q').value='Risbek';S.q='Risbek';S.shown=80;render();});
 render();
 })();

@@ -1567,15 +1567,20 @@
   "availability": "online",
   "entries": [
    "kyrgyz",
-   "qiang"
+   "qiang",
+   "karen",
+   "bnm",
+   "naga"
   ],
   "kind": "paper",
-  "note": "",
+  "note": "World Epic Festival scientific symposium, Bishkek, June 28, 2019. Also on the Essays page.",
   "publicDomain": false,
-  "title": "Lost Book Peoples",
+  "title": "The Peoples of the Lost Book: Connecting Northeast India to Central Asian Migration through Oral History",
   "url": "https://www.academia.edu/39781414/Lost_Book_Peoples_connecting_northeast_India_to_Central_Asia_through_oral_history",
   "year": 2019,
-  "id": "paper-margot-crossing-lost-book-peoples"
+  "id": "paper-margot-crossing-lost-book-peoples",
+  "file": "papers/Lost%20Book%20Peoples%20-%20Connecting%20Northeast%20India%20to%20Central%20Asia%20through%20Oral%20History.pdf",
+  "linkLabel": "Academia.edu"
  },
  {
   "author": "Margot Crossing",
