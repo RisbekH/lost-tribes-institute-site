@@ -27,6 +27,7 @@ img{max-width:100%}
 .topbar{border-bottom:1px solid var(--rule);background:var(--bg)}
 .topbar .in{max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:14px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px}
 .brand{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:var(--ink)}
+.brand img{width:34px;height:34px;border-radius:50%;align-self:center;flex:none}
 .brand b{font-family:var(--display);font-weight:400;font-size:1.25rem;letter-spacing:-.01em}
 .brand span{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
 .nav{display:flex;flex-wrap:wrap;gap:4px 18px;margin-left:auto}
