@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Library — Lost Tribes Institute</title><meta name="description" content="A research library of 263 books, papers, articles and videos on peoples who claim descent from the ancient tribes of Israel, from the 9th century to today."><link rel="canonical" href="https://losttribesinstitute.com/library"><meta property="og:type" content="website"><meta property="og:site_name" content="Lost Tribes Institute"><meta property="og:title" content="Library — Lost Tribes Institute"><meta property="og:description" content="A research library of 263 books, papers, articles and videos on peoples who claim descent from the ancient tribes of Israel, from the 9th century to today."><meta property="og:url" content="https://losttribesinstitute.com/library"><meta name="twitter:card" content="summary"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/images/brand/lti-mark-180.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/site.css"><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Library — Lost Tribes Institute</title><meta name="description" content="A research library of 283 books, papers, articles and videos on peoples who claim descent from the ancient tribes of Israel, from the 9th century to today."><link rel="canonical" href="https://losttribesinstitute.com/library"><meta property="og:type" content="website"><meta property="og:site_name" content="Lost Tribes Institute"><meta property="og:title" content="Library — Lost Tribes Institute"><meta property="og:description" content="A research library of 283 books, papers, articles and videos on peoples who claim descent from the ancient tribes of Israel, from the 9th century to today."><meta property="og:url" content="https://losttribesinstitute.com/library"><meta name="twitter:card" content="summary"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/images/brand/lti-mark-180.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/site.css"><style>
 .hero{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:36px;align-items:end;padding-block:10px 4px}
 .hero .ctas{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
 .stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
@@ -69,8 +69,7 @@
   <div class="kinds" id="kinds" role="group" aria-label="Type"></div>
   <select id="entry" aria-label="Filter by people or nation"><option value="">All peoples and nations</option></select>
   <label><input type="checkbox" id="here"> Hosted here</label>
-  <button type="button" class="kinds-btn copy" id="crossing">Work by Margot Crossing</button>
-  <button type="button" class="kinds-btn copy" id="hewitt">Books by Richard Hewitt</button>
+  <div class="kinds" role="group" aria-label="LTI network authors" id="authors"><span class="meta" style="align-self:center">LTI network:</span><button type="button" data-q="Crossing">Margot Crossing</button><button type="button" data-q="Risbek">Richard Hewitt</button><button type="button" data-q="Chung">Howard Ha-Sung Chung</button><button type="button" data-q="Kragh">Mikkel S. Kragh</button><button type="button" data-q="Kubo">Arimasa Kubo</button><button type="button" data-q="Ratcliffe">Susanne Ratcliffe</button></div>
 </div>
 <p class="count" id="count" role="status">Loading the library…</p>
 <ul class="list" id="list"></ul>
@@ -111,8 +110,7 @@ let tm;$('q').addEventListener('input',ev=>{clearTimeout(tm);tm=setTimeout(()=>{
 $('entry').addEventListener('change',ev=>{S.entry=ev.target.value;S.shown=80;render();});
 $('here').addEventListener('change',ev=>{S.here=ev.target.checked;render();});
 $('more').addEventListener('click',()=>{S.shown+=80;render();});
-$('crossing').addEventListener('click',()=>{$('q').value='Crossing';S.q='Crossing';S.shown=80;render();});
-$('hewitt').addEventListener('click',()=>{$('q').value='Risbek';S.q='Risbek';S.shown=80;render();});
+$('authors').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;$('q').value=b.dataset.q;S.q=b.dataset.q;S.shown=80;render();});
 render();
 })();
 </script></body></html>
