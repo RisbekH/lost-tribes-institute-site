@@ -69,7 +69,7 @@
   <div class="kinds" id="kinds" role="group" aria-label="Type"></div>
   <select id="entry" aria-label="Filter by people or nation"><option value="">All peoples and nations</option></select>
   <label><input type="checkbox" id="here"> Hosted here</label>
-  <div class="kinds" role="group" aria-label="LTI network authors" id="authors"><span class="meta" style="align-self:center">LTI network:</span><button type="button" data-q="Crossing">Margot Crossing</button><button type="button" data-q="Risbek">Richard Hewitt</button><button type="button" data-q="Chung">Howard Ha-Sung Chung</button><button type="button" data-q="Kragh">Mikkel S. Kragh</button><button type="button" data-q="Kubo">Arimasa Kubo</button><button type="button" data-q="Ratcliffe">Susanne Ratcliffe</button></div>
+  <div class="kinds" role="group" aria-label="LTI network authors" id="authors"><span class="meta" style="align-self:center">LTI network:</span><button type="button" data-q="Crossing">Margot Crossing</button><button type="button" data-q="Risbek">Richard Hewitt</button><button type="button" data-q="Chung">Howard Ha-Sung Chung</button><button type="button" data-q="Kragh">Mikkel S. Kragh</button><button type="button" data-q="Kubo">Arimasa Kubo</button><button type="button" data-q="Ratcliffe">Susanne Ratcliffe</button><button type="button" data-q="Liebenberg">WA Liebenberg</button></div>
 </div>
 <p class="count" id="count" role="status">Loading the library…</p>
 <ul class="list" id="list"></ul>
@@ -97,7 +97,7 @@ $('kinds').innerHTML=[['','All'],['book','Books'],['paper','Papers'],['article',
 $('entry').insertAdjacentHTML('beforeend',Object.entries(names).sort((a,b)=>a[1].localeCompare(b[1])).map(([id,n])=>`<option value="${esc(id)}">${esc(n)}</option>`).join(''));
 $('entry').value=S.entry;
 const filt=()=>{const q=norm(S.q);return items.filter(r=>(!S.kind||r.kind===S.kind)&&(!S.entry||(r.entries||[]).includes(S.entry))&&(!S.here||r.file)&&(!q||norm([r.title,r.author,r.note,r.year].join(' ')).includes(q)))
- .sort((a,b)=>(KO[a.kind]??9)-(KO[b.kind]??9)||(a.year??9999)-(b.year??9999)||String(a.title).localeCompare(String(b.title)));};
+ .sort((a,b)=>(KO[a.kind]??9)-(KO[b.kind]??9)||(a.year??9999)-(b.year??9999)||String(a.title).localeCompare(String(b.title),undefined,{numeric:true}));};
 const row=r=>{const href=r.file?r.file:(/^https?:/.test(r.url||'')?r.url:'');
  const t=href?`<a class="t" href="${esc(href)}" rel="noopener">${esc(r.title)}</a>`:`<span class="t">${esc(r.title)}</span>`;
  const meta=[r.author,r.year].filter(Boolean).map(esc).join(' · ');
