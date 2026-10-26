@@ -936,6 +936,21 @@
   "id": "book-james-adair-the-history-of-the-american-indians"
  },
  {
+  "author": "James Adair",
+  "availability": "online",
+  "entries": [
+   "cherokee"
+  ],
+  "kind": "book",
+  "linkLabel": "All Things Cherokee",
+  "note": "A reprint of Adair's 1775 eyewitness record of Cherokee worship, drawn from his forty years among the southeastern nations, where he compares their customs with those of ancient Israel.",
+  "publicDomain": false,
+  "title": "Cherokee Beliefs & Practices of the Ancients: Out of the Flame",
+  "url": "https://www.allthingscherokee.com/product/out-of-the-flame/",
+  "year": null,
+  "id": "book-james-adair-out-of-the-flame"
+ },
+ {
   "author": "John Wilson",
   "availability": "online",
   "entries": [
