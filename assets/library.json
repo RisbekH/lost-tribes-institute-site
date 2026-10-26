@@ -336,11 +336,11 @@
    "karen"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
-  "note": "",
+  "linkLabel": "Amazon",
+  "note": "Surveys peoples around the world whose old traditions remembered one high Creator, among them the Karen, Kachin, Lahu and others in Asia who spoke of a lost book. Third edition 2006.",
   "publicDomain": false,
   "title": "Eternity in Their Hearts",
-  "url": "https://archive.org/search?query=Don%20Richardson%20Eternity%20in%20Their%20Hearts",
+  "url": "https://www.amazon.com/dp/0764215582",
   "year": 1981,
   "id": "book-don-richardson-eternity-in-their-hearts"
  },
@@ -4095,5 +4095,149 @@
   "url": "https://www.amazon.com/dp/B0F7V55PDJ",
   "year": 2025,
   "id": "book-ratcliffe-stones-of-wrath-the-twins"
+ },
+ {
+  "author": "Jason A. Staples",
+  "availability": "online",
+  "entries": [],
+  "kind": "book",
+  "linkLabel": "Amazon",
+  "note": "Cambridge University Press. Shows that in ancient Jewish writings “Israel” and “Jews” were not the same: Israel meant all twelve tribes, and many writers still expected the scattered northern tribes to be gathered back. Core scholarship for lost tribes research.",
+  "publicDomain": false,
+  "title": "The Idea of Israel in Second Temple Judaism: A New Theory of People, Exile, and Israelite Identity",
+  "url": "https://www.amazon.com/dp/1108822894",
+  "year": 2021,
+  "id": "book-staples-the-idea-of-israel-in-second-temple-judaism"
+ },
+ {
+  "author": "Jason A. Staples",
+  "availability": "online",
+  "entries": [],
+  "kind": "book",
+  "linkLabel": "Amazon",
+  "note": "Cambridge University Press. Reads Paul's letters as part of the hope for restoring all twelve tribes, with people from the nations counted among scattered Israel. Follows The Idea of Israel in Second Temple Judaism.",
+  "publicDomain": false,
+  "title": "Paul and the Resurrection of Israel: Jews, Former Gentiles, Israelites",
+  "url": "https://www.amazon.com/dp/1009376764",
+  "year": 2024,
+  "id": "book-staples-paul-and-the-resurrection-of-israel"
+ },
+ {
+  "author": "Michael S. Heiser",
+  "availability": "online",
+  "entries": [],
+  "kind": "book",
+  "linkLabel": "Amazon",
+  "note": "Lexham Press. A Hebrew Bible scholar on the divine council and on the nations being divided and set under other powers (Deuteronomy 32:8–9), the backdrop for Israel's scattering among the nations and the promise of their return.",
+  "publicDomain": false,
+  "title": "The Unseen Realm: Recovering the Supernatural Worldview of the Bible",
+  "url": "https://www.amazon.com/dp/1683592719",
+  "year": 2015,
+  "id": "book-heiser-the-unseen-realm"
+ },
+ {
+  "author": "Eliyahu Avichail",
+  "availability": "online",
+  "entries": [
+   "bnm",
+   "pashtun",
+   "kashmir"
+  ],
+  "kind": "book",
+  "linkLabel": "Amazon",
+  "note": "By the rabbi who founded Amishav, which searched for descendants of the ten tribes from Afghanistan to Myanmar and helped the Bnei Menashe move to Israel. English edition, reprinted 2013.",
+  "publicDomain": false,
+  "title": "The Tribes of Israel: The Lost and the Dispersed",
+  "url": "https://www.amazon.com/dp/1478214406",
+  "year": 1990,
+  "id": "book-avichail-the-tribes-of-israel-the-lost-and-the-dispersed"
+ },
+ {
+  "author": "Steven M. Collins",
+  "availability": "online",
+  "entries": [
+   "celts"
+  ],
+  "kind": "book",
+  "linkLabel": "Amazon",
+  "note": "Follows the northern tribes from Assyrian exile through the Scythians, Parthians and other peoples into Europe.",
+  "publicDomain": false,
+  "title": "The “Lost” Ten Tribes of Israel… Found!",
+  "url": "https://www.amazon.com/dp/B009WBT5F4",
+  "year": 1992,
+  "id": "book-collins-the-lost-ten-tribes-of-israel-found"
+ },
+ {
+  "author": "Steven M. Collins",
+  "availability": "online",
+  "entries": [],
+  "kind": "book",
+  "linkLabel": "Amazon",
+  "note": "Volume 2 of Collins's Lost Tribes of Israel series: the exiled tribes as founders of later empires in Asia and Europe.",
+  "publicDomain": false,
+  "title": "Israel's Lost Empires",
+  "url": "https://www.amazon.com/dp/0972584919",
+  "year": 2002,
+  "id": "book-collins-israel-s-lost-empires"
+ },
+ {
+  "author": "Steven M. Collins",
+  "availability": "online",
+  "entries": [
+   "persia"
+  ],
+  "kind": "book",
+  "linkLabel": "Amazon",
+  "note": "Volume 3 of Collins's Lost Tribes of Israel series. Argues that the Parthian empire of ancient Iran was led by descendants of the exiled tribes.",
+  "publicDomain": false,
+  "title": "Parthia: The Forgotten Ancient “Superpower” and Its Role in Biblical History",
+  "url": "https://www.amazon.com/dp/0972584927",
+  "year": null,
+  "id": "book-collins-parthia"
+ },
+ {
+  "author": "Allen H. Godbey",
+  "availability": "online",
+  "entries": [],
+  "kind": "book",
+  "linkLabel": "Find at Internet Archive",
+  "note": "Duke University Press. Argues the northern tribes were never lost but scattered and mixed with other peoples, and surveys groups in Asia and Africa who keep Israelite customs.",
+  "publicDomain": false,
+  "title": "The Lost Tribes a Myth: Suggestions Towards Rewriting Hebrew History",
+  "url": "https://archive.org/search?query=Godbey%20Lost%20Tribes%20a%20Myth",
+  "year": 1930,
+  "id": "book-allen-godbey-the-lost-tribes-a-myth"
+ },
+ {
+  "author": "Shalva Weil (curator)",
+  "availability": "online",
+  "entries": [
+   "bnm",
+   "beneisr",
+   "beta"
+  ],
+  "kind": "book",
+  "linkLabel": "Amazon",
+  "note": "Exhibition catalog from Beth Hatefutsoth, the Museum of the Jewish People in Tel Aviv, by an anthropologist who has studied lost tribes claims in India and Ethiopia. English and Hebrew.",
+  "publicDomain": false,
+  "title": "Beyond the Sambatyon: The Myth of the Ten Lost Tribes",
+  "url": "https://www.amazon.com/dp/B0041SYMX8",
+  "year": 1991,
+  "id": "book-weil-beyond-the-sambatyon"
+ },
+ {
+  "author": "Rachel Meakin",
+  "availability": "online",
+  "entries": [
+   "qiang"
+  ],
+  "kind": "book",
+  "linkLabel": "Handsel Press",
+  "note": "Handsel Press. Uses Torrance's letters and articles from Chengdu to describe Qiang life in the early 1900s and his search for Qiang origins, including customs that resemble those of ancient Israel.",
+  "publicDomain": false,
+  "title": "Thomas Torrance, China and the Qiang",
+  "url": "https://handselpress.org.uk/product/thomas-torrance-china-and-the-qiang/",
+  "year": 2023,
+  "id": "book-meakin-thomas-torrance-china-and-the-qiang"
  }
 ]
