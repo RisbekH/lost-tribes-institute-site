@@ -111,6 +111,74 @@ essays.forEach((e, i) => {
   }));
 });
 
+// 5b. Works page: everything by Richard Hewitt (Risbek) in one list, from assets/works.json + library.json + essays
+const worksPath = path.join(ROOT, 'assets', 'works.json');
+if (fs.existsSync(worksPath)) {
+  const works = JSON.parse(fs.readFileSync(worksPath, 'utf8'));
+  const library = JSON.parse(fs.readFileSync(path.join(ROOT, 'assets', 'library.json'), 'utf8'));
+  const byId = new Map(library.map(e => [e.id, e]));
+  const norm = s => { try { return decodeURIComponent(s).replace(/^\//, ''); } catch { return s.replace(/^\//, ''); } };
+  const mine = e => /Hewitt|Risbek/.test(e.author || '');
+  const myEssays = essays.filter(mine);
+  // essay pages that offer a given PDF, so a paper can link to its readable page
+  const essayForFile = new Map();
+  for (const e of myEssays) for (const m of e.html.matchAll(/href="(\/papers\/[^"]+)"/g)) essayForFile.set(norm(m[1]), e);
+  const host = u => /amazon\./.test(u) ? 'Amazon' : /academia\.edu/.test(u) ? 'Academia.edu' : /scribd\.com/.test(u) ? 'Scribd' : /youtu/.test(u) ? 'YouTube' : 'Link';
+  const used = new Set();
+  const shownEssays = new Set();
+  const row = it => {
+    const lib = it.lib ? byId.get(it.lib) : null;
+    if (it.lib && !lib) { console.warn(`works.json: no library entry ${it.lib}`); return ''; }
+    if (lib) used.add(lib.id);
+    const title = it.title || lib.title;
+    const year = it.year ?? lib?.year;
+    const note = it.note ?? lib?.note ?? '';
+    const links = [];
+    const essay = lib?.file ? essayForFile.get(norm(lib.file)) : null;
+    if (essay) { links.push({ label: 'Read here', url: `/essays/${essay.slug}.html` }); shownEssays.add(essay.slug); }
+    if (lib?.file) links.push({ label: 'PDF', url: '/' + lib.file, dl: true });
+    if (lib?.url) links.push({ label: host(lib.url), url: lib.url });
+    for (const l of it.links || []) if (!links.some(x => x.url === l.url)) links.push(l);
+    const main = links[0];
+    const author = lib && lib.author && lib.author !== 'Richard Hewitt (Risbek)' ? `<span class="wk-by">${esc(lib.author)}</span>` : '';
+    return `<li class="wk-item"><div class="wk-main"><h3><a href="${esc(main?.url || '#')}"${main && /^https?:/.test(main.url) ? ' rel="noopener"' : ''}>${esc(title)}</a></h3>${year ? `<span class="wk-year">${esc(year)}</span>` : ''}${note ? `<p>${esc(note)}</p>` : ''}${author}</div><div class="wk-links">${links.map(l => `<a href="${esc(l.url)}"${l.dl ? ' download' : /^https?:/.test(l.url) ? ' rel="noopener"' : ''}>${esc(l.label)}</a>`).join('')}</div></li>`;
+  };
+  const sections = works.sections.map(s => ({ ...s, html: s.items.map(row).join('') }));
+  // essays section (all essays by him, newest first)
+  const restEssays = myEssays.filter(e => !shownEssays.has(e.slug));
+  const essaysHtml = restEssays.map(e => `<li class="wk-item"><div class="wk-main"><h3><a href="/essays/${e.slug}.html">${esc(e.title)}</a></h3><span class="wk-year">${fmt(e.date)}</span>${e.summary ? `<p>${esc(e.summary)}</p>` : ''}</div><div class="wk-links"><a href="/essays/${e.slug}.html">Read here</a></div></li>`).join('');
+  sections.splice(sections.findIndex(s => s.id === 'papers') + 1, 0, { id: 'essays', title: 'Essays', intro: 'Written for this site, newest first. Papers that can be read here are listed above.', html: essaysHtml, items: restEssays });
+  const missing = library.filter(e => mine(e) && !used.has(e.id));
+  if (missing.length) console.warn('works.json does not list:', missing.map(e => e.id).join(', '));
+  const count = sections.reduce((n, s) => n + s.items.length, 0);
+  const toc = sections.map(s => `<a href="#${s.id}">${esc(s.title)} <b>${s.items.length}</b></a>`).join('');
+  const body = `<p class="eyebrow">Works</p><h1>Richard Hewitt (Risbek): all works</h1><p class="lead">Books, papers, essays, screenplays and videos in one place. Some can be read or downloaded here; the rest link to where they are published.</p>
+<nav class="wk-toc" aria-label="Sections">${toc}</nav>
+${sections.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-head"><h2>${esc(s.title)}</h2></div>${s.intro ? `<p class="muted">${esc(s.intro)}</p>` : ''}<ul class="wk-list">${s.html}</ul></section>`).join('\n')}
+<p class="muted" style="margin-top:40px">Also on ${works.elsewhere.map(l => `<a href="${esc(l.url)}" rel="noopener">${esc(l.label)}</a>`).join(', ')}.</p>`;
+  const css = `<style>
+.wk-toc{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 8px}
+.wk-toc a{border:1px solid var(--rule);border-radius:999px;padding:5px 12px;font-size:14px;text-decoration:none;color:var(--ink)}
+.wk-toc a b{font-family:var(--mono);font-weight:500;color:var(--accent);margin-left:4px}
+.wk-sec{margin-top:44px;scroll-margin-top:80px}
+.wk-list{list-style:none;margin:8px 0 0;padding:0}
+.wk-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 24px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.wk-item h3{display:inline;font-size:1.12rem;margin:0}
+.wk-item h3 a{color:var(--ink);text-decoration:none}.wk-item h3 a:hover{color:var(--accent)}
+.wk-year{font-family:var(--mono);font-size:12.5px;color:var(--ink-3);margin-left:10px}
+.wk-item p{margin:4px 0 0;color:var(--ink-2);font-size:15px;max-width:66ch}
+.wk-by{display:block;font-size:13.5px;color:var(--ink-3);margin-top:3px}
+.wk-links{display:flex;flex-wrap:wrap;gap:6px;align-content:start;justify-content:flex-end}
+.wk-links a{font-size:13px;border:1px solid currentColor;border-radius:999px;padding:2px 10px;white-space:nowrap}
+@media (max-width:720px){.wk-item{grid-template-columns:1fr}.wk-links{justify-content:flex-start}}
+</style>`;
+  const html = page({ title: 'Works by Richard Hewitt (Risbek) — Lost Tribes Institute', desc: `All ${count} works by Richard Hewitt (Risbek): books, papers, essays, screenplays and videos.`, url: '/works', body })
+    .replace('</head>', css + '</head>')
+    .replace(' aria-current="page"', '');
+  fs.writeFileSync(path.join(OUT, 'works.html'), html);
+  console.log(`Built works page with ${count} items`);
+}
+
 // 6. RSS feed and sitemap
 const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Lost Tribes Institute — Essays</title><link>${SITE}/essays</link><description>Essays from the Lost Tribes Institute</description>
@@ -120,7 +188,7 @@ ${essays.slice(0, 50).map(e => `<item><title>${esc(e.title)}</title><link>${SITE
 fs.writeFileSync(path.join(OUT, 'essays.xml'), rss);
 
 const smPath = path.join(OUT, 'sitemap.xml');
-const extra = [`  <url><loc>${SITE}/essays</loc>${essays[0] ? `<lastmod>${iso(essays[0].date)}</lastmod>` : ''}</url>`,
+const extra = [`  <url><loc>${SITE}/works</loc></url>`, `  <url><loc>${SITE}/essays</loc>${essays[0] ? `<lastmod>${iso(essays[0].date)}</lastmod>` : ''}</url>`,
   ...essays.map(e => `  <url><loc>${SITE}/essays/${e.slug}</loc><lastmod>${iso(e.date)}</lastmod></url>`)].join('\n');
 fs.writeFileSync(smPath, fs.readFileSync(smPath, 'utf8').replace('</urlset>', `${extra}\n</urlset>`));
 

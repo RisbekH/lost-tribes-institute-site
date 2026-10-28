@@ -1,0 +1,126 @@
+{
+  "_about": "Drives the Works page (/works). Library items are pulled from assets/library.json by id; 'links' adds extra places to find each one. Essays by Richard Hewitt are added automatically from content/essays.",
+  "sections": [
+    {
+      "id": "books",
+      "title": "Books",
+      "intro": "Books in English, on Amazon in print and Kindle.",
+      "items": [
+        {"lib": "book-hewitt-come-home-extending-the-jewish-template-to-all-nations"},
+        {"lib": "book-hewitt-iran-s-biblical-history-israel-s-diaspora-daniel-cyrus-zoroa"},
+        {"lib": "book-hewitt-india-s-most-popular-man"},
+        {"lib": "book-hewitt-the-breath-of-god-sufi-islam-s-adoration-of-isa-masih-jesus-"},
+        {"lib": "book-hewitt-iconic-bible-chapters-about-israel-s-lost-tribes"},
+        {"lib": "book-hewitt-lost-tribes-of-israel-found-in-the-kyrgyz-epic-manas-son-of-"},
+        {"lib": "book-hewitt-semetey-the-hidden-semite"},
+        {"lib": "book-hewitt-semetey-s-return-a-semitic-allegory"},
+        {"lib": "book-hewitt-kyrgyz-kalpak"},
+        {"lib": "book-hewitt-the-wanderer"},
+        {"lib": "book-hewitt-the-kyrgyz-and-the-forbidden-book-russian-edition"}
+      ]
+    },
+    {
+      "id": "proceedings",
+      "title": "Symposium proceedings",
+      "intro": "Papers from the Lost Tribes Institute symposiums, compiled and published by the Institute.",
+      "items": [
+        {"lib": "book-hewitt-the-interconnectedness-of-the-israelites-in-asia-lost-tribes"},
+        {"lib": "book-hewitt-lost-tribes-institute-s-2nd-international-symposium-chiang-m"},
+        {"lib": "book-hewitt-scientific-symposium-of-the-united-mikir-s-research-society-"},
+        {"lib": "book-hewitt-israel-s-ten-lost-tribes-in-japan-and-throughout-asia-intern"}
+      ]
+    },
+    {
+      "id": "kyrgyz-russian",
+      "title": "In Kyrgyz and Russian",
+      "intro": "Books and stories written in Kyrgyzstan, free to download here.",
+      "items": [
+        {"lib": "book-hewitt-manas-jogolgonu-tabyldy", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/64510772"}]},
+        {"lib": "book-hewitt-kydyr-okuya", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/77978972"}]},
+        {"lib": "article-hewitt-kydyr-tizme", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/115591197"}]},
+        {"lib": "article-hewitt-kydyr-russian", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/81758807"}]},
+        {"lib": "book-hewitt-ala-toodogu-kyrk-iz", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/140000663"}]},
+        {"lib": "book-hewitt-boz-uy", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/139988640"}]},
+        {"lib": "book-hewitt-kalpak-russian-edition", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/397278791"}]},
+        {"lib": "book-hewitt-come-home-russian-edition", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/699632862"}]},
+        {"lib": "article-hewitt-kor-turmush", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/173159446"}]},
+        {"title": "Семетей", "year": 2011, "note": "Paper on the Semetey epic for the Kyrgyz Kaganate conference (2011–2012).", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/113718283"}]},
+        {"title": "Эл аралык желе байланышы", "note": "International connections: the Kuki, Altai, Manchuria and Japan. Chapter 11 of Манас: Жоголгону табылды.", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/60027781"}]}
+      ]
+    },
+    {
+      "id": "papers",
+      "title": "Papers",
+      "intro": "Research papers and symposium presentations. Most can be read here as essays or downloaded as PDFs.",
+      "items": [
+        {"lib": "paper-hewitt-persia-in-god-s-good-book-a-deep-and-enduring-rela"},
+        {"lib": "paper-hewitt-the-veracity-of-scripture-correcting-persistent-academi"},
+        {"lib": "paper-hewitt-the-adoration-of-isa-masih-in-sufi-islam"},
+        {"lib": "paper-hewitt-the-global-resurgence-of-israel-s-lost-tribes", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/870911291"}]},
+        {"lib": "paper-hewitt-a-semiology-that-holds-all-religions-together-a-ca", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/527167948"}]},
+        {"lib": "paper-hewitt-the-kydyr-list-reflections-on-jesus-isa-as-kydyr-m", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/919401313"}]},
+        {"lib": "paper-hewitt-alisher-navoi-s-kydyr-messiah", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/920013738"}, {"label": "2012 version", "url": "https://www.scribd.com/document/129422136"}]},
+        {"lib": "paper-hewitt-japan-s-uzu-masa-a-banner-for-all-nations"},
+        {"lib": "paper-hewitt-the-lost-tribes-of-israel-in-kashmir-and-surroundi", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/862379455"}]},
+        {"lib": "paper-hewitt-analysis-of-the-mikir-israeli-claim-ethnic-mikir-k", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/848604140"}]},
+        {"lib": "paper-hewitt-a-comparative-analysis-of-two-humble-kings-the-biblical"},
+        {"lib": "paper-hewitt-did-ancient-israelites-form-eastern-religions-part", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/754994509"}]},
+        {"lib": "paper-hewitt-did-ancient-israelites-form-eastern-religions-part-2", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/793293904"}]},
+        {"title": "Siddhartha Gautama Buddha Prophecies Jesus", "note": "On a Tibetan Buddhist Encyclopedia page about the Buddha's “Lord of Mercies.”", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/793291880"}]},
+        {"lib": "paper-hewitt-iconic-bible-chapters-about-israel-s-lost-tribes", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/793288902"}]},
+        {"lib": "paper-hewitt-one-book-for-all-religions"},
+        {"lib": "paper-hewitt-torah-to-messiah-pattern", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/693972009"}]},
+        {"title": "Wandering Through Nomadic Epics", "note": "Early paper comparing the Kyrgyz epics with the Bible.", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/56987996"}]},
+        {"title": "Jakyb (Arabaev University lecture, 2009)", "year": 2009, "note": "Lecture at Arabaev Kyrgyz State University.", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/56638636"}]},
+        {"lib": "paper-hewitt-a-comparative-analysis-of-kyrgyz-jakyb-and-biblica"}
+      ]
+    },
+    {
+      "id": "manas-chapters",
+      "title": "Manas: The Lost Is Found, chapter by chapter",
+      "intro": "Chapters of the Manas study in English, posted one at a time on Scribd.",
+      "items": [
+        {"title": "1. Prophet Jacob and Bai Jakyb", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/57906540"}]},
+        {"title": "2. Rabiga and Rebecca", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/57906544"}]},
+        {"title": "3. Manas and Company", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/57906550"}]},
+        {"title": "4. Samaria and Samarkand", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/57906556"}]},
+        {"title": "5. Exodus of Manas and Moses", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/57906561"}]},
+        {"title": "6. Kyrgyz Culture", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/65195650"}]},
+        {"title": "12. Semetey Encrypted", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/65622244"}]}
+      ]
+    },
+    {
+      "id": "screenplays",
+      "title": "Screenplays",
+      "intro": "",
+      "items": [
+        {"lib": "book-hewitt-ancestral-passage-a-screenplay", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/64513097"}, {"label": "Synopsis", "url": "https://www.scribd.com/document/126914020"}]},
+        {"lib": "book-hewitt-after-the-rain-screenplay", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/744522003"}]}
+      ]
+    },
+    {
+      "id": "videos",
+      "title": "Videos, audio and podcast",
+      "intro": "On the Lost Tribes Institute YouTube channel.",
+      "items": [
+        {"title": "Richard Hewitt (Risbek) from Lost Tribes Institute", "note": "Talks and interviews.", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWIZmimMeOz6qDhWYha4w_z2"}]},
+        {"title": "Lost Tribes of Israel Podcast", "note": "Conversations with researchers.", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWL_K05SIinddq7lZ94x8-Vs"}]},
+        {"title": "Кыргыз бабалардын Чаар китеби (audio)", "note": "Audio readings in Kyrgyz.", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWJP_GPhhxE05S3lkwSByF4E"}]},
+        {"title": "History: Come Home", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLMaDXK-BUdfSomFdILOAKA"}]},
+        {"title": "The Most Popular Man in India", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWJ0pV0yNNXiSpZqAJmaNRBL"}]},
+        {"title": "The Nations", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLxE0WBN7Asbf0hIu94xeL0"}]},
+        {"title": "Jezreel", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLNQDFWWAB0v4Tia8mPwbs_"}]},
+        {"title": "Symposium", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWIM9mc0zQq9Jem65Wns_kAV"}]},
+        {"title": "Book ads", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWK0sa9sAIXVIcvN3pvgeM06"}]},
+        {"title": "In Russian, Persian, Japanese and from India", "links": [{"label": "Russian", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWJ8A4hGHgLNioEra1Zu1kOT"}, {"label": "Persian", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWKBLGQi5VqwH2qb3pqEu5Yi"}, {"label": "Japanese", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLmwdsXhR-0FQb4vJHNc13x"}, {"label": "India", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWIjftWPpRWmpitNgW2gfuCK"}]},
+        {"title": "All videos", "links": [{"label": "YouTube channel", "url": "https://www.youtube.com/@LostTribesInstitute"}]}
+      ]
+    }
+  ],
+  "elsewhere": [
+    {"label": "Amazon author page", "url": "https://www.amazon.com/author/richardhewitt"},
+    {"label": "Academia.edu", "url": "https://losttribesinstitute.academia.edu/RichardRisbekHewitt"},
+    {"label": "Scribd", "url": "https://www.scribd.com/risbek"},
+    {"label": "YouTube", "url": "https://www.youtube.com/@LostTribesInstitute"}
+  ]
+}
