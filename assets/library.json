@@ -3771,6 +3771,36 @@
   "entries": [
    "kyrgyz"
   ],
+  "kind": "article",
+  "note": "Kyrgyz-language list comparing Kydyr and the Mashayak; the list that appears in the story Кыдыр (Окуя). 52 pages.",
+  "publicDomain": false,
+  "title": "Кыдыр – Тизме",
+  "url": "",
+  "year": null,
+  "file": "papers/%D0%9A%D1%8B%D0%B4%D1%8B%D1%80%20%E2%80%93%20%D0%A2%D0%B8%D0%B7%D0%BC%D0%B5.pdf",
+  "id": "article-hewitt-kydyr-tizme"
+ },
+ {
+  "author": "Richard Hewitt (Risbek)",
+  "availability": "online",
+  "entries": [
+   "kyrgyz"
+  ],
+  "kind": "book",
+  "note": "Kyrgyz-language collection of short stories, Bishkek, 2000. Illustrated scan, searchable. 112 pages.",
+  "publicDomain": false,
+  "title": "Ала-Тоодогу Кырк Из",
+  "url": "",
+  "year": 2000,
+  "file": "papers/%D0%90%D0%BB%D0%B0-%D0%A2%D0%BE%D0%BE%D0%B4%D0%BE%D0%B3%D1%83%20%D0%9A%D1%8B%D1%80%D0%BA%20%D0%98%D0%B7.pdf",
+  "id": "book-hewitt-ala-toodogu-kyrk-iz"
+ },
+ {
+  "author": "Richard Hewitt (Risbek)",
+  "availability": "online",
+  "entries": [
+   "kyrgyz"
+  ],
   "kind": "book",
   "note": "Kyrgyz-language book, 2006. 77 pages.",
   "publicDomain": false,
