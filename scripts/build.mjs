@@ -152,7 +152,7 @@ if (fs.existsSync(worksPath)) {
   if (missing.length) console.warn('works.json does not list:', missing.map(e => e.id).join(', '));
   const count = sections.reduce((n, s) => n + s.items.length, 0);
   const toc = sections.map(s => `<a href="#${s.id}">${esc(s.title)} <b>${s.items.length}</b></a>`).join('');
-  const body = `<p class="eyebrow">Works</p><h1>Richard Hewitt (Risbek): all works</h1><p class="lead">Books, papers, essays, screenplays and videos in one place. Some can be read or downloaded here; the rest link to where they are published.</p>
+  const body = `<p class="eyebrow">Works</p><h1>Works by Richard Hewitt (Risbek)</h1><p class="lead">Books, papers, essays, screenplays and videos in one place. Some can be read or downloaded here; the rest link to where they are published.</p>
 <nav class="wk-toc" aria-label="Sections">${toc}</nav>
 ${sections.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-head"><h2>${esc(s.title)}</h2></div>${s.intro ? `<p class="muted">${esc(s.intro)}</p>` : ''}<ul class="wk-list">${s.html}</ul></section>`).join('\n')}
 <p class="muted" style="margin-top:40px">Also on ${works.elsewhere.map(l => `<a href="${esc(l.url)}" rel="noopener">${esc(l.label)}</a>`).join(', ')}.</p>`;
@@ -172,10 +172,11 @@ ${sections.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-he
 .wk-links a{font-size:13px;border:1px solid currentColor;border-radius:999px;padding:2px 10px;white-space:nowrap}
 @media (max-width:720px){.wk-item{grid-template-columns:1fr}.wk-links{justify-content:flex-start}}
 </style>`;
-  const html = page({ title: 'Works by Richard Hewitt (Risbek) — Lost Tribes Institute', desc: `All ${count} works by Richard Hewitt (Risbek): books, papers, essays, screenplays and videos.`, url: '/works', body })
+  const html = page({ title: 'Works by Richard Hewitt (Risbek) — Lost Tribes Institute', desc: `All ${count} works by Richard Hewitt (Risbek): books, papers, essays, screenplays and videos.`, url: '/risbek', body })
     .replace('</head>', css + '</head>')
     .replace(' aria-current="page"', '');
-  fs.writeFileSync(path.join(OUT, 'works.html'), html);
+  fs.writeFileSync(path.join(OUT, 'risbek.html'), html);
+  redirects.push('/works  /risbek  301', '/works.html  /risbek  301');
   console.log(`Built works page with ${count} items`);
 }
 
@@ -188,7 +189,7 @@ ${essays.slice(0, 50).map(e => `<item><title>${esc(e.title)}</title><link>${SITE
 fs.writeFileSync(path.join(OUT, 'essays.xml'), rss);
 
 const smPath = path.join(OUT, 'sitemap.xml');
-const extra = [`  <url><loc>${SITE}/works</loc></url>`, `  <url><loc>${SITE}/essays</loc>${essays[0] ? `<lastmod>${iso(essays[0].date)}</lastmod>` : ''}</url>`,
+const extra = [`  <url><loc>${SITE}/risbek</loc></url>`, `  <url><loc>${SITE}/essays</loc>${essays[0] ? `<lastmod>${iso(essays[0].date)}</lastmod>` : ''}</url>`,
   ...essays.map(e => `  <url><loc>${SITE}/essays/${e.slug}</loc><lastmod>${iso(e.date)}</lastmod></url>`)].join('\n');
 fs.writeFileSync(smPath, fs.readFileSync(smPath, 'utf8').replace('</urlset>', `${extra}\n</urlset>`));
 
