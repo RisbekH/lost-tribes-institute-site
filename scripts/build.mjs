@@ -56,6 +56,21 @@ const footer = abs(lib.match(/<footer class="foot">[\s\S]*?<\/footer>/)[0]);
 const fmt = d => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const iso = d => d.toISOString().slice(0, 10);
 
+// Share buttons under each essay
+const shareRow = e => {
+  const u = encodeURIComponent(`${SITE}/essays/${e.slug}`), t = encodeURIComponent(e.title);
+  const links = [
+    ['X', `https://x.com/intent/post?text=${t}&url=${u}`],
+    ['Facebook', `https://www.facebook.com/sharer/sharer.php?u=${u}`],
+    ['LinkedIn', `https://www.linkedin.com/sharing/share-offsite/?url=${u}`],
+    ['WhatsApp', `https://wa.me/?text=${t}%20${u}`],
+    ['Telegram', `https://t.me/share/url?url=${u}&text=${t}`],
+    ['Email', `mailto:?subject=${t}&body=${u}`],
+  ];
+  return `<div class="share" aria-label="Share this essay"><span class="share-h">Share</span>${links.map(([n, h]) => `<a href="${h}"${n === 'Email' ? '' : ' target="_blank" rel="noopener"'}>${n}</a>`).join('')}<button type="button" class="share-copy" data-url="${SITE}/essays/${e.slug}">Copy link</button></div>`;
+};
+const shareScript = `<script>document.querySelectorAll('.share-copy').forEach(b=>b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(b.dataset.url);b.textContent='Link copied';}catch(_){prompt('Copy this link:',b.dataset.url);}setTimeout(()=>b.textContent='Copy link',2500);}));</script>`;
+
 const page = ({ title, desc, url, body, type = 'website' }) => `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${SITE}${url}"><meta property="og:type" content="${type}"><meta property="og:site_name" content="Lost Tribes Institute"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${SITE}${url}"><meta property="og:image" content="${SITE}/images/brand/lti-banner.jpg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/images/brand/lti-mark-180.png"><link rel="alternate" type="application/rss+xml" title="Lost Tribes Institute essays" href="/essays.xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/site.css"><style>
 .es-list{list-style:none;margin:28px 0 0;padding:0;border-top:2px solid var(--ink)}
 .es-item{display:grid;grid-template-columns:minmax(0,11rem) minmax(0,1fr);gap:4px 28px;padding:24px 0;border-bottom:1px solid var(--rule)}
@@ -77,12 +92,18 @@ const page = ({ title, desc, url, body, type = 'website' }) => `<!doctype html><
 .essay .body table{border-collapse:collapse;display:block;overflow-x:auto}
 .essay .body td,.essay .body th{border:1px solid var(--rule);padding:6px 10px}
 .essay .body pre{overflow-x:auto}
+.share{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:40px;padding-top:18px;border-top:1px solid var(--rule)}
+.share-h{font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin-right:4px}
+.share a,.share button{font:inherit;font-size:14px;color:var(--accent);background:none;border:1px solid currentColor;border-radius:999px;padding:4px 12px;text-decoration:none;cursor:pointer}
+.share a:hover,.share button:hover{background:var(--accent);color:var(--surface,#fff)}
+.share + .pager{margin-top:24px}
 .pager{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;border-top:1px solid var(--rule);margin-top:48px;padding-top:18px;font-size:15px}
 .empty{color:var(--ink-2);margin-top:28px}
 </style></head><body>
 <a class="skip" href="#main">Skip to content</a>${topbar}
 <main id="main"><div class="wrap">${body}</div></main>
 ${footer}
+${body.includes('share-copy') ? shareScript : ''}
 </body></html>
 `;
 
@@ -107,7 +128,7 @@ essays.forEach((e, i) => {
     desc: e.summary || e.title,
     url: `/essays/${e.slug}`,
     type: 'article',
-    body: `<article class="essay"><p class="eyebrow"><a href="/essays.html" style="text-decoration:none">Essays</a></p><h1>${esc(e.title)}</h1><p class="dateline"><time datetime="${iso(e.date)}">${fmt(e.date)}</time> · ${esc(e.author)}</p><div class="body">${e.html}</div>${pager}</article>`,
+    body: `<article class="essay"><p class="eyebrow"><a href="/essays.html" style="text-decoration:none">Essays</a></p><h1>${esc(e.title)}</h1><p class="dateline"><time datetime="${iso(e.date)}">${fmt(e.date)}</time> · ${esc(e.author)}</p><div class="body">${e.html}</div>${shareRow(e)}${pager}</article>`,
   }));
 });
 
