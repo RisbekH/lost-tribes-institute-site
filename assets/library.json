@@ -3828,6 +3828,21 @@
  {
   "author": "Richard Hewitt (Risbek)",
   "availability": "online",
+  "entries": [
+   "kyrgyz"
+  ],
+  "kind": "article",
+  "note": "Russian-language study «Нежелательный Кыдыр» (Kyrgyz and the Forbidden Book, part V), on Kydyr and the Bible, 2010. 23 pages.",
+  "publicDomain": false,
+  "title": "Кыдыр (Russian)",
+  "url": "",
+  "year": 2010,
+  "file": "papers/%D0%9A%D1%8B%D0%B4%D1%8B%D1%80%20%28Russian%29.pdf",
+  "id": "article-hewitt-kydyr-russian"
+ },
+ {
+  "author": "Richard Hewitt (Risbek)",
+  "availability": "online",
   "entries": [],
   "kind": "book",
   "note": "Russian edition of Come Home: Extending the Jewish Template to All Nations. 282 pages.",
