@@ -1,0 +1,35 @@
+name: Back up pictures
+
+# Saves copies of the Wikimedia photos and Amazon book covers into images/backup
+# and points the pages at them. Runs when this file or the script changes,
+# every Monday (to catch newly added pictures), or by hand from the Actions tab.
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/backup-images.yml'
+      - 'scripts/backup-images.mjs'
+  schedule:
+    - cron: '17 14 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/backup-images.mjs
+      - name: Commit saved pictures
+        run: |
+          git config user.name "Risbek"
+          git config user.email "RichardHewitt@LostTribesCafe.com"
+          git add images/backup *.html assets
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git commit -m "Back up pictures to the site"
+          git push
