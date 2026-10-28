@@ -6,17 +6,17 @@
       "title": "Books",
       "intro": "Books in English, on Amazon in print and Kindle.",
       "items": [
-        {"lib": "book-hewitt-come-home-extending-the-jewish-template-to-all-nations"},
-        {"lib": "book-hewitt-iran-s-biblical-history-israel-s-diaspora-daniel-cyrus-zoroa"},
-        {"lib": "book-hewitt-india-s-most-popular-man"},
-        {"lib": "book-hewitt-the-breath-of-god-sufi-islam-s-adoration-of-isa-masih-jesus-"},
-        {"lib": "book-hewitt-iconic-bible-chapters-about-israel-s-lost-tribes"},
-        {"lib": "book-hewitt-lost-tribes-of-israel-found-in-the-kyrgyz-epic-manas-son-of-"},
-        {"lib": "book-hewitt-semetey-the-hidden-semite"},
-        {"lib": "book-hewitt-semetey-s-return-a-semitic-allegory"},
-        {"lib": "book-hewitt-kyrgyz-kalpak"},
-        {"lib": "book-hewitt-the-wanderer"},
-        {"lib": "book-hewitt-the-kyrgyz-and-the-forbidden-book-russian-edition"}
+        {"lib": "book-hewitt-come-home-extending-the-jewish-template-to-all-nations", "cover": "/images/covers/come-home-extending-the-jewish-template-to-all-nat.jpg"},
+        {"lib": "book-hewitt-iran-s-biblical-history-israel-s-diaspora-daniel-cyrus-zoroa", "cover": "/images/covers/iran-s-biblical-history-israel-s-diaspora-daniel-c.jpg"},
+        {"lib": "book-hewitt-india-s-most-popular-man", "cover": "/images/covers/india-s-most-popular-man.jpg"},
+        {"lib": "book-hewitt-the-breath-of-god-sufi-islam-s-adoration-of-isa-masih-jesus-", "cover": "/images/covers/the-breath-of-god-sufi-islam-s-adoration-of-isa-ma.jpg"},
+        {"lib": "book-hewitt-iconic-bible-chapters-about-israel-s-lost-tribes", "cover": "/images/covers/iconic-bible-chapters-about-israel-s-lost-tribes.jpg"},
+        {"lib": "book-hewitt-lost-tribes-of-israel-found-in-the-kyrgyz-epic-manas-son-of-", "cover": "/images/covers/lost-tribes-of-israel-found-in-the-kyrgyz-epic-man.jpg"},
+        {"lib": "book-hewitt-semetey-the-hidden-semite", "cover": "/images/covers/semetey-the-hidden-semite.jpg"},
+        {"lib": "book-hewitt-semetey-s-return-a-semitic-allegory", "cover": "/images/covers/semetey-s-return-a-semitic-allegory.jpg"},
+        {"lib": "book-hewitt-kyrgyz-kalpak", "cover": "/images/covers/kyrgyz-kalpak.jpg"},
+        {"lib": "book-hewitt-the-wanderer", "cover": "/images/covers/the-wanderer.jpg"},
+        {"lib": "book-hewitt-the-kyrgyz-and-the-forbidden-book-russian-edition", "cover": "/images/covers/the-kyrgyz-and-the-forbidden-book-russian-edition.jpg"}
       ]
     },
     {
@@ -24,10 +24,10 @@
       "title": "Symposium proceedings",
       "intro": "Papers from the Lost Tribes Institute symposiums, compiled and published by the Institute.",
       "items": [
-        {"lib": "book-hewitt-the-interconnectedness-of-the-israelites-in-asia-lost-tribes"},
-        {"lib": "book-hewitt-lost-tribes-institute-s-2nd-international-symposium-chiang-m"},
-        {"lib": "book-hewitt-scientific-symposium-of-the-united-mikir-s-research-society-"},
-        {"lib": "book-hewitt-israel-s-ten-lost-tribes-in-japan-and-throughout-asia-intern"}
+        {"lib": "book-hewitt-the-interconnectedness-of-the-israelites-in-asia-lost-tribes", "cover": "/images/covers/the-interconnectedness-of-the-israelites-in-asia-l.jpg"},
+        {"lib": "book-hewitt-lost-tribes-institute-s-2nd-international-symposium-chiang-m", "cover": "/images/covers/lost-tribes-institute-s-2nd-international-symposiu.jpg"},
+        {"lib": "book-hewitt-scientific-symposium-of-the-united-mikir-s-research-society-", "cover": "/images/covers/scientific-symposium-of-the-united-mikir-s-researc.jpg"},
+        {"lib": "book-hewitt-israel-s-ten-lost-tribes-in-japan-and-throughout-asia-intern", "cover": "/images/covers/israel-s-ten-lost-tribes-in-japan-and-throughout-a.jpg"}
       ]
     },
     {
@@ -35,14 +35,14 @@
       "title": "In Kyrgyz and Russian",
       "intro": "Books and stories written in Kyrgyzstan, free to download here.",
       "items": [
-        {"lib": "book-hewitt-manas-jogolgonu-tabyldy", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/64510772"}]},
-        {"lib": "book-hewitt-kydyr-okuya", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/77978972"}]},
+        {"lib": "book-hewitt-manas-jogolgonu-tabyldy", "cover": "/images/covers/manas-jogolgonu-tabyldy.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/64510772"}]},
+        {"lib": "book-hewitt-kydyr-okuya", "cover": "/images/covers/kydyr-okuya.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/77978972"}]},
         {"lib": "article-hewitt-kydyr-tizme", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/115591197"}]},
         {"lib": "article-hewitt-kydyr-russian", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/81758807"}]},
-        {"lib": "book-hewitt-ala-toodogu-kyrk-iz", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/140000663"}]},
-        {"lib": "book-hewitt-boz-uy", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/139988640"}]},
-        {"lib": "book-hewitt-kalpak-russian-edition", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/397278791"}]},
-        {"lib": "book-hewitt-come-home-russian-edition", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/699632862"}]},
+        {"lib": "book-hewitt-ala-toodogu-kyrk-iz", "cover": "/images/covers/ala-toodogu-kyrk-iz.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/140000663"}]},
+        {"lib": "book-hewitt-boz-uy", "cover": "/images/covers/boz-uy.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/139988640"}]},
+        {"lib": "book-hewitt-kalpak-russian-edition", "cover": "/images/covers/kalpak-russian-edition.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/397278791"}]},
+        {"lib": "book-hewitt-come-home-russian-edition", "cover": "/images/covers/come-home-russian-edition.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/699632862"}]},
         {"lib": "article-hewitt-kor-turmush", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/173159446"}]},
         {"title": "Семетей", "year": 2011, "note": "Paper on the Semetey epic for the Kyrgyz Kaganate conference (2011–2012).", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/113718283"}]},
         {"title": "Эл аралык желе байланышы", "note": "International connections: the Kuki, Altai, Manchuria and Japan. Chapter 11 of Манас: Жоголгону табылды.", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/60027781"}]}
@@ -94,7 +94,7 @@
       "title": "Screenplays",
       "intro": "",
       "items": [
-        {"lib": "book-hewitt-ancestral-passage-a-screenplay", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/64513097"}, {"label": "Synopsis", "url": "https://www.scribd.com/document/126914020"}]},
+        {"lib": "book-hewitt-ancestral-passage-a-screenplay", "cover": "/images/covers/ancestral-passage-a-screenplay.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/64513097"}, {"label": "Synopsis", "url": "https://www.scribd.com/document/126914020"}]},
         {"lib": "book-hewitt-after-the-rain-screenplay", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/744522003"}]}
       ]
     },

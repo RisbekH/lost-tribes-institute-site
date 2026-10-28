@@ -162,7 +162,8 @@ if (fs.existsSync(worksPath)) {
     for (const l of it.links || []) if (!links.some(x => x.url === l.url)) links.push(l);
     const main = links[0];
     const author = lib && lib.author && lib.author !== 'Richard Hewitt (Risbek)' ? `<span class="wk-by">${esc(lib.author)}</span>` : '';
-    return `<li class="wk-item"><div class="wk-main"><h3><a href="${esc(main?.url || '#')}"${main && /^https?:/.test(main.url) ? ' rel="noopener"' : ''}>${esc(title)}</a></h3>${year ? `<span class="wk-year">${esc(year)}</span>` : ''}${note ? `<p>${esc(note)}</p>` : ''}${author}</div><div class="wk-links">${links.map(l => `<a href="${esc(l.url)}"${l.dl ? ' download' : /^https?:/.test(l.url) ? ' rel="noopener"' : ''}>${esc(l.label)}</a>`).join('')}</div></li>`;
+    const cover = it.cover ? `<a class="wk-cover" href="${esc(main?.url || '#')}"${main && /^https?:/.test(main.url) ? ' rel="noopener"' : ''} tabindex="-1" aria-hidden="true"><img src="${esc(it.cover)}" alt="" width="64" loading="lazy" decoding="async"></a>` : '';
+    return `<li class="wk-item${cover ? ' has-cover' : ''}">${cover}<div class="wk-main"><h3><a href="${esc(main?.url || '#')}"${main && /^https?:/.test(main.url) ? ' rel="noopener"' : ''}>${esc(title)}</a></h3>${year ? `<span class="wk-year">${esc(year)}</span>` : ''}${note ? `<p>${esc(note)}</p>` : ''}${author}</div><div class="wk-links">${links.map(l => `<a href="${esc(l.url)}"${l.dl ? ' download' : /^https?:/.test(l.url) ? ' rel="noopener"' : ''}>${esc(l.label)}</a>`).join('')}</div></li>`;
   };
   const sections = works.sections.map(s => ({ ...s, html: s.items.map(row).join('') }));
   // essays section (all essays by him, newest first)
@@ -184,6 +185,9 @@ ${sections.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-he
 .wk-sec{margin-top:44px;scroll-margin-top:80px}
 .wk-list{list-style:none;margin:8px 0 0;padding:0}
 .wk-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 24px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.wk-item.has-cover{grid-template-columns:64px minmax(0,1fr) auto}
+.wk-cover{display:block;width:64px;align-self:start}
+.wk-cover img{display:block;width:64px;height:auto;max-height:100px;object-fit:cover;object-position:top;border-radius:2px;box-shadow:0 1px 4px rgba(0,0,0,.18);background:var(--rule)}
 .wk-item h3{display:inline;font-size:1.12rem;margin:0}
 .wk-item h3 a{color:var(--ink);text-decoration:none}.wk-item h3 a:hover{color:var(--accent)}
 .wk-year{font-family:var(--mono);font-size:12.5px;color:var(--ink-3);margin-left:10px}
@@ -191,7 +195,7 @@ ${sections.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-he
 .wk-by{display:block;font-size:13.5px;color:var(--ink-3);margin-top:3px}
 .wk-links{display:flex;flex-wrap:wrap;gap:6px;align-content:start;justify-content:flex-end}
 .wk-links a{font-size:13px;border:1px solid currentColor;border-radius:999px;padding:2px 10px;white-space:nowrap}
-@media (max-width:720px){.wk-item{grid-template-columns:1fr}.wk-links{justify-content:flex-start}}
+@media (max-width:720px){.wk-item{grid-template-columns:1fr}.wk-item.has-cover{grid-template-columns:52px minmax(0,1fr)}.wk-cover,.wk-cover img{width:52px}.wk-item.has-cover .wk-links{grid-column:2}.wk-links{justify-content:flex-start}}
 </style>`;
   const html = page({ title: 'Works by Richard Hewitt (Risbek) — Lost Tribes Institute', desc: `All ${count} works by Richard Hewitt (Risbek): books, papers, essays, screenplays and videos.`, url: '/risbek', body })
     .replace('</head>', css + '</head>')
