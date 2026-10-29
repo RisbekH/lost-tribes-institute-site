@@ -9,6 +9,9 @@ on:
     paths:
       - '.github/workflows/backup-images.yml'
       - 'scripts/backup-images.mjs'
+      - 'map.html'
+      - 'credits.html'
+      - 'index.html'
   schedule:
     - cron: '17 14 * * 1'
   workflow_dispatch:
