@@ -32,15 +32,18 @@ for (const [id, titles] of Object.entries(T)) {
   }
 }
 const meta = {}; const list = [...all];
-for (let i=0;i<list.length;i+=40) {
-  const batch = list.slice(i,i+40).map(n=>'File:'+n).join('|');
-  const j = await get(`https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=extmetadata|size|url&iiextmetadatafilter=Artist|LicenseShortName|ImageDescription|DateTimeOriginal&titles=${encodeURIComponent(batch)}`);
-  if(!j||!j.query) continue; for (const p of Object.values(j.query.pages)) {
-    const ii = p.imageinfo && p.imageinfo[0]; if (!ii) { meta[p.title.replace(/^File:/,'')] = {missing:true}; continue; }
+for (let i=0;i<list.length;i+=20) {
+  const batch = list.slice(i,i+20).map(n=>'File:'+n).join('|');
+  let j=null;
+  for (let a=0;a<4 && !j;a++){ try { const r = await fetch('https://commons.wikimedia.org/w/api.php',{method:'POST',headers:{'User-Agent':UA,'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({action:'query',format:'json',prop:'imageinfo',iiprop:'extmetadata|size',iiextmetadatafilter:'Artist|LicenseShortName|ImageDescription|DateTimeOriginal',titles:batch})}); const t = await r.json(); if (t.query) j=t; else errs.push('meta '+JSON.stringify(t).slice(0,200)); } catch(e){ errs.push('meta '+e.message); } if(!j) await new Promise(s=>setTimeout(s,3000)); }
+  if(!j) continue;
+  for (const p of Object.values(j.query.pages)) {
+    const key = p.title.replace(/^File:/,'');
+    const ii = p.imageinfo && p.imageinfo[0]; if (!ii) { meta[key] = {missing:true}; continue; }
     const m = ii.extmetadata||{}; const strip = s => (s||'').replace(/<[^>]+>/g,'').replace(/\s+/g,' ').trim().slice(0,220);
-    meta[p.title.replace(/^File:/,'')] = { w:ii.width, h:ii.height, lic: m.LicenseShortName?.value||'', artist: strip(m.Artist?.value), desc: strip(m.ImageDescription?.value), date: strip(m.DateTimeOriginal?.value) };
+    meta[key] = { w:ii.width, h:ii.height, lic: m.LicenseShortName?.value||'', artist: strip(m.Artist?.value), desc: strip(m.ImageDescription?.value), date: strip(m.DateTimeOriginal?.value) };
   }
-  await new Promise(s=>setTimeout(s,300));
+  await new Promise(s=>setTimeout(s,400));
 }
 fs.mkdirSync('research',{recursive:true});
 fs.writeFileSync('research/photos.json', JSON.stringify({errs, pages:out, meta}, null, 1));
