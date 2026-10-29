@@ -11,25 +11,21 @@ On a Sabbath in Galilee, Jesus walks into a synagogue and finds a man with a wit
 
 Anyone raised on the ancient oracles of Israel would have heard an older story behind this one.
 
-Nearly a thousand years earlier, the kingdom of Israel split in two. Ten tribes in the north broke away from the house of David and crowned Jeroboam as their king. To keep his people from going up to the temple in Jerusalem, Jeroboam built his own altars at Bethel and Dan and set up his own festival on a date "he had devised in his own heart" (1 Kings 12:33).
+Nearly a thousand years earlier, the kingdom of Israel split in two: Israel in the north against Judah in the south. Ten tribes broke away from the house of David and crowned Jeroboam as their king. To keep his people from going up to the temple in Jerusalem, Jeroboam built his own altars at Bethel and Dan and set up his own festival on a date "he had devised in his own heart" (1 Kings 12:33).
 
-One day a man of God came to Bethel and spoke against that altar. Jeroboam stretched out his hand and shouted, "Seize him!" His hand dried up, and he could not pull it back (1 Kings 13:4).
+During Jeroboam’s self-appointed festival, a man of God came to Bethel and spoke against that altar. Jeroboam stretched out his hand and shouted, "Seize him!" Then Jeroboam’s hand dried up, and he could not pull it back (1 Kings 13:4).
 
-The Greek translation of the Hebrew Bible, the version most of Matthew's readers knew, uses the same words in both stories: *stretched out*, *hand*, *dried up*. The man in the synagogue has a *dry* hand, from the same root. Matthew does not quote 1 Kings, but the echo is hard to miss.
+The Greek translation of this text, the version most of Matthew's readers knew, uses the same words in both stories: *stretched out*, *hand*, *dried up*. The man in the synagogue has a *dry* hand, from the same root. Matthew does not quote 1 Kings, but the echo is hard to miss.
 
-### The hand was healed. The kingdom was not.
+Jeroboam's hand did not stay withered. He begged the man of God to pray for him, and his hand came back as it was before (1 Kings 13:6).
 
-Here is the part that is easy to skip. Jeroboam's hand did not stay withered. He begged the man of God to pray for him, and his hand came back as it was before (1 Kings 13:6).
+But the king himself did not change. He went right back to his altars. The writer of Kings says this became the sin of Jeroboam that caused Israel to sin. Generation after generation, the northern kings followed "the sins of Jeroboam son of Nebat." Two hundred years later, Assyria carried the ten tribes away and scattered them among the nations (2 Kings 17). They were cut off as if they were a useless arm (1 Kings 13:34).
 
-But the king himself did not change. He went right back to his altars. The writer of Kings says this became the sin of Jeroboam's house, "to cut it off and destroy it from the face of the earth" (1 Kings 13:34). Generation after generation, the northern kings followed "the sins of Jeroboam son of Nebat." Two hundred years later, Assyria carried the ten tribes away and scattered them among the nations (2 Kings 17).
-
-So the hand was healed in a moment. What withered was the people. Ten tribes were cut off from the other two, dried up like a dead branch, and lost to history's view.
-
-### Stretched out again
+So the ten tribes were cut off from God and their Jewish brothers, lost to history.
 
 Now read Matthew 12 with that in mind.
 
-Jesus said plainly that he was sent "only to the lost sheep of the house of Israel" (Matthew 15:24). He sent out twelve men, one for each tribe, and told them to go to those same lost sheep (Matthew 10:6). He promised that the twelve would one day sit on twelve thrones over the twelve tribes (Matthew 19:28). Twelve tribes, not two.
+Jesus said plainly that he was sent "only to the lost sheep of the house of Israel" (Matthew 15:24). He sent out twelve men, one representing each tribe, and told them to go to those same lost sheep (Matthew 10:6). He promised that the twelve would one day sit on twelve thrones over the twelve tribes (Matthew 19:28). Twelve tribes, not two.
 
 And in a room full of people arguing over rules, much like Jeroboam's homemade religion, he tells a man to do the very thing that brought Jeroboam's judgment: stretch out your hand. This time the hand is not pulled back in judgment. It is made whole, "like the other."
 
@@ -37,12 +33,12 @@ Like the other. Israel had two parts, and one of them withered. The picture is o
 
 The prophet Ezekiel saw the same thing. He was told to take two sticks, one for Judah and one for Joseph and the tribes with him, and hold them together until "they become one in my hand" (Ezekiel 37:19). Dry bones live again in the same chapter.
 
-Matthew follows the healing with a quote from Isaiah: a bruised reed he will not break, and "in his name the nations will hope" (Matthew 12:20–21). The scattered tribes went out into the nations. The hope reaches them there.
+Matthew follows the healing with a quote from Isaiah: a bruised reed he will not break, and "in his name the nations will hope" (Matthew 12:20–21). The scattered tribes went out into the nations. The hope reaches them there and brings them back to God.
 
-### Where the tribes are now
+### Where are the tribes now?
 
-At the Lost Tribes Institute we meet peoples across Asia who still remember coming from Israel: the Kyrgyz with their Manas epic, the Karbi, the Mizo, the Karen, the Qiang and others. Their oral histories speak of a lost book and a father named Abraham. Many have felt like the dry stick for a very long time.
+At the Lost Tribes Institute we meet peoples across Asia who still remember coming from Israel: the Kyrgyz with their Manas epic, the Karbi, the Mizo, the Karen, the Qiang, the Japanese, and others. Their oral histories speak of a lost book and a father named Abraham, or a temple like Jerusalem’s. Many have felt like the dry stick for a very long time.
 
-Matthew's small scene says they were never forgotten. The hand Jeroboam's kingdom let wither can still be stretched out, and made healthy like the other.
+Matthew's small scene says they were never forgotten. And Jesus is intimately connected to them. The hand Jeroboam's kingdom let wither can still be stretched out, and made healthy like the other.
 
 *Read Matthew 12:9–21 side by side with 1 Kings 12:25–13:6 and see for yourself.*
