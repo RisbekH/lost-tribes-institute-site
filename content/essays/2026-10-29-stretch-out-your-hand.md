@@ -19,7 +19,7 @@ The Greek translation of this text, the version most of Matthew's readers knew, 
 
 Jeroboam's hand did not stay withered. He begged the man of God to pray for him, and his hand came back as it was before (1 Kings 13:6).
 
-But the king himself did not change. He went right back to his altars. The writer of Kings says this became the sin of Jeroboam that caused Israel to sin. Generation after generation, the northern kings followed "the sins of Jeroboam son of Nebat." Two hundred years later, Assyria carried the ten tribes away and scattered them among the nations (2 Kings 17). They were cut off as if they were a useless arm (1 Kings 13:34).
+But the king himself did not change. He went right back to his altars. The writer of Kings says this became the sin of Jeroboam that caused Israel to sin. Generation after generation, the northern kings followed "the sins of Jeroboam son of Nebat." Two hundred years later, Assyria carried the ten tribes away and scattered them among the nations (2 Kings 17). They were cut off (1 Kings 13:34), like a useless arm.
 
 So the ten tribes were cut off from God and their Jewish brothers, lost to history.
 
