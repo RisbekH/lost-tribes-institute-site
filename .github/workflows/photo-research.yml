@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: '22' }
-      - run: node research/find-photos.mjs
+      - run: node research/check-links.mjs
       - run: |
           git config user.name "Risbek"; git config user.email "RichardHewitt@LostTribesCafe.com"
-          git add research/photos.json; git commit -m "Photo research results [skip ci]"; git push || true
+          git add research/links.json; git commit -m "Photo research results [skip ci]"; git push || true
