@@ -14,4 +14,4 @@ jobs:
       - run: node research/find-photos.mjs
       - run: |
           git config user.name "Risbek"; git config user.email "RichardHewitt@LostTribesCafe.com"
-          git add research/photos.json; git commit -m "Photo research results [skip ci]"; git push
+          git add research/photos.json; git commit -m "Photo research results [skip ci]"; git push || true
