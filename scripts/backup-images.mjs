@@ -16,7 +16,7 @@ const FILES = fs.readdirSync(ROOT).filter(f => f.endsWith('.html'))
 // Any Wikimedia or Amazon picture address, with or without ?width=…
 const RE = /https?:\/\/(?:commons\.wikimedia\.org\/wiki\/Special:FilePath\/[^"'\s)<>?]+|upload\.wikimedia\.org\/[^"'\s)<>?]+|m\.media-amazon\.com\/images\/I\/[^"'\s)<>?]+)(?:\?width=\d+)?/g;
 
-const UA = 'LostTribesInstitute-site-backup/1.0 (https://losttribesinstitute.com; RichardHewitt@LostTribesCafe.com)';
+const UA = 'LostTribesInstitute-site-backup/1.0 (https://losttribesinstitute.com)';
 const BROWSER_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 
 const base = u => u.replace(/\?width=\d+$/, '');
