@@ -1,7 +1,7 @@
 ---
 title: The 10 Best Books on the Lost Tribes of Israel
 date: 2026-11-01
-author: Richard Hewitt (Risbek)
+author: Lost Tribes Institute
 summary: Ten books that follow Israel's northern tribes from the Americas to Persia, Central Asia, India, China and Japan, with where to buy each one.
 layout: wide
 draft: false
@@ -36,7 +36,7 @@ draft: false
 @media (max-width:640px){.lb-card{grid-template-columns:1fr;gap:18px;padding:30px 20px 22px}.essay .body .lb-cover img{width:150px;margin:0 auto}.lb-num{left:-8px}}
 </style>
 <div class="lb">
-<header class="lb-hero"><span class="lb-pill">TOP 10</span><h1>The <span>10 Best Books</span> on the Lost Tribes of Israel</h1><p class="lb-byline">Richard Hewitt (Risbek) · Lost Tribes Institute</p></header>
+<header class="lb-hero"><span class="lb-pill">TOP 10</span><h1>The <span>10 Best Books</span> on the Lost Tribes of Israel</h1><p class="lb-byline">Lost Tribes Institute</p></header>
 <div class="lb-inner">
 <p class="lb-intro">The search for Israel’s northern tribes runs from the Americas to Persia, Central Asia, India, China and Japan. These ten books cover that whole path. Two of them are by the Institute’s own Richard Hewitt (Risbek).</p>
 <ol class="lb-list">
