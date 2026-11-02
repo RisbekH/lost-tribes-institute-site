@@ -4766,5 +4766,33 @@
   "url": "https://www.abebooks.com/servlet/SearchResults?isbn=9781719251976",
   "year": 2018,
   "id": "book-stephen-spykerman-the-parable-of-the-prodigal-son"
+ },
+ {
+  "author": "Timothy R. Jenkins",
+  "availability": "online",
+  "entries": [
+   "native"
+  ],
+  "kind": "book",
+  "linkLabel": "Amazon",
+  "note": "Argues that Native Americans descend from the ten tribes, gathering stories, legends, archaeological finds and language comparisons. First published in Springfield, Ohio; now in an illustrated reprint.",
+  "publicDomain": true,
+  "title": "The Ten Tribes of Israel; or, The True History of the North American Indians, Showing That They Are the Descendants of These Ten Tribes",
+  "url": "https://www.amazon.com/dp/B0DH2Y2BWK",
+  "year": 1883,
+  "id": "book-jenkins-the-ten-tribes-of-israel-north-american-indians"
+ },
+ {
+  "author": "Ryan Steed Parks",
+  "availability": "online",
+  "entries": [],
+  "kind": "book",
+  "linkLabel": "Amazon",
+  "note": "Sets out more than 200 points of likeness between ancient China and ancient Israel.",
+  "publicDomain": false,
+  "title": "Ancient China’s Hebrew Connection: Over 200 Compelling Correlations that Tie Ancient China to Ancient Israel",
+  "url": "https://www.amazon.com/dp/B09NRG1MY7",
+  "year": null,
+  "id": "book-parks-ancient-chinas-hebrew-connection"
  }
 ]
