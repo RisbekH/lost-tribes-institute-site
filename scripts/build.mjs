@@ -42,7 +42,7 @@ for (const file of fs.existsSync(dir) ? fs.readdirSync(dir) : []) {
   const slug = fileSlug.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
     .replace(/['’‘`]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   if (slug !== fileSlug) redirects.push(`/essays/${encodeURI(fileSlug)}  /essays/${slug}  301`, `/essays/${encodeURI(fileSlug)}.html  /essays/${slug}  301`);
-  essays.push({ slug, title: String(data.title), date, author: data.author || 'Richard Hewitt (Risbek)', summary: data.summary || '', html: marked.parse(body) });
+  essays.push({ slug, title: String(data.title), date, author: data.author || 'Richard Hewitt (Risbek)', summary: data.summary || '', layout: data.layout || '', html: marked.parse(body) });
 }
 essays.sort((a, b) => b.date - a.date || a.title.localeCompare(b.title));
 
@@ -83,6 +83,7 @@ const page = ({ title, desc, url, body, type = 'website' }) => `<!doctype html><
 .es-item.latest h2{font-size:1.9rem}
 @media (max-width:720px){.es-item{grid-template-columns:1fr}.es-item time{padding-top:0}}
 .essay{max-width:44rem;margin:0 auto}
+.essay.essay-wide{max-width:60rem}
 .essay .dateline{font-family:var(--mono);font-size:12.5px;color:var(--ink-3);margin:0 0 28px}
 .essay .body{font-size:1.08rem;line-height:1.75;overflow-wrap:anywhere}
 .essay .body .footnotes{font-size:.95rem;border-top:1px solid var(--rule);margin-top:40px}
@@ -128,7 +129,8 @@ essays.forEach((e, i) => {
     desc: e.summary || e.title,
     url: `/essays/${e.slug}`,
     type: 'article',
-    body: `<article class="essay"><p class="eyebrow"><a href="/essays.html" style="text-decoration:none">Essays</a></p><h1>${esc(e.title)}</h1><p class="dateline"><time datetime="${iso(e.date)}">${fmt(e.date)}</time> · ${esc(e.author)}</p><div class="body">${e.html}</div>${shareRow(e)}${pager}</article>`,
+    // layout: wide lets an essay (such as a reading list) bring its own full-width header
+    body: e.layout === 'wide' ? `<article class="essay essay-wide"><div class="body">${e.html}</div>${shareRow(e)}${pager}</article>` : `<article class="essay"><p class="eyebrow"><a href="/essays.html" style="text-decoration:none">Essays</a></p><h1>${esc(e.title)}</h1><p class="dateline"><time datetime="${iso(e.date)}">${fmt(e.date)}</time> · ${esc(e.author)}</p><div class="body">${e.html}</div>${shareRow(e)}${pager}</article>`,
   }));
 });
 
