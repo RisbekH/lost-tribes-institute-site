@@ -1224,18 +1224,36 @@
   "author": "Navras Aafreedi",
   "availability": "online",
   "entries": [
-   "pashtun",
+   "banuisrail",
+   "bephraim",
+   "bnm",
+   "kashmir",
    "maliha",
+   "pashtun"
+  ],
+  "kind": "book",
+  "linkLabel": "Find at Internet Archive",
+  "note": "Revised from his 2005 Lucknow doctorate. Covers the Bene Israel, Cochini and Baghdadi Jews, the Bnei Menashe and Bene Ephraim, and Muslim groups with Israelite traditions. Pragati Publications, New Delhi.",
+  "publicDomain": false,
+  "title": "Jews, Judaizing Movements and the Traditions of Israelite Descent in South Asia",
+  "url": "https://archive.org/search?query=Aafreedi%20Judaizing%20Movements%20Israelite%20Descent%20South%20Asia",
+  "year": 2016,
+  "id": "book-navras-aafreedi-jews-judaizing-movements-and-the-tradition-of-israelite-descent-"
+ },
+ {
+  "author": "E. A. Mann",
+  "availability": "online",
+  "entries": [
    "banuisrail"
   ],
   "kind": "book",
   "linkLabel": "Find at Internet Archive",
-  "note": "",
+  "note": "Sage. Describes the Banu Israil of Aligarh, once the hereditary kotwals.",
   "publicDomain": false,
-  "title": "Jews, Judaizing Movements and the Tradition of Israelite Descent in Uttar Pradesh",
-  "url": "https://archive.org/search?query=Aafreedi%20Israelite%20Descent%20Uttar%20Pradesh",
-  "year": 2016,
-  "id": "book-navras-aafreedi-jews-judaizing-movements-and-the-tradition-of-israelite-descent-"
+  "title": "Boundaries and Identities: Muslims, Work and Status in Aligarh",
+  "url": "https://archive.org/search?query=Mann%20Boundaries%20and%20Identities%20Muslims%20Aligarh",
+  "year": 1992,
+  "id": "book-e-a-mann-boundaries-and-identities-muslims-work-and-status-in-aligarh"
  },
  {
   "author": "Nimat Allah",
@@ -1771,6 +1789,51 @@
   "url": "https://www.youtube.com/watch?v=-AMV3eNhHEE",
   "year": null,
   "id": "video-ancient-somali-jews-the-yibir"
+ },
+ {
+  "author": "J. W. C. Kirk",
+  "availability": "online",
+  "entries": [
+   "somali"
+  ],
+  "kind": "book",
+  "linkLabel": "Find at Internet Archive",
+  "note": "Cambridge University Press. Records the Yibir founding story and their secret dialect.",
+  "publicDomain": true,
+  "title": "A Grammar of the Somali Language, with an account of the Yibir and Midgan dialects",
+  "url": "https://archive.org/search?query=Kirk%20Grammar%20of%20the%20Somali%20Language",
+  "year": 1905,
+  "id": "book-j-w-c-kirk-a-grammar-of-the-somali-language-with-an-account-of-the-yibi"
+ },
+ {
+  "author": "Christian Bader",
+  "availability": "online",
+  "entries": [
+   "somali"
+  ],
+  "kind": "book",
+  "linkLabel": "Find at Internet Archive",
+  "note": "The main study of the Yibir (in French). Judges Jewish descent improbable but traces the Yibir to pre-Islamic religious specialists.",
+  "publicDomain": false,
+  "title": "Les Yibro: mages somali",
+  "url": "https://archive.org/search?query=Bader%20Yibro%20mages%20somali",
+  "year": 2000,
+  "id": "book-christian-bader-les-yibro-mages-somali"
+ },
+ {
+  "author": "I. M. Lewis",
+  "availability": "online",
+  "entries": [
+   "somali"
+  ],
+  "kind": "book",
+  "linkLabel": "Find at Internet Archive",
+  "note": "Includes the story of Aw Barkhadle and the Yibir.",
+  "publicDomain": false,
+  "title": "Saints and Somalis: Popular Islam in a Clan-Based Society",
+  "url": "https://archive.org/search?query=Lewis%20Saints%20and%20Somalis",
+  "year": 1998,
+  "id": "book-i-m-lewis-saints-and-somalis-popular-islam-in-a-clan-based-society"
  },
  {
   "author": "",
@@ -2855,6 +2918,36 @@
   "id": "video-professor-tracks-lost-tribes-of-israel-to-papua-new-guinea"
  },
  {
+  "author": "Alison Dundon",
+  "availability": "online",
+  "entries": [
+   "gogo"
+  ],
+  "kind": "paper",
+  "linkLabel": "University of Adelaide",
+  "note": "The Asia Pacific Journal of Anthropology 12(1): 29–43. On the Gogodala claim and the iniwa olagi ancestral narratives.",
+  "publicDomain": false,
+  "title": "DNA, Israel and the Ancestors: Substantiating Connections through Christianity in Papua New Guinea",
+  "url": "https://eres.library.adelaide.edu.au/dspace/handle/2440/68351",
+  "year": 2011,
+  "id": "paper-alison-dundon-dna-israel-and-the-ancestors-substantiating-connections-thro"
+ },
+ {
+  "author": "A. L. Crawford",
+  "availability": "online",
+  "entries": [
+   "gogo"
+  ],
+  "kind": "book",
+  "linkLabel": "Find at Internet Archive",
+  "note": "Large photographic ethnography, with archival images up to the last initiation at Balimo in 1937. National Cultural Council of Papua New Guinea.",
+  "publicDomain": false,
+  "title": "Aida: Life and Ceremony of the Gogodala",
+  "url": "https://archive.org/search?query=Crawford%20Aida%20Life%20and%20Ceremony%20of%20the%20Gogodala",
+  "year": 1981,
+  "id": "book-a-l-crawford-aida-life-and-ceremony-of-the-gogodala"
+ },
+ {
   "author": "",
   "availability": "online",
   "entries": [
@@ -2979,6 +3072,36 @@
   "url": "https://www.youtube.com/watch?v=te5MfU0RZ24",
   "year": null,
   "id": "video-tales-from-india-s-bene-ephraim-jewish-community"
+ },
+ {
+  "author": "Yulia Egorova and Shahid Perwez",
+  "availability": "online",
+  "entries": [
+   "bephraim"
+  ],
+  "kind": "book",
+  "linkLabel": "Oxford Academic",
+  "note": "Field ethnography of the Bene Ephraim of Kothareddypalem, a Madiga Dalit community that embraced Jewish tradition. Oxford University Press.",
+  "publicDomain": false,
+  "title": "The Jews of Andhra Pradesh: Contesting Caste and Religion in South India",
+  "url": "https://academic.oup.com/book/3133",
+  "year": 2013,
+  "id": "book-yulia-egorova-the-jews-of-andhra-pradesh-contesting-caste-and-religion-in"
+ },
+ {
+  "author": "Yulia Egorova and Shahid Perwez",
+  "availability": "online",
+  "entries": [
+   "bephraim"
+  ],
+  "kind": "paper",
+  "linkLabel": "South Asianist (PDF)",
+  "note": "Open-access article in South Asianist (University of Edinburgh).",
+  "publicDomain": false,
+  "title": "Telugu Jews: Are the Dalits of coastal Andhra going caste-awry?",
+  "url": "https://www.southasianist.ed.ac.uk/southasianist/article/download/27/56",
+  "year": null,
+  "id": "paper-yulia-egorova-telugu-jews-are-the-dalits-of-coastal-andhra-going-caste-awr"
  },
  {
   "author": "",
@@ -3288,6 +3411,36 @@
   "url": "https://www.youtube.com/watch?v=hpttrwjArdA",
   "year": null,
   "id": "video-the-meanings-and-mystery-of-melungeon"
+ },
+ {
+  "author": "Elizabeth Caldwell Hirschman",
+  "availability": "online",
+  "entries": [
+   "melungeon"
+  ],
+  "kind": "book",
+  "linkLabel": "Mercer University Press",
+  "note": "Argues for Sephardic Jewish and Muslim roots. Disputed by later DNA research.",
+  "publicDomain": false,
+  "title": "Melungeons: The Last Lost Tribe in America",
+  "url": "https://www.mupress.org/Melungeons-The-Last-Lost-Tribe-In-America-P499.aspx",
+  "year": 2005,
+  "id": "book-elizabeth-caldwell-hirschman-melungeons-the-last-lost-tribe-in-america"
+ },
+ {
+  "author": "Roberta Estes, Jack Goins, Penny Ferguson and Janet Lewis Crain",
+  "availability": "online",
+  "entries": [
+   "melungeon"
+  ],
+  "kind": "paper",
+  "linkLabel": "Journal of Genetic Genealogy (PDF)",
+  "note": "Results of the Melungeon DNA Project.",
+  "publicDomain": false,
+  "title": "Melungeons, A Multi-Ethnic Population",
+  "url": "http://www.jogg.info/72/files/Estes.pdf",
+  "year": 2012,
+  "id": "paper-roberta-estes-melungeons-a-multi-ethnic-population"
  },
  {
   "author": "",
