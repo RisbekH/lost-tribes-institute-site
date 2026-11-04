@@ -10,9 +10,9 @@ A son is born in a camp outside Hargeisa. Within a few days a stranger turns up 
 
 The gift is called *samanyo*. Somalis have paid it for centuries. And the people who receive it carry a name that many hear as *ʿIvri*, the Hebrew word for “Hebrew.”
 
-This essay looks at the Yibir with the Torah open. We are not claiming a DNA result or a lost scroll. We are setting one people's customs beside another people's laws and asking why they line up so well.
+This essay looks at the Yibir with the Torah open. We are not claiming a DNA result or a lost scroll, like we have with other tribes. We are setting one people's customs beside another people's laws and asking why they line up so well.
 
-## Who the Yibir are
+## Who Are the Yibir
 
 The Yibir (also Yibro, or Yahhar in the south) are one of the *sab*, the low-status occupational groups of Somali society. They are Sunni Muslims, like nearly all Somalis. They traditionally marry among themselves. Their hereditary work has been blessing, healing, leatherwork, and making amulets, often with Qur'anic verses sewn inside. They keep a dialect of their own, which the British officer J. W. C. Kirk recorded in 1904–05. His informants begged him not to show it to other Somalis.
 
@@ -56,13 +56,13 @@ The Horn of Africa sits a few miles from Yemen across the Bab el-Mandeb strait. 
 
 ## Where a skeptic will push back
 
-- **The main scholar disagrees.** Bader called Jewish descent “improbable” and found the Hebrew comparisons highly suspect.
+- **The main scholar disagrees.** Bader called Jewish descent “improbable” and found the Hebrew comparisons highly suspect. But this skepticism is common among the ivory towers.
 - **The Yibir themselves are cautious.** Hersi did not claim Jewish ancestry. He spoke of Arabic-speaking teachers, and he and his people are faithful Muslims.
 - **Other castes do the same work.** The Madhiban and Tumal also hold low-status, hereditary trades in Somali society, and no one calls them Israelites. Caste systems with feared ritual specialists exist across the Horn.
 - **A name can be a coincidence, or a slur.** “Hebrew” may have been a label pinned on an outcast group, not a memory they kept. The *Times* reported that the Yibir were cursed by other Somalis as descendants of Israelites.
 - **The Levite parallels are our reading.** No Yibir source we know of mentions Levi.
 
-All of that is fair. We still think the pattern is worth putting on the table. Levi is the tribe that Jacob said would be scattered. It is the tribe built to live without land, among other peoples, on their gifts, as keepers of blessing. If any part of Israel would survive in a foreign land as a small, landless, feared, and needed caste of blessers, Levi is the one the Torah itself predicts.
+All of that is fair. We still think the pattern is strong and worth putting on the table for more conversation and research. Levi is the tribe that Jacob said would be scattered. It is the tribe built to live without land, among other peoples, on their gifts, as keepers of blessing. If any part of Israel would survive in a foreign land as a small, landless, feared, and needed caste of blessers, Levi is the one the Torah itself predicts.
 
 The Yibir have paid a heavy price for their name. Whatever their ancestry, they deserve to be heard on their own terms, and the Institute would welcome Yibir voices telling their own history.
 
