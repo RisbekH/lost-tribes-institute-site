@@ -1,8 +1,10 @@
 ---
-title: "The Yibir: Somalia's Blessers and the Gifts of Levi"
-date: 2026-11-04
+title: "Ethnic Yibir: Somalia's Hebrew-Levi Tribe"
+date: 2026-11-03
 author: Lost Tribes Institute
-summary: "A small Somali clan lives on gifts given at births and weddings, owns no land, and carries a name that sounds like “Hebrew.” Read beside the Torah's rules for Levi, the pattern is hard to ignore."
+summary: A small Somali clan lives on gifts given at births and weddings, owns
+  no land, and carries a name that sounds like “Hebrew.” Read beside the Torah's
+  rules for Levi, the pattern is hard to ignore.
 draft: true
 ---
 
