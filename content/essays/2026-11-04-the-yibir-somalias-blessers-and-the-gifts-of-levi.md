@@ -16,9 +16,9 @@ This essay looks at the Yibir with the Torah open. We are not claiming a DNA res
 
 ## Who Are the Yibir
 
-The Yibir (also Yibro, or Yahhar in the south) are one of the *sab*, the low-status occupational groups of Somali society. They are Sunni Muslims, like nearly all Somalis. They traditionally marry among themselves. Their hereditary work has been blessing, healing, leatherwork, and making amulets, often with Qur'anic verses sewn inside. They keep a dialect of their own, which the British officer J. W. C. Kirk recorded in 1904–05. His informants begged him not to show it to other Somalis.
+The Yibir (also Yibro, or Yahhar in the south) are one of the *sab*, the low-status occupational groups of Somali society. They are Sunni Muslims, like nearly all Somalis. They traditionally marry among themselves. Their hereditary work has been blessing, healing, leatherwork, and making amulets, often with Qur'anic verses sewn inside. They keep a dialect of their own, which the British officer J. W. C. Kirk recorded in 1904–05. His informants made him promise not to reveal it to other Somalis.
 
-No one has counted them. In 2000 their sultan, Ahmed Jama Hersi, guessed about 25,000 in Somalia and the neighboring countries. That same year *The New York Times* reported that the Yibir would get one seat in a proposed 225-member Somali assembly. A Yibir leader called it “the first step.”
+No one has counted them. In 2000 their sultan, Ahmed Jama Hersi, guessed about 25,000 in Somalia and the neighboring countries. That same year *The New York Times* reported that the Yibir would get one seat in a proposed 225-member Somali assembly. Hersi called it “the beginning, the first step.”
 
 ## The story the winners tell
 
@@ -54,7 +54,7 @@ Then there is the grave. Of Moses the Torah says, “No one knows his burial pla
 
 The word *ʿIvri*, “Hebrew,” first appears in Genesis 14:13, where Abram is called “the Hebrew.” Many readers take it to mean “one from the other side,” the man who crossed the river. Sultan Hersi said in 2000 that his people's own history speaks of teachers who came from elsewhere, speaking Arabic, more than a thousand years ago.
 
-The Horn of Africa sits a few miles from Yemen across the Bab el-Mandeb strait. Jews lived in Yemen from ancient times, and a Jewish kingdom ruled there in the 500s. Ships, traders and refugees crossed that water in both directions for millennia. The prophet Zephaniah pictured worshipers coming “from beyond the rivers of Cush, my scattered people,” bringing their offering (Zephaniah 3:10). Cush, in the Bible, is Africa south of Egypt.
+The Horn of Africa faces Yemen across the Gulf of Aden, and at the Bab el-Mandeb strait, beside Djibouti, the gap is only about 16 miles. Jews lived in Yemen from ancient times, and the kings of Himyar, in Yemen, followed Judaism from about 380 until 525. Ships, traders and refugees crossed that water in both directions for millennia. The prophet Zephaniah pictured God's worshipers, “my scattered people,” bringing offerings from beyond the rivers of Cush (Zephaniah 3:10). Cush, in the Bible, is Africa south of Egypt.
 
 ## Where a skeptic will push back
 
