@@ -56,6 +56,49 @@
   "id": "article-descent-from-israel-and-jewish-identities-in-the-pacific"
  },
  {
+  "author": "Jaap Timmer",
+  "availability": "online",
+  "entries": [
+   "malaita"
+  ],
+  "kind": "paper",
+  "note": "Nova Religio 18(4): lost-tribe beliefs, the buried temple and Mosaic law among To'abaita speakers.",
+  "publicDomain": false,
+  "title": "Heirs to Biblical Prophecy: The All Peoples Prayer Assembly in Solomon Islands",
+  "url": "https://research-management.mq.edu.au/ws/portalfiles/portal/23532976/timmer.pdf",
+  "year": 2015,
+  "id": "paper-timmer-heirs-to-biblical-prophecy"
+ },
+ {
+  "author": "Jaap Timmer",
+  "availability": "online",
+  "entries": [
+   "malaita"
+  ],
+  "kind": "paper",
+  "note": "Oceania 85(3): the To'abaita, Genesis 10 and a Holy Land on Malaita's soil.",
+  "publicDomain": false,
+  "title": "Building Jerusalem in North Malaita",
+  "url": "https://www.new-directions.sps.ed.ac.uk/?p=2935",
+  "year": 2015,
+  "id": "paper-timmer-building-jerusalem-in-north-malaita"
+ },
+ {
+  "author": "David Akin",
+  "availability": "online",
+  "entries": [
+   "malaita"
+  ],
+  "kind": "book",
+  "linkLabel": "Read open access",
+  "note": "History of Malaitan kastom and the Maasina Rule movement (open access).",
+  "publicDomain": false,
+  "title": "Colonialism, Maasina Rule, and the Origins of Malaitan Kastom",
+  "url": "https://scholarspace.manoa.hawaii.edu/items/dbb441c1-97ad-411e-b29d-8d7048556097",
+  "year": 2013,
+  "id": "book-akin-colonialism-maasina-rule-and-malaitan-kastom"
+ },
+ {
   "author": "",
   "availability": "online",
   "entries": [
@@ -376,6 +419,64 @@
   "url": "https://archive.org/search?query=Bruder%20Black%20Jews%20of%20Africa",
   "year": 2008,
   "id": "book-edith-bruder-the-black-jews-of-africa"
+ },
+ {
+  "author": "Yotam Gidron",
+  "availability": "online",
+  "entries": [
+   "nuer"
+  ],
+  "kind": "book",
+  "linkLabel": "Cambridge University Press",
+  "note": "Fieldwork study of Nuer Messianic Jews in Gambella and their claim of Israelite descent.",
+  "publicDomain": false,
+  "title": "Nuer Messianic Judaism: Truth and Mediation in the Ethiopia-South Sudan Borderlands",
+  "url": "https://www.cambridge.org/core/books/nuer-messianic-judaism/01B17C0FDE4726F0BC9D5C5F216F764B",
+  "year": 2026,
+  "id": "book-gidron-nuer-messianic-judaism"
+ },
+ {
+  "author": "Yotam Gidron",
+  "availability": "online",
+  "entries": [
+   "nuer"
+  ],
+  "kind": "paper",
+  "note": "Africa 91(5): how Nuer Zionists recast a fluid identity as Israelite blood descent.",
+  "publicDomain": false,
+  "title": "From discursive resistance to new genealogies: rethinking Israelite identities in Africa through the case of Nuer Christian Zionists",
+  "url": "https://www.cambridge.org/core/journals/africa/article/abs/from-discursive-resistance-to-new-genealogies-rethinking-israelite-identities-in-africa-through-the-case-of-nuer-christian-zionists/DEB38F12B811FBFC1C13887EFCB636E4",
+  "year": 2021,
+  "id": "paper-gidron-from-discursive-resistance-to-new-genealogies"
+ },
+ {
+  "author": "Yotam Gidron",
+  "availability": "online",
+  "entries": [
+   "nuer"
+  ],
+  "kind": "paper",
+  "note": "Durham University PhD thesis, open access.",
+  "publicDomain": false,
+  "title": "The Nuer Messianic Jewish Movement: Authority and Authenticity in Ethiopia's Western Frontierlands",
+  "url": "https://etheses.durham.ac.uk/id/eprint/13851/",
+  "year": 2020,
+  "id": "paper-gidron-the-nuer-messianic-jewish-movement"
+ },
+ {
+  "author": "E. E. Evans-Pritchard",
+  "availability": "online",
+  "entries": [
+   "nuer"
+  ],
+  "kind": "book",
+  "linkLabel": "Read at Internet Archive",
+  "note": "Classic ethnography of Nuer ideas of God, spirit, sacrifice and fault, with the author's own comparisons to the Hebrews.",
+  "publicDomain": false,
+  "title": "Nuer Religion",
+  "url": "https://archive.org/details/nuerreligion00evan",
+  "year": 1956,
+  "id": "book-evans-pritchard-nuer-religion"
  },
  {
   "author": "Edward Hine",
@@ -3343,6 +3444,35 @@
   "id": "video-the-knanaya-of-kerala-part-1"
  },
  {
+  "author": "Richard M. Swiderski",
+  "availability": "online",
+  "entries": [
+   "knanaya"
+  ],
+  "kind": "paper",
+  "note": "Asian Folklore Studies: the legends that divide Knanaya Southists from other Saint Thomas Christians.",
+  "publicDomain": false,
+  "title": "Northists and Southists: A Folklore of Kerala Christians",
+  "url": "https://asianethnology.org/articles/1296",
+  "year": 1988,
+  "id": "paper-swiderski-northists-and-southists"
+ },
+ {
+  "author": "Richard M. Swiderski",
+  "availability": "online",
+  "entries": [
+   "knanaya"
+  ],
+  "kind": "book",
+  "linkLabel": "Read a review",
+  "note": "Ethnography of Knanaya marriage and identity (link is a review).",
+  "publicDomain": false,
+  "title": "Blood Weddings: The Knanaya Christians of Kerala",
+  "url": "https://www.knanayology.org/2-community/2c-articles/book-review-blood-weddings.pdf",
+  "year": 1988,
+  "id": "book-swiderski-blood-weddings"
+ },
+ {
   "author": "",
   "availability": "online",
   "entries": [
@@ -4962,5 +5092,49 @@
   "url": "https://losttribesinstitute.com/essays/2026-11-02-is-jesus-indias-avatar-prof-p-manassehs-a-historical-overview-of-the-indian-religions",
   "year": 2016,
   "id": "book-p-manasseh-a-historical-overview-of-the-indian-religions"
+ },
+ {
+  "author": "Johannes Warneck",
+  "availability": "online",
+  "entries": [
+   "batak"
+  ],
+  "kind": "book",
+  "linkLabel": "Read at HathiTrust",
+  "note": "A missionary's study of the old Batak religion, its gods, spirits and rites.",
+  "publicDomain": true,
+  "title": "Die Religion der Batak",
+  "url": "https://catalog.hathitrust.org/Record/001685121",
+  "year": 1909,
+  "id": "book-warneck-die-religion-der-batak"
+ },
+ {
+  "author": "William Marsden",
+  "availability": "online",
+  "entries": [
+   "batak"
+  ],
+  "kind": "book",
+  "linkLabel": "Read at Biodiversity Heritage Library",
+  "note": "Early British account of Sumatra with a chapter on the Batak and their laws.",
+  "publicDomain": true,
+  "title": "The History of Sumatra",
+  "url": "https://www.biodiversitylibrary.org/bibliography/101598",
+  "year": 1783,
+  "id": "book-marsden-the-history-of-sumatra"
+ },
+ {
+  "author": "Agung Suharyanto",
+  "availability": "online",
+  "entries": [
+   "batak"
+  ],
+  "kind": "paper",
+  "note": "Journal of Islamic Studies and Arabic (JISA) 2(1): the weekly Saturday worship of the Parmalim faith.",
+  "publicDomain": false,
+  "title": "Parmalim worship and the Saturday rite (Marari Sabtu)",
+  "url": "https://jurnal.uinsu.ac.id/index.php/JISA/article/view/5405",
+  "year": 2019,
+  "id": "paper-suharyanto-parmalim-worship"
  }
 ]
