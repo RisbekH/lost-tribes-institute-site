@@ -108,13 +108,15 @@ A list of people who have written about the fate of the ten northern tribes of I
 
 **George Moore** (fl. 1860s) — British physician whose *The Lost Tribes and the Saxons of the East and of the West* (1861) linked the tribes to the Afghans and to the peoples of northern Europe.
 
-**Peter Jones (Kahkewaquonaby)** (1802–1856) — Mississauga Ojibwe chief, Methodist minister and translator from Upper Canada, whose Ojibwe name means "Sacred Feathers." His *History of the Ojebway Indians* (1861), published after his death by his English wife Eliza, opens with a chapter on his people's ideas of their own origin, where he weighs the theory that they descend from the ten tribes.
+**Peter Jones (Kahkewaquonaby)** (1802–1856) — Mississauga Ojibwe chief, Methodist minister and translator from Upper Canada, whose Ojibwe name means "Sacred Feathers." In *History of the Ojebway Indians* (1861), published after his death by his English wife Eliza, he admits he first leaned toward the ten tribes theory after reading Boudinot and Ethan Smith. He granted some likenesses, such as days of purification, first fruits and burnt offerings, but in the end rejected it: his people kept no Sabbath, no circumcision and no clean and unclean animals. He thought an Asian origin more likely, a rare Native voice weighing the theory from the inside.
 
 **Edward Hine** (1825–1891) — English bank clerk turned lecturer whose *Identification of the British Nation with Lost Israel* (1871) made British Israelism a popular movement in Britain and America.
 
 **Nicholas McLeod** (fl. 1870s) — Scottish trader in Japan whose *Epitome of the Ancient History of Japan* (1875) first set out the theory that the Japanese descend from the ten tribes. Among his comparisons was the portable mikoshi shrine, carried on poles at festivals, with the Ark of the Covenant, a comparison still repeated today.
 
 **Henry Walter Bellew** (1834–1892) — British army surgeon and ethnographer in Afghanistan. In *The Races of Afghanistan* (1880) he recorded the Pashtun tradition of descent from the Bani Israel.
+
+**Timothy R. Jenkins** (b. 1821) — Ohio writer of biblical interpretations of history, one of which got him arrested on a charge of blasphemy. His *The Ten Tribes of Israel; or, The True History of the North American Indians* (1883) gathers a huge collection of customs, legends, artifacts and word comparisons from earlier writers to argue that Native Americans are the ten tribes. *The American Israelite*, a Jewish newspaper, praised the collection when it came out, and a 1910 writer noted that Jenkins held the theory without being a Latter-day Saint.
 
 **Andrew J. Blackbird (Mack-aw-de-be-nessy)** (c. 1814–1908) — Odawa (Ottawa) historian, son of an Ottawa chief, and U.S. interpreter in Michigan. His *History of the Ottawa and Chippewa Indians of Michigan* (1887) set down his people's traditions in their own voice and drew parallels with the Bible, including an Ottawa flood story and a tale of a great fish that swallows a famous prophet and casts him out again, much like Jonah.
 
