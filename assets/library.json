@@ -217,11 +217,11 @@
    "assyr"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Assyrian Christians as the Ten Tribes.",
   "publicDomain": true,
   "title": "The Nestorians; or, The Lost Tribes",
-  "url": "https://archive.org/search?query=Asahel%20Grant%20Nestorians%20Lost%20Tribes",
+  "url": "https://archive.org/details/nestorians00grangoog",
   "year": 1841,
   "id": "book-asahel-grant-the-nestorians-or-the-lost-tribes"
  },
@@ -230,11 +230,11 @@
   "availability": "online",
   "entries": [],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Reports of Israelite tribes in Persia and Arabia.",
   "publicDomain": true,
   "title": "Itinerary",
-  "url": "https://archive.org/search?query=Itinerary%20of%20Benjamin%20of%20Tudela",
+  "url": "https://archive.org/details/itineraryofrabbi01benjuoft",
   "year": 1170,
   "id": "book-benjamin-of-tudela-itinerary"
  },
@@ -245,11 +245,11 @@
    "lenape"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "The Journal of a Two Months Tour",
-  "url": "https://archive.org/search?query=Beatty%20Journal%20of%20a%20Two%20Months%20Tour",
+  "url": "https://archive.org/details/journaloftwomont00beat",
   "year": 1768,
   "id": "book-charles-beatty-the-journal-of-a-two-months-tour"
  },
@@ -258,11 +258,11 @@
   "availability": "online",
   "entries": [],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Biblical prophecies Columbus believed his voyages fulfilled; he took Hispaniola's gold for Solomon's Ophir.",
   "publicDomain": true,
   "title": "Libro de las profecías",
-  "url": "https://archive.org/search?query=Columbus%20Book%20of%20Prophecies",
+  "url": "https://archive.org/details/bookofprophecies03colu",
   "year": 1501,
   "id": "book-christopher-columbus-libro-de-las-profecas"
  },
@@ -274,11 +274,11 @@
    "nasrani"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Jews of Cochin, the Bene Israel, and the Afghan claim.",
   "publicDomain": true,
   "title": "Christian Researches in Asia",
-  "url": "https://archive.org/search?query=Claudius%20Buchanan%20Christian%20Researches%20in%20Asia",
+  "url": "https://archive.org/details/christianresearc00buchrich",
   "year": 1811,
   "id": "book-claudius-buchanan-christian-researches-in-asia"
  },
@@ -289,11 +289,11 @@
    "cherokee"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "Before Columbus",
-  "url": "https://archive.org/search?query=Cyrus%20Gordon%20Before%20Columbus",
+  "url": "https://archive.org/details/beforecolumbusli00gord",
   "year": 1971,
   "id": "book-cyrus-gordon-before-columbus"
  },
@@ -304,11 +304,11 @@
    "greeks"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "Before the Bible: The Common Background of Greek and Hebrew Civilisations",
-  "url": "https://archive.org/search?query=Cyrus%20Gordon%20Before%20the%20Bible",
+  "url": "https://archive.org/details/beforebiblecommo0000cyru",
   "year": 1962,
   "id": "book-cyrus-gordon-before-the-bible-the-common-background-of-greek-and-hebrew-civilisa"
  },
@@ -349,11 +349,11 @@
    "beneisr"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "The Travels of Rabbi David d'Beth Hillel",
-  "url": "https://archive.org/search?query=Travels%20of%20Rabbi%20David%20d'Beth%20Hillel",
+  "url": "https://archive.org/details/pli.kerala.rare.13829",
   "year": 1832,
   "id": "book-david-d-beth-hillel-the-travels-of-rabbi-david-d-beth-hillel"
  },
@@ -364,11 +364,11 @@
    "native"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Argued the Aztecs descended from Israel.",
   "publicDomain": true,
   "title": "History of the Indies of New Spain",
-  "url": "https://archive.org/search?query=Duran%20History%20of%20the%20Indies%20of%20New%20Spain",
+  "url": "https://archive.org/details/aztecshistoryofi0000dura",
   "year": 1581,
   "id": "book-diego-durn-history-of-the-indies-of-new-spain"
  },
@@ -394,11 +394,11 @@
    "celts"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "Missing Links Discovered in Assyrian Tablets",
-  "url": "https://archive.org/search?query=Capt%20Missing%20Links%20Assyrian%20Tablets",
+  "url": "https://archive.org/details/missinglinksdisc0000eray",
   "year": 1985,
   "id": "book-e-raymond-capt-missing-links-discovered-in-assyrian-tablets"
  },
@@ -470,7 +470,7 @@
    "nuer"
   ],
   "kind": "book",
-  "linkLabel": "Read at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "Classic ethnography of Nuer ideas of God, spirit, sacrifice and fault, with the author's own comparisons to the Hebrews.",
   "publicDomain": false,
   "title": "Nuer Religion",
@@ -500,11 +500,11 @@
    "massachusett"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "The Glorious Progress of the Gospel amongst the Indians in New England",
-  "url": "https://archive.org/search?query=Winslow%20Glorious%20Progress%20Indians%20New%20England",
+  "url": "https://archive.org/details/gloriousprogress00unse",
   "year": 1649,
   "id": "book-edward-winslow-the-glorious-progress-of-the-gospel-amongst-the-indians-in-new-en"
  },
@@ -530,11 +530,11 @@
    "native"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Native Americans as the Ten Tribes.",
   "publicDomain": true,
   "title": "A Star in the West",
-  "url": "https://archive.org/search?query=Boudinot%20Star%20in%20the%20West",
+  "url": "https://archive.org/details/starinwestorhumb00boudarch",
   "year": 1816,
   "id": "book-elias-boudinot-a-star-in-the-west"
  },
@@ -560,11 +560,11 @@
    "native"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Native Americans as the Ten Tribes.",
   "publicDomain": true,
   "title": "View of the Hebrews",
-  "url": "https://archive.org/search?query=View%20of%20the%20Hebrews%20Ethan%20Smith",
+  "url": "https://archive.org/details/viewofhebrewsexh00smitrich",
   "year": 1823,
   "id": "book-ethan-smith-view-of-the-hebrews"
  },
@@ -590,11 +590,11 @@
    "kashmir"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "Travels in the Mogul Empire",
-  "url": "https://archive.org/search?query=Bernier%20Travels%20in%20the%20Mogul%20Empire",
+  "url": "https://archive.org/details/travelsinmogulem00bernuoft",
   "year": 1670,
   "id": "book-franois-bernier-travels-in-the-mogul-empire"
  },
@@ -608,11 +608,11 @@
    "maliha"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Afghans, Kashmiris and Saxons as Israel.",
   "publicDomain": true,
   "title": "The Lost Tribes and the Saxons of the East and of the West",
-  "url": "https://archive.org/search?query=George%20Moore%20Lost%20Tribes%20Saxons%20East%20West",
+  "url": "https://archive.org/details/losttribessaxons00moor",
   "year": 1861,
   "id": "book-george-moore-the-lost-tribes-and-the-saxons-of-the-east-and-of-the-west"
  },
@@ -624,11 +624,11 @@
    "andes"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "Origen de los Indios del Nuevo Mundo",
-  "url": "https://archive.org/search?query=Gregorio%20Garcia%20Origen%20de%20los%20Indios",
+  "url": "https://archive.org/details/origendelosindio00garc",
   "year": 1607,
   "id": "book-gregorio-garca-origen-de-los-indios-del-nuevo-mundo"
  },
@@ -639,11 +639,11 @@
    "fulani"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "The Fulani Empire of Sokoto",
-  "url": "https://archive.org/search?query=Johnston%20Fulani%20Empire%20of%20Sokoto",
+  "url": "https://archive.org/details/fulaniempireofso0000hugh",
   "year": 1967,
   "id": "book-h-a-s-johnston-the-fulani-empire-of-sokoto"
  },
@@ -699,11 +699,11 @@
    "bi"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "The United States and Britain in Prophecy",
-  "url": "https://archive.org/search?query=United%20States%20and%20Britain%20in%20Prophecy%20Armstrong",
+  "url": "https://archive.org/details/unitedstatesbrit00arms",
   "year": 1967,
   "id": "book-herbert-w-armstrong-the-united-states-and-britain-in-prophecy"
  },
@@ -964,11 +964,11 @@
    "bnm"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "Across the Sabbath River",
-  "url": "https://archive.org/search?query=Halkin%20Across%20the%20Sabbath%20River",
+  "url": "https://archive.org/details/acrosssabbathrivhal00halk",
   "year": 2002,
   "id": "book-hillel-halkin-across-the-sabbath-river"
  },
@@ -994,11 +994,11 @@
    "bhi"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "Chosen People: The Rise of American Black Israelite Religions",
-  "url": "https://archive.org/search?query=Dorman%20Chosen%20People%20Black%20Israelite",
+  "url": "https://archive.org/details/chosenpeoplerise0000dorm",
   "year": 2013,
   "id": "book-jacob-dorman-chosen-people-the-rise-of-american-black-israelite-religions"
  },
@@ -1009,11 +1009,11 @@
    "cauc"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "The Remnant Found; or, the Place of Israel's Hiding Discovered",
-  "url": "https://archive.org/search?query=Jacob%20Samuel%20Remnant%20Found%20Israel's%20Hiding",
+  "url": "https://archive.org/details/remnantfoundorpl00samurich",
   "year": 1841,
   "id": "book-jacob-samuel-the-remnant-found-or-the-place-of-israel-s-hiding-discovered"
  },
@@ -1028,11 +1028,11 @@
    "catawba"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "23 arguments from the southeastern nations.",
   "publicDomain": true,
   "title": "The History of the American Indians",
-  "url": "https://archive.org/search?query=History%20of%20the%20American%20Indians%20Adair",
+  "url": "https://archive.org/details/historyofamerica00adairich",
   "year": 1775,
   "id": "book-james-adair-the-history-of-the-american-indians"
  },
@@ -1058,11 +1058,11 @@
    "bi"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Founding British-Israel book.",
   "publicDomain": true,
   "title": "Our Israelitish Origin",
-  "url": "https://archive.org/search?query=Our%20Israelitish%20Origin%20Wilson",
+  "url": "https://archive.org/details/ourisraelitisho00wilsgoog",
   "year": 1840,
   "id": "book-john-wilson-our-israelitish-origin"
  },
@@ -1088,11 +1088,11 @@
    "wafr"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Ashanti and West African parallels.",
   "publicDomain": true,
   "title": "Hebrewisms of West Africa",
-  "url": "https://archive.org/search?query=Hebrewisms%20of%20West%20Africa%20Williams",
+  "url": "https://archive.org/details/in.ernet.dli.2015.506996",
   "year": 1930,
   "id": "book-joseph-j-williams-hebrewisms-of-west-africa"
  },
@@ -1103,11 +1103,11 @@
    "pashtun"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "Narrative of a Mission to Bokhara",
-  "url": "https://archive.org/search?query=Joseph%20Wolff%20Narrative%20of%20a%20Mission%20to%20Bokhara",
+  "url": "https://archive.org/details/narrativeofmissi00wolfrich",
   "year": 1845,
   "id": "book-joseph-wolff-narrative-of-a-mission-to-bokhara"
  },
@@ -1118,11 +1118,11 @@
    "bukh"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "Researches and Missionary Labours among the Jews, Mohammedans and Other Sects",
-  "url": "https://archive.org/search?query=Joseph%20Wolff%20Researches%20and%20Missionary%20Labours",
+  "url": "https://archive.org/details/researchesmissio00wolfrich",
   "year": 1835,
   "id": "book-joseph-wolff-researches-and-missionary-labours-among-the-jews-mohammedans-and-ot"
  },
@@ -1148,11 +1148,11 @@
    "rasta"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "The Rastafarians",
-  "url": "https://archive.org/search?query=Leonard%20Barrett%20Rastafarians",
+  "url": "https://archive.org/details/rastafarians0000barr",
   "year": 1977,
   "id": "book-leonard-barrett-the-rastafarians"
  },
@@ -1163,11 +1163,11 @@
    "native"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Mexican and Maya peoples as Israelites.",
   "publicDomain": true,
   "title": "Antiquities of Mexico",
-  "url": "https://archive.org/search?query=Kingsborough%20Antiquities%20of%20Mexico",
+  "url": "https://archive.org/details/AntiquitiesMexi6King",
   "year": 1831,
   "id": "book-lord-kingsborough-antiquities-of-mexico"
  },
@@ -1178,11 +1178,11 @@
    "andes"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Montezinos's report of Israelites in the Andes.",
   "publicDomain": true,
   "title": "The Hope of Israel",
-  "url": "https://archive.org/search?query=Menasseh%20ben%20Israel%20Hope%20of%20Israel",
+  "url": "https://archive.org/details/bim_early-english-books-1641-1700_the-hope-of-israel-_manasseh-ben-israel_1651",
   "year": 1650,
   "id": "book-menasseh-ben-israel-the-hope-of-israel"
  },
@@ -1193,11 +1193,11 @@
    "kashmir"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "Jesus in India",
-  "url": "https://archive.org/search?query=Mirza%20Ghulam%20Ahmad%20Jesus%20in%20India",
+  "url": "https://archive.org/details/JesusInIndiaMirzaGhulamAhmad",
   "year": 1899,
   "id": "book-mirza-ghulam-ahmad-jesus-in-india"
  },
@@ -1208,11 +1208,11 @@
    "native"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "Discourse on the Evidences of the American Indians Being the Descendants of the Lost Tribes",
-  "url": "https://archive.org/search?query=Mordecai%20Noah%20American%20Indians%20descendants%20Lost%20Tribes",
+  "url": "https://archive.org/details/cihm_45453",
   "year": 1837,
   "id": "book-mordecai-m-noah-discourse-on-the-evidences-of-the-american-indians-being-the-des"
  },
@@ -1238,11 +1238,11 @@
    "maasai"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Maasai as Semitic kin of Israel.",
   "publicDomain": true,
   "title": "Die Masai",
-  "url": "https://archive.org/search?query=Merker%20Die%20Masai",
+  "url": "https://archive.org/details/diemasaiethnogra00merk",
   "year": 1904,
   "id": "book-moritz-merker-die-masai"
  },
@@ -1253,11 +1253,11 @@
    "pashtun"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "An Account of the Kingdom of Caubul",
-  "url": "https://archive.org/search?query=Elphinstone%20Account%20of%20the%20Kingdom%20of%20Caubul",
+  "url": "https://archive.org/details/bub_gb_FOc-AAAAYAAJ",
   "year": 1815,
   "id": "book-mountstuart-elphinstone-an-account-of-the-kingdom-of-caubul"
  },
@@ -1268,11 +1268,11 @@
    "melungeon"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "The Melungeons: The Resurrection of a Proud People",
-  "url": "https://archive.org/search?query=Kennedy%20Melungeons%20Resurrection%20Proud%20People",
+  "url": "https://archive.org/details/melungeonsresurr0000kenn",
   "year": 1994,
   "id": "book-n-brent-kennedy-the-melungeons-the-resurrection-of-a-proud-people"
  },
@@ -1313,11 +1313,11 @@
    "cam"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "New Children of Israel",
-  "url": "https://archive.org/search?query=Devir%20New%20Children%20of%20Israel",
+  "url": "https://archive.org/details/newchildrenofisr0000devi",
   "year": 2017,
   "id": "book-nathan-devir-new-children-of-israel"
  },
@@ -1348,11 +1348,11 @@
    "banuisrail"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "Sage. Describes the Banu Israil of Aligarh, once the hereditary kotwals.",
   "publicDomain": false,
   "title": "Boundaries and Identities: Muslims, Work and Status in Aligarh",
-  "url": "https://archive.org/search?query=Mann%20Boundaries%20and%20Identities%20Muslims%20Aligarh",
+  "url": "https://archive.org/details/boundariesidenti1992mann",
   "year": 1992,
   "id": "book-e-a-mann-boundaries-and-identities-muslims-work-and-status-in-aligarh"
  },
@@ -1363,11 +1363,11 @@
    "pashtun"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "History of the Afghans",
-  "url": "https://archive.org/search?query=History%20of%20the%20Afghans%20Neamet%20Ullah%20Dorn",
+  "url": "https://archive.org/details/historyoftheafghans_201911",
   "year": 1612,
   "id": "book-nimat-allah-history-of-the-afghans"
  },
@@ -1408,11 +1408,11 @@
    "bi"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "A Revealed Knowledge of the Prophecies and Times",
-  "url": "https://archive.org/search?query=Richard%20Brothers%20Revealed%20Knowledge%20of%20the%20Prophecies",
+  "url": "https://archive.org/details/RichardBrothersRevealedKnowledgeOfThePropheciesAndTimes1796",
   "year": 1794,
   "id": "book-richard-brothers-a-revealed-knowledge-of-the-prophecies-and-times"
  },
@@ -1439,11 +1439,11 @@
    "beta"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "The Beta Israel (Falasha) in Ethiopia",
-  "url": "https://archive.org/search?query=Steven%20Kaplan%20Beta%20Israel%20Falasha%20Ethiopia",
+  "url": "https://archive.org/details/betaisraelfalash0000kapl",
   "year": 1992,
   "id": "book-steven-kaplan-the-beta-israel-falasha-in-ethiopia"
  },
@@ -1454,11 +1454,11 @@
    "solomonic"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "",
   "publicDomain": true,
   "title": "tr. E. A. Wallis Budge",
-  "url": "https://archive.org/search?query=Kebra%20Nagast%20Budge%20Queen%20of%20Sheba",
+  "url": "https://archive.org/details/queenofshebahero00kebr",
   "year": 1922,
   "id": "book-the-kebra-nagast-tr-e-a-wallis-budge"
  },
@@ -1469,11 +1469,11 @@
    "maori"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "ed. J. R. Elder",
-  "url": "https://archive.org/search?query=Letters%20and%20Journals%20of%20Samuel%20Marsden",
+  "url": "https://archive.org/details/lettersjournalso0000john",
   "year": 1932,
   "id": "book-the-letters-and-journals-of-samuel-marsden-ed-j-r-elder"
  },
@@ -1484,11 +1484,11 @@
    "massachusett"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "First English book arguing Indians are Israelites.",
   "publicDomain": true,
   "title": "Jews in America",
-  "url": "https://archive.org/search?query=Thorowgood%20Jews%20in%20America",
+  "url": "https://archive.org/details/jewsinamericaorp00thor",
   "year": 1650,
   "id": "book-thomas-thorowgood-jews-in-america"
  },
@@ -1529,11 +1529,11 @@
    "lemba"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "Journey to the Vanished City",
-  "url": "https://archive.org/search?query=Parfitt%20Journey%20to%20the%20Vanished%20City",
+  "url": "https://archive.org/details/journeytovanishe00parf",
   "year": 1992,
   "id": "book-tudor-parfitt-journey-to-the-vanished-city"
  },
@@ -1559,11 +1559,11 @@
    "kaifeng"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "",
   "publicDomain": false,
   "title": "The Jews of Kaifeng, China",
-  "url": "https://archive.org/search?query=Xu%20Xin%20Jews%20of%20Kaifeng",
+  "url": "https://archive.org/details/jewsofkaifengchi0000xuxi",
   "year": 2003,
   "id": "book-xu-xin-the-jews-of-kaifeng-china"
  },
@@ -1898,11 +1898,11 @@
    "somali"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Cambridge University Press. Records the Yibir founding story and their secret dialect.",
   "publicDomain": true,
   "title": "A Grammar of the Somali Language, with an account of the Yibir and Midgan dialects",
-  "url": "https://archive.org/search?query=Kirk%20Grammar%20of%20the%20Somali%20Language",
+  "url": "https://archive.org/details/grammarofsomalil00kirkuoft",
   "year": 1905,
   "id": "book-j-w-c-kirk-a-grammar-of-the-somali-language-with-an-account-of-the-yibi"
  },
@@ -1928,11 +1928,11 @@
    "somali"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "Includes the story of Aw Barkhadle and the Yibir.",
   "publicDomain": false,
   "title": "Saints and Somalis: Popular Islam in a Clan-Based Society",
-  "url": "https://archive.org/search?query=Lewis%20Saints%20and%20Somalis",
+  "url": "https://archive.org/details/saintssomalispop00lewi",
   "year": 1998,
   "id": "book-i-m-lewis-saints-and-somalis-popular-islam-in-a-clan-based-society"
  },
@@ -4825,11 +4825,11 @@
   "availability": "online",
   "entries": [],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Borrow at Internet Archive",
   "note": "Written in India out of years of round-table talks with Hindu, Muslim and other leaders. Presents Jesus's teaching on the mount (Matthew 5–7) as a way of life for every people.",
   "publicDomain": false,
   "title": "The Christ of the Mount: A Working Philosophy of Life",
-  "url": "https://archive.org/search?query=Stanley%20Jones%20Christ%20of%20the%20Mount",
+  "url": "https://archive.org/details/christofthemount009329mbp",
   "year": 1931,
   "id": "book-e-stanley-jones-the-christ-of-the-mount"
  },

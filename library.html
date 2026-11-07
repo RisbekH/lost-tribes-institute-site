@@ -59,6 +59,9 @@
 .badge{display:inline-block;font-family:var(--mono);font-size:10.5px;padding:2px 6px;border-radius:3px;margin-right:6px;border:1px solid var(--rule);color:var(--ink-2)}
 .badge.here{background:var(--accent);color:var(--bg);border-color:var(--accent)}
 .badge.pd{color:#3C7A2E;border-color:currentColor}
+.go{display:inline-block;font-size:13px;font-weight:600;padding:4px 10px;border-radius:4px;margin:2px 8px 2px 0;background:var(--accent);color:var(--bg)!important;text-decoration:none!important}
+.go:hover{filter:brightness(1.1)}
+.go.here{background:var(--ink,#1d2a33)}
 .more{margin-top:14px;font:500 14px var(--body);background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:4px;padding:9px 16px;cursor:pointer}
 </style></head><body>
 <a class="skip" href="#main">Skip to content</a><div class="topbar"><div class="in"><a class="brand" href="index.html"><img src="images/brand/lti-mark-64.png" alt="" width="34" height="34"><b>Lost Tribes Institute</b><span>Est. 2024</span></a><nav class="nav" aria-label="Main"><a href="index.html">Home</a><a href="map.html">Map</a><a href="library.html" aria-current="page">Library</a><a href="essays.html">Essays</a><a href="symposiums.html">Symposiums</a><a href="books.html">Books</a><a href="videos.html">Videos</a><a href="contact.html">Contact</a></nav></div></div>
@@ -101,7 +104,9 @@ const filt=()=>{const q=norm(S.q);return items.filter(r=>(!S.kind||r.kind===S.ki
 const row=r=>{const href=r.file?r.file:(/^https?:/.test(r.url||'')?r.url:'');
  const t=href?`<a class="t" href="${esc(href)}" rel="noopener">${esc(r.title)}</a>`:`<span class="t">${esc(r.title)}</span>`;
  const meta=[r.author,r.year].filter(Boolean).map(esc).join(' · ');
- const b=[r.file?'<span class="badge here">Read here</span>':'',r.publicDomain?'<span class="badge pd">Public domain</span>':'',r.availability==='none'?'<span class="badge">No online copy</span>':'',r.availability==='unpublished'?'<span class="badge">Unpublished</span>':'',(!r.file&&href&&r.linkLabel)?`<span class="badge">${esc(r.linkLabel)}</span>`:''].join('');
+ const host=h=>{try{const n=new URL(h).hostname.replace(/^www\./,'');return /amazon\./.test(n)?'Amazon':/archive\.org$/.test(n)?'Internet Archive':/academia\.edu$/.test(n)?'Academia.edu':/youtube\.com|youtu\.be/.test(n)?'YouTube':n;}catch(e){return '';}};
+ const go=href?`<a class="go${r.file?' here':''}" href="${esc(href)}" rel="noopener">${esc(r.file?'Read here':(r.linkLabel||('Open at '+host(href))))} →</a>`:'';
+ const b=[go,r.publicDomain?'<span class="badge pd">Public domain</span>':'',r.availability==='none'?'<span class="badge">No online copy</span>':'',r.availability==='unpublished'?'<span class="badge">Unpublished</span>':''].join('');
  const tags=(r.entries||[]).filter(x=>names[x]).map(x=>`<a href="map.html#e-${esc(x)}">${esc(names[x])}</a>`).join('');
  return `<li class="it"><span class="k ${esc(r.kind)}">${esc(KL[r.kind]||r.kind)}</span><div style="min-width:0">${t}${meta?`<div class="meta">${meta}</div>`:''}${b?`<div class="meta">${b}</div>`:''}${r.note?`<div class="note">${esc(r.note)}</div>`:''}${tags?`<div class="tags">${tags}</div>`:''}</div></li>`;};
 const render=()=>{const l=filt(); $('count').textContent=`${l.length} of ${items.length} works`; $('list').innerHTML=l.slice(0,S.shown).map(row).join('')||'<li class="it"><span></span><span class="meta">Nothing matches these filters.</span></li>'; $('more').hidden=l.length<=S.shown; $('more').textContent=`Show more (${l.length-S.shown} left)`;};
