@@ -88,6 +88,8 @@ A list of people who have written about the fate of the ten northern tribes of I
 
 **Ethan Smith** (1762–1849) — Vermont minister whose *View of the Hebrews* (1823) made the same case for Native Americans and was widely read in New England. Historians have long debated its possible influence on the Book of Mormon, published seven years later not far away.
 
+**William Apess** (1798–1839) — Pequot writer, Methodist minister and Native rights activist, and one of the first Native Americans to publish an autobiography. The appendix to *A Son of the Forest* (1829) argues at length that Native Americans descend from the ten tribes. In his 1831 essay "The Indians: The Ten Lost Tribes" he turned the theory into a demand for justice: if Native people were Israel, how could the nation treat them so badly and not fear the judgment of heaven? He carried the same argument into the Mashpee people's fight for their land in Massachusetts in 1833–34.
+
 **Mordecai Manuel Noah** (1785–1851) — American Jewish journalist, diplomat and playwright. In 1825 he tried to found a Jewish refuge called Ararat on Grand Island in the Niagara River, and invited Native Americans to join as lost Israelites. There weren't enough boats to reach the island, so the dedication was held in a church in Buffalo instead. Ararat never got past its cornerstone. He lectured on Native Americans as the ten tribes in 1837.
 
 **Edward King, Viscount Kingsborough** (1795–1837) — Irish aristocrat who spent his fortune on *Antiquities of Mexico*, lavish volumes of Mesoamerican manuscripts filled with commentary arguing for Israelite origins. The cost ruined him. He was jailed for debt in Dublin and died there of typhus at 42.
@@ -106,11 +108,15 @@ A list of people who have written about the fate of the ten northern tribes of I
 
 **George Moore** (fl. 1860s) — British physician whose *The Lost Tribes and the Saxons of the East and of the West* (1861) linked the tribes to the Afghans and to the peoples of northern Europe.
 
+**Peter Jones (Kahkewaquonaby)** (1802–1856) — Mississauga Ojibwe chief, Methodist minister and translator from Upper Canada, whose Ojibwe name means "Sacred Feathers." His *History of the Ojebway Indians* (1861), published after his death by his English wife Eliza, opens with a chapter on his people's ideas of their own origin, where he weighs the theory that they descend from the ten tribes.
+
 **Edward Hine** (1825–1891) — English bank clerk turned lecturer whose *Identification of the British Nation with Lost Israel* (1871) made British Israelism a popular movement in Britain and America.
 
 **Nicholas McLeod** (fl. 1870s) — Scottish trader in Japan whose *Epitome of the Ancient History of Japan* (1875) first set out the theory that the Japanese descend from the ten tribes. Among his comparisons was the portable mikoshi shrine, carried on poles at festivals, with the Ark of the Covenant, a comparison still repeated today.
 
 **Henry Walter Bellew** (1834–1892) — British army surgeon and ethnographer in Afghanistan. In *The Races of Afghanistan* (1880) he recorded the Pashtun tradition of descent from the Bani Israel.
+
+**Andrew J. Blackbird (Mack-aw-de-be-nessy)** (c. 1814–1908) — Odawa (Ottawa) historian, son of an Ottawa chief, and U.S. interpreter in Michigan. His *History of the Ottawa and Chippewa Indians of Michigan* (1887) set down his people's traditions in their own voice and drew parallels with the Bible, including an Ottawa flood story and a tale of a great fish that swallows a famous prophet and casts him out again, much like Jonah.
 
 ## 20th Century
 
