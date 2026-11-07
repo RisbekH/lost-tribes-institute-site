@@ -319,11 +319,11 @@
    "igbo"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Africa World Press",
   "note": "",
   "publicDomain": false,
   "title": "Jewish Identity among the Igbo of Nigeria",
-  "url": "https://archive.org/search?query=Daniel%20Lis%20Jewish%20Identity%20Igbo%20Nigeria",
+  "url": "https://africaworldpressbooks.com/jewish-identity-among-the-igbo-of-nigeria-israels-lost-tribe-and-the-question-of-belonging-in-the-jewish-state-by-daniel-lis",
   "year": 2015,
   "id": "book-daniel-lis-jewish-identity-among-the-igbo-of-nigeria"
  },
@@ -334,11 +334,11 @@
    "pal"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Hebrew translation at Open Library",
   "note": "",
   "publicDomain": true,
   "title": "Eretz Israel in the Past and Present",
-  "url": "https://archive.org/search?query=Ben-Gurion%20Ben-Zvi%20Eretz%20Israel%20Past%20and%20Present",
+  "url": "https://openlibrary.org/works/OL21256800M",
   "year": 1918,
   "id": "book-david-ben-gurion-yitzhak-ben-zvi-eretz-israel-in-the-past-and-present"
  },
@@ -412,11 +412,11 @@
    "zulu"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "National Library of Israel record",
   "note": "",
   "publicDomain": false,
   "title": "The Black Jews of Africa",
-  "url": "https://archive.org/search?query=Bruder%20Black%20Jews%20of%20Africa",
+  "url": "https://www.nli.org.il/en/books/NNL_ALEPH990026184670205171/NLI",
   "year": 2008,
   "id": "book-edith-bruder-the-black-jews-of-africa"
  },
@@ -485,11 +485,11 @@
    "bi"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Internet Archive",
   "note": "Popular British-Israel book.",
   "publicDomain": true,
   "title": "Identification of the British Nation with Lost Israel",
-  "url": "https://archive.org/search?query=Hine%20Identification%20British%20Nation%20Lost%20Israel",
+  "url": "https://archive.org/details/cihm_44746",
   "year": 1871,
   "id": "book-edward-hine-identification-of-the-british-nation-with-lost-israel"
  },
@@ -515,11 +515,11 @@
    "beta"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Routledge",
   "note": "",
   "publicDomain": false,
   "title": "Jewish Travellers, 1930)",
-  "url": "https://archive.org/search?query=Adler%20Jewish%20Travellers%20Eldad",
+  "url": "https://www.routledge.com/Jewish-Travellers/Adler/p/book/9780415344661",
   "year": null,
   "id": "book-eldad-ha-dani-s-account-of-the-tribe-of-dan-9th-century-tr-in-adler-jewish-trave"
  },
@@ -545,11 +545,11 @@
    "kurds"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Find in a library (WorldCat)",
   "note": "",
   "publicDomain": false,
   "title": "The Jews of Kurdistan",
-  "url": "https://archive.org/search?query=Brauer%20Jews%20of%20Kurdistan",
+  "url": "https://search.worldcat.org/oclc/27266639",
   "year": 1993,
   "id": "book-erich-brauer-the-jews-of-kurdistan"
  },
@@ -575,11 +575,11 @@
    "karen"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Project Gutenberg Australia",
   "note": "",
   "publicDomain": true,
   "title": "The Story of a Working Man's Life",
-  "url": "https://archive.org/search?query=Francis%20Mason%20Story%20of%20a%20Working%20Man's%20Life",
+  "url": "https://www.gutenberg.net.au/ebooks09/0900771h.html",
   "year": 1870,
   "id": "book-francis-mason-the-story-of-a-working-man-s-life"
  },
@@ -654,11 +654,11 @@
    "persia"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Mazda Publishers",
   "note": "",
   "publicDomain": false,
   "title": "Comprehensive History of the Jews of Iran",
-  "url": "https://archive.org/search?query=Habib%20Levy%20Comprehensive%20History%20Jews%20of%20Iran",
+  "url": "https://mazdapublishers.com/book/comprehensive-history-of-the-jews-of-iran",
   "year": 1999,
   "id": "book-habib-levy-comprehensive-history-of-the-jews-of-iran"
  },
@@ -669,11 +669,11 @@
    "beneisr"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Alliance Israélite Universelle digital library",
   "note": "",
   "publicDomain": false,
   "title": "The History of the Bene Israel of India",
-  "url": "https://archive.org/search?query=Kehimkar%20History%20Bene%20Israel%20India",
+  "url": "https://www.bibliotheque-numerique-aiu.org/tous/item/16866-the-history-of-the-bene-israel-of-india",
   "year": 1937,
   "id": "book-haeem-samuel-kehimkar-the-history-of-the-bene-israel-of-india"
  },
@@ -684,11 +684,11 @@
    "native"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Marsh's Library",
   "note": "Critique of the claim.",
   "publicDomain": true,
   "title": "Americans no Jewes",
-  "url": "https://archive.org/search?query=Americans%20no%20Jewes%20L'Estrange",
+  "url": "https://web.marshlibrary.ie/catalogue/Record/18410/Digitised",
   "year": 1652,
   "id": "book-hamon-l-estrange-americans-no-jewes"
  },
@@ -979,11 +979,11 @@
    "timbuktu"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read a review (French)",
   "note": "",
   "publicDomain": false,
   "title": "Les Juifs à Tombouctou",
-  "url": "https://archive.org/search?query=Haidara%20Juifs%20a%20Tombouctou",
+  "url": "https://www.gerflint.fr/Base/MondeMed2/lectures_moreau.pdf",
   "year": 1999,
   "id": "book-ismal-diadi-hadara-les-juifs-tombouctou"
  },
@@ -1073,11 +1073,11 @@
    "japan"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "National Library of Israel record",
   "note": "",
   "publicDomain": false,
   "title": "The Japanese and the Ten Lost Tribes of Israel",
-  "url": "https://archive.org/search?query=Eidelberg%20Japanese%20Ten%20Lost%20Tribes",
+  "url": "https://www.nli.org.il/en/books/NNL_ALEPH990037663140205171/NLI",
   "year": 2005,
   "id": "book-joseph-eidelberg-the-japanese-and-the-ten-lost-tribes-of-israel"
  },
@@ -1133,11 +1133,11 @@
    "maori"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Apple Books (ebook)",
   "note": "",
   "publicDomain": false,
   "title": "Redemption Songs: A Life of Te Kooti",
-  "url": "https://archive.org/search?query=Binney%20Redemption%20Songs%20Te%20Kooti",
+  "url": "https://books.apple.com/us/book/redemption-songs/id1571573350",
   "year": 1995,
   "id": "book-judith-binney-redemption-songs-a-life-of-te-kooti"
  },
@@ -1223,11 +1223,11 @@
    "kurds"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Brill",
   "note": "",
   "publicDomain": false,
   "title": "Jewish Subjects and Their Tribal Chieftains in Kurdistan",
-  "url": "https://archive.org/search?query=Zaken%20Jewish%20Subjects%20Tribal%20Chieftains%20Kurdistan",
+  "url": "https://www.degruyterbrill.com/document/isbn/9789047422129/html",
   "year": 2007,
   "id": "book-mordechai-zaken-jewish-subjects-and-their-tribal-chieftains-in-kurdistan"
  },
@@ -1283,11 +1283,11 @@
    "japan"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read at Google Books",
   "note": "",
   "publicDomain": true,
   "title": "Epitome of the Ancient History of Japan",
-  "url": "https://archive.org/search?query=McLeod%20Epitome%20Ancient%20History%20of%20Japan",
+  "url": "https://books.google.com/books?id=U2c_AAAAYAAJ",
   "year": 1875,
   "id": "book-n-mcleod-epitome-of-the-ancient-history-of-japan"
  },
@@ -1298,11 +1298,11 @@
    "korea"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Brill Primary Sources (library access)",
   "note": "",
   "publicDomain": true,
   "title": "Korea and the Ten Lost Tribes of Israel",
-  "url": "https://archive.org/search?query=Korea%20and%20the%20Ten%20Lost%20Tribes%20of%20Israel%20McLeod",
+  "url": "https://primarysources.brillonline.com/browse/colonialperiod-korea/korea-and-the-ten-lost-tribes-of-israelwith-korean-japanese-and-israelitish-illustrations-dedicated-to-great-britain-america-germany-france;wwc18",
   "year": 1879,
   "id": "book-n-mcleod-korea-and-the-ten-lost-tribes-of-israel"
  },
@@ -1333,11 +1333,11 @@
    "pashtun"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "About the book (author's page)",
   "note": "Revised from his 2005 Lucknow doctorate. Covers the Bene Israel, Cochini and Baghdadi Jews, the Bnei Menashe and Bene Ephraim, and Muslim groups with Israelite traditions. Pragati Publications, New Delhi.",
   "publicDomain": false,
   "title": "Jews, Judaizing Movements and the Traditions of Israelite Descent in South Asia",
-  "url": "https://archive.org/search?query=Aafreedi%20Judaizing%20Movements%20Israelite%20Descent%20South%20Asia",
+  "url": "https://navrasaafreedi.blogspot.com/2016",
   "year": 2016,
   "id": "book-navras-aafreedi-jews-judaizing-movements-and-the-tradition-of-israelite-descent-"
  },
@@ -1378,11 +1378,11 @@
    "samar"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Logos (ebook)",
   "note": "",
   "publicDomain": false,
   "title": "The Samaritans: A Profile",
-  "url": "https://archive.org/search?query=Pummer%20Samaritans%20A%20Profile",
+  "url": "https://www.logos.com/product/129015/the-samaritans",
   "year": 2016,
   "id": "book-reinhard-pummer-the-samaritans-a-profile"
  },
@@ -1393,11 +1393,11 @@
    "igbo"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Read about the book (Kulanu)",
   "note": "",
   "publicDomain": false,
   "title": "The Igbos: Jews in Africa?",
-  "url": "https://archive.org/search?query=Remy%20Ilona%20Igbos%20Jews%20in%20Africa",
+  "url": "https://kulanu.org/archive/?p=2456",
   "year": 2004,
   "id": "book-remy-ilona-the-igbos-jews-in-africa"
  },
@@ -1424,11 +1424,11 @@
    "wafr"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "New Beacon Books",
   "note": "",
   "publicDomain": false,
   "title": "From Babylon to Timbuktu",
-  "url": "https://archive.org/search?query=From%20Babylon%20to%20Timbuktu%20Windsor",
+  "url": "https://www.newbeaconbooks.com/caribbean-non-fiction/from-babylon-to-timbuktu",
   "year": 1969,
   "id": "book-rudolph-windsor-from-babylon-to-timbuktu"
  },
@@ -1499,11 +1499,11 @@
    "qiang"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Torrance bibliography",
   "note": "The Qiang as Israelites.",
   "publicDomain": false,
   "title": "China's First Missionaries: Ancient Israelites",
-  "url": "https://archive.org/search?query=Torrance%20China's%20First%20Missionaries%20Ancient%20Israelites",
+  "url": "https://tftorrance.org/1937-TT-1",
   "year": 1937,
   "id": "book-thomas-torrance-china-s-first-missionaries-ancient-israelites"
  },
@@ -1514,11 +1514,11 @@
    "qiang"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "University of Zurich record",
   "note": "",
   "publicDomain": true,
   "title": "The History, Customs and Religion of the Ch'iang",
-  "url": "https://archive.org/search?query=Torrance%20History%20Customs%20Religion%20Ch'iang",
+  "url": "https://e-aoi.uzh.ch/apps/china-west/documents/3052",
   "year": 1920,
   "id": "book-thomas-torrance-the-history-customs-and-religion-of-the-ch-iang"
  },
@@ -1544,11 +1544,11 @@
    "gogo"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "SOAS record",
   "note": "",
   "publicDomain": false,
   "title": "The Lost Tribes of Israel: The History of a Myth",
-  "url": "https://archive.org/search?query=Parfitt%20Lost%20Tribes%20of%20Israel%20History%20of%20a%20Myth",
+  "url": "https://soas-repository.worktribe.com/output/445932/the-lost-tribes-of-israel-the-history-of-a-myth",
   "year": 2002,
   "id": "book-tudor-parfitt-the-lost-tribes-of-israel-the-history-of-a-myth"
  },
@@ -1574,11 +1574,11 @@
    "nweu"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Lulu (author's books)",
   "note": "",
   "publicDomain": false,
   "title": "Lost Israelite Identity",
-  "url": "https://archive.org/search?query=Davidiy%20Lost%20Israelite%20Identity",
+  "url": "https://www.lulu.com/spotlight/davidiy",
   "year": 1996,
   "id": "book-yair-davidiy-lost-israelite-identity"
  },
@@ -1589,11 +1589,11 @@
    "nweu"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Lulu (author's books)",
   "note": "",
   "publicDomain": false,
   "title": "The Tribes",
-  "url": "https://archive.org/search?query=Yair%20Davidiy%20The%20Tribes",
+  "url": "https://www.lulu.com/spotlight/davidiy",
   "year": 1993,
   "id": "book-yair-davidiy-the-tribes"
  },
@@ -1604,11 +1604,11 @@
    "native"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Harvard Book Store",
   "note": "",
   "publicDomain": false,
   "title": "The Ten Lost Tribes: A World History",
-  "url": "https://archive.org/search?query=Ben-Dor%20Benite%20Ten%20Lost%20Tribes%20World%20History",
+  "url": "https://www.harvard.com/book/9780195307337",
   "year": 2009,
   "id": "book-zvi-ben-dor-benite-the-ten-lost-tribes-a-world-history"
  },
@@ -1908,16 +1908,15 @@
  },
  {
   "author": "Christian Bader",
-  "availability": "online",
+  "availability": "none",
   "entries": [
    "somali"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
   "note": "The main study of the Yibir (in French). Judges Jewish descent improbable but traces the Yibir to pre-Islamic religious specialists.",
   "publicDomain": false,
   "title": "Les Yibro: mages somali",
-  "url": "https://archive.org/search?query=Bader%20Yibro%20mages%20somali",
+  "url": "",
   "year": 2000,
   "id": "book-christian-bader-les-yibro-mages-somali"
  },
@@ -3040,11 +3039,11 @@
    "gogo"
   ],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "British Museum library record",
   "note": "Large photographic ethnography, with archival images up to the last initiation at Balimo in 1937. National Cultural Council of Papua New Guinea.",
   "publicDomain": false,
   "title": "Aida: Life and Ceremony of the Gogodala",
-  "url": "https://archive.org/search?query=Crawford%20Aida%20Life%20and%20Ceremony%20of%20the%20Gogodala",
+  "url": "https://library.britishmuseum.org/bib/253144",
   "year": 1981,
   "id": "book-a-l-crawford-aida-life-and-ceremony-of-the-gogodala"
  },
@@ -4911,11 +4910,11 @@
   "availability": "online",
   "entries": [],
   "kind": "book",
-  "linkLabel": "Find at Internet Archive",
+  "linkLabel": "Smithsonian Libraries record",
   "note": "Duke University Press. Argues the northern tribes were never lost but scattered and mixed with other peoples, and surveys groups in Asia and Africa who keep Israelite customs.",
   "publicDomain": false,
   "title": "The Lost Tribes a Myth: Suggestions Towards Rewriting Hebrew History",
-  "url": "https://archive.org/search?query=Godbey%20Lost%20Tribes%20a%20Myth",
+  "url": "https://si.edu/object/siris_sil_18388",
   "year": 1930,
   "id": "book-allen-godbey-the-lost-tribes-a-myth"
  },
