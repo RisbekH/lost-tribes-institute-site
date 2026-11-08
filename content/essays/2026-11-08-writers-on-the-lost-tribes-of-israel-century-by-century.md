@@ -3,7 +3,7 @@ title: "Writers on the Lost Tribes of Israel, Century by Century"
 date: 2026-11-08
 author: Lost Tribes Institute
 summary: "From Josephus to the Bnei Menashe researchers of Mizoram and Manipur: the travelers, scholars, believers and skeptics who have written about the ten lost tribes over 2,000 years, with a short bio of each."
-draft: true
+draft: false
 ---
 
 A list of people who have written about the fate of the ten northern tribes of Israel after the Assyrian exile (c. 722 BCE). It includes believers, travelers, missionaries, critics and modern scholars, because the skeptics are part of the story too. Dates are approximate where the record is thin.
