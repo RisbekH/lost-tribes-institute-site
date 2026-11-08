@@ -112,7 +112,7 @@ Adair writes as a man who knew the Cherokee, Chickasaw, Choctaw and Muskogee for
 
 Joseph's descendants, known as Israel's lost or scattered tribes, lost the Torah itself but kept something of its practices after they were deported. Judah's descendants, the Jews, lost Moses' Ark but kept the blueprint, the Torah.
 
-These two brothers and their descendants represent the divided inheritance of Israel. About three thousand years ago Israel split in a civil war. Judah in the south kept the written Torah, the genealogies and the record of the covenant (Genesis 49:10; Romans 3:1–2). Joseph in the north, called Israel or Ephraim, led the ten northern tribes, and according to Jeremiah, God divorced them in the eighth century BC. They were scattered among the nations and, as promised, became "a multitude in the midst of the earth" (Genesis 48:19). Today we call them the Lost Tribes of Israel.
+These two brothers and their descendants represent the divided inheritance of Israel. About three thousand years ago Israel split in a civil war. Judah in the south kept the written Torah, the genealogies and the record of the covenant (Genesis 49:10; Romans 3:1–2). Joseph in the north, called Israel or Ephraim, led the ten northern tribes, and according to Jeremiah, God divorced them in the eighth century BC. They were scattered among the nations and, as promised, became "a multitude in the midst of the earth" (Genesis 48:16). Today we call them the Lost Tribes of Israel.
 
 Judah guarded the text. Joseph's tribes lost the book, but some of them, seeing their exile as punishment, held on to what they could. So their cultures are like archaeological sites, with new customs built over older "ruins." The lower layer shows their former Torah practice.
 
