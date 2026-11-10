@@ -167,7 +167,37 @@ if (fs.existsSync(worksPath)) {
     const cover = it.cover ? `<a class="wk-cover" href="${esc(main?.url || '#')}"${main && /^https?:/.test(main.url) ? ' rel="noopener"' : ''} tabindex="-1" aria-hidden="true"><img src="${esc(it.cover)}" alt="" width="64" loading="lazy" decoding="async"></a>` : '';
     return `<li class="wk-item${cover ? ' has-cover' : ''}">${cover}<div class="wk-main"><h3><a href="${esc(main?.url || '#')}"${main && /^https?:/.test(main.url) ? ' rel="noopener"' : ''}>${esc(title)}</a></h3>${year ? `<span class="wk-year">${esc(year)}</span>` : ''}${note ? `<p>${esc(note)}</p>` : ''}${author}</div><div class="wk-links">${links.map(l => `<a href="${esc(l.url)}"${l.dl ? ' download' : /^https?:/.test(l.url) ? ' rel="noopener"' : ''}>${esc(l.label)}</a>`).join('')}</div></li>`;
   };
-  const sections = works.sections.map(s => ({ ...s, html: s.items.map(row).join('') }));
+  // Bookshop cards: books on Amazon (shop) and free downloads (free)
+  const splitTitle = t => { const i = t.indexOf(': '); return i > 0 ? [t.slice(0, i), t.slice(i + 2)] : [t, '']; };
+  const formatsOf = note => ['Kindle', 'Paperback', 'Hardcover', 'Audiobook'].filter(f => new RegExp(f, 'i').test(note || ''));
+  const shopItems = [];
+  const card = (it, sec, big = false) => {
+    const lib = byId.get(it.lib);
+    if (!lib) { console.warn(`works.json: no library entry ${it.lib}`); return ''; }
+    used.add(lib.id);
+    const [title, sub] = splitTitle(it.title || lib.title);
+    const note = it.note ?? lib.note ?? '';
+    const formats = formatsOf(note);
+    const series = (note.match(/(Jesus in All Nations series|Semetey series|Symposiums of the Lost Tribes Institute, Book \d)/) || [])[1] || '';
+    const links = [];
+    if (lib.file) links.push({ label: 'Free PDF', url: '/' + lib.file, dl: true });
+    if (lib.url) links.push({ label: /amazon\./.test(lib.url) ? 'Buy on Amazon' : host(lib.url), url: lib.url });
+    for (const l of it.links || []) if (!links.some(x => x.url === l.url)) links.push(l);
+    const main = links[0];
+    const ext = u => /^https?:/.test(u) ? ' rel="noopener"' : '';
+    const img = it.coverLarge || it.cover;
+    const blurb = it.blurb || (sec.free ? note : '');
+    if (sec.shop && !big) shopItems.push({ title: it.title || lib.title, url: lib.url, img, blurb });
+    return `<li class="bk${big ? ' bk-big' : ''}" data-tags="${esc((it.tags || []).join(' '))}">
+<a class="bk-cover" href="${esc(main.url)}"${ext(main.url)} tabindex="-1" aria-hidden="true">${img ? `<img src="${esc(img)}" alt="" loading="lazy" decoding="async">` : `<span class="bk-nocover">${esc(title)}</span>`}</a>
+<div class="bk-body">${series ? `<span class="kicker">${esc(series)}</span>` : ''}<h3><a href="${esc(main.url)}"${ext(main.url)}>${esc(title)}</a></h3>${sub ? `<p class="bk-sub">${esc(sub)}</p>` : ''}${blurb ? `<p class="bk-blurb">${esc(blurb)}</p>` : ''}
+${formats.length ? `<ul class="bk-formats" aria-label="Formats">${formats.map(f => `<li>${f}</li>`).join('')}</ul>` : ''}
+<div class="bk-buy">${links.map((l, i) => `<a class="${i === 0 ? 'btn primary' : 'bk-alt'}" href="${esc(l.url)}"${l.dl ? ' download' : ext(l.url)}>${esc(l.label)}</a>`).join('')}</div></div></li>`;
+  };
+  const isCard = (s, it) => (s.shop || s.free) && it.lib && /^book-/.test(it.lib);
+  const sections = works.sections.map(s => ({ ...s, html: s.items.filter(it => isCard(s, it)).map(it => card(it, s)).join('') || s.items.map(row).join(''), rows: s.shop || s.free ? s.items.filter(it => !isCard(s, it)).map(row).join('') : '' }));
+  const allShop = works.sections.filter(s => s.shop).flatMap(s => s.items.map(it => [it, s]));
+  const featured = (works.featured || []).map(id => allShop.find(([it]) => it.lib === id)).filter(Boolean).map(([it, s]) => card(it, s, true)).join('');
   // essays section (all essays by him, newest first)
   const restEssays = myEssays.filter(e => !shownEssays.has(e.slug));
   const essaysHtml = restEssays.map(e => `<li class="wk-item"><div class="wk-main"><h3><a href="/essays/${e.slug}.html">${esc(e.title)}</a></h3><span class="wk-year">${fmt(e.date)}</span>${e.summary ? `<p>${esc(e.summary)}</p>` : ''}</div><div class="wk-links"><a href="/essays/${e.slug}.html">Read here</a></div></li>`).join('');
@@ -175,16 +205,73 @@ if (fs.existsSync(worksPath)) {
   const missing = library.filter(e => mine(e) && !used.has(e.id));
   if (missing.length) console.warn('works.json does not list:', missing.map(e => e.id).join(', '));
   const count = sections.reduce((n, s) => n + s.items.length, 0);
-  const toc = sections.map(s => `<a href="#${s.id}">${esc(s.title)} <b>${s.items.length}</b></a>`).join('');
-  const body = `<p class="eyebrow">Works</p><h1>Works by Richard Hewitt (Risbek)</h1><p class="lead">Books, papers, essays, screenplays and videos in one place. Some can be read or downloaded here; the rest link to where they are published.</p>
-<nav class="wk-toc" aria-label="Sections">${toc}</nav>
-${sections.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-head"><h2>${esc(s.title)}</h2></div>${s.intro ? `<p class="muted">${esc(s.intro)}</p>` : ''}<ul class="wk-list">${s.html}</ul></section>`).join('\n')}
-<p class="muted" style="margin-top:40px">Also on ${works.elsewhere.map(l => `<a href="${esc(l.url)}" rel="noopener">${esc(l.label)}</a>`).join(', ')}.</p>`;
+  const shopSecs = sections.filter(s => s.shop), freeSecs = sections.filter(s => s.free), restSecs = sections.filter(s => !s.shop && !s.free);
+  const nBooks = shopSecs.reduce((n, s) => n + s.items.length, 0);
+  const shelves = works.shelves || [];
+  const filter = shelves.length ? `<div class="bk-filter" role="group" aria-label="Browse by shelf"><button type="button" class="on" data-shelf="">All books</button>${shelves.map(([id, label]) => `<button type="button" data-shelf="${esc(id)}">${esc(label)}</button>`).join('')}</div>` : '';
+  const toc = restSecs.map(s => `<a href="#${s.id}">${esc(s.title)} <b>${s.items.length}</b></a>`).join('');
+  const body = `<header class="shop-hero"><div><p class="eyebrow">Bookshop</p><h1>Books by Richard Hewitt (Risbek)</h1><p class="lead">History, Scripture and the oral traditions of Asia, written from nineteen years in Kyrgyzstan and from symposiums across the continent. ${nBooks} books in print, Kindle and audio, and a free reading room of books, papers and essays.</p>
+<p class="shop-cta"><a class="btn primary" href="#shelves">Browse the shelves</a><a class="btn" href="#kyrgyz-russian">Free reading room</a></p></div></header>
+${featured ? `<section class="wk-sec" id="start-here"><div class="section-head"><h2>Start here</h2><span class="muted">Three books that open the subject</span></div><ul class="bk-grid bk-featured">${featured}</ul></section>` : ''}
+<section class="wk-sec" id="shelves"><div class="section-head"><h2>The shelves</h2><a href="${esc(works.elsewhere[0].url)}" rel="noopener">Amazon author page →</a></div>
+${filter}
+${shopSecs.map(s => `<div class="shelf" id="${s.id}"><h3 class="shelf-h">${esc(s.title)}</h3>${s.intro ? `<p class="muted">${esc(s.intro)}</p>` : ''}<ul class="bk-grid">${s.html}</ul></div>`).join('\n')}
+<p class="bk-none muted" hidden>No books on this shelf yet.</p>
+<p class="muted shop-note">Books are sold and shipped by Amazon, where you will find current prices for each format.</p>
+<p class="shop-net"><span><b>More from the LTI network.</b> Books by Howard Ha-Sung Chung, Mikkel S. Kragh, Arimasa Kubo and Susanne Ratcliffe are on the Institute's Books page.</span><a class="btn" href="/books.html#network">Books from the LTI network</a></p></section>
+<aside class="shop-band"><div><h2>For classes, libraries and reading groups</h2><p>Teaching a course on biblical history, Central Asia or world religions, or choosing the next book for a study group? Write to Richard about using these books, or about a talk for your class or group.</p></div><a class="btn" href="/contact.html">Write to Richard</a></aside>
+${freeSecs.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-head"><h2>Free reading room: ${esc(s.title.replace(/^In /, 'in '))}</h2></div>${s.intro ? `<p class="muted">${esc(s.intro)}</p>` : ''}<ul class="bk-grid bk-free">${s.html}</ul>${s.rows ? `<h3 class="shelf-h" style="margin-top:30px">Shorter pieces</h3><ul class="wk-list">${s.rows}</ul>` : ''}</section>`).join('\n')}
+<section class="wk-sec" id="study"><div class="section-head"><h2>From the study</h2></div><p class="muted">Papers, essays, screenplays and talks, free to read and watch.</p><nav class="wk-toc" aria-label="Sections">${toc}</nav></section>
+${restSecs.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-head"><h2>${esc(s.title)}</h2></div>${s.intro ? `<p class="muted">${esc(s.intro)}</p>` : ''}<ul class="wk-list">${s.html}</ul></section>`).join('\n')}
+<p class="muted" style="margin-top:40px">Also on ${works.elsewhere.map(l => `<a href="${esc(l.url)}" rel="noopener">${esc(l.label)}</a>`).join(', ')}.</p>
+<script>(function(){var bs=document.querySelectorAll('.bk-filter button');if(!bs.length)return;var none=document.querySelector('.bk-none');bs.forEach(function(b){b.setAttribute('aria-pressed',b.classList.contains('on'));b.addEventListener('click',function(){var t=b.dataset.shelf,n=0;bs.forEach(function(x){x.classList.toggle('on',x===b);x.setAttribute('aria-pressed',x===b)});document.querySelectorAll('#shelves .shelf').forEach(function(sh){var v=0;sh.querySelectorAll('.bk').forEach(function(k){var ok=!t||(' '+k.dataset.tags+' ').indexOf(' '+t+' ')>-1;k.hidden=!ok;if(ok)v++});sh.hidden=!v;n+=v});none.hidden=n>0})})})();</script>
+<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'ItemList', name: 'Books by Richard Hewitt (Risbek)', itemListElement: shopItems.map((b, i) => ({ '@type': 'ListItem', position: i + 1, item: { '@type': 'Book', name: b.title, author: { '@type': 'Person', name: 'Richard Hewitt (Risbek)' }, publisher: { '@type': 'Organization', name: 'Lost Tribes Institute' }, url: b.url, ...(b.img ? { image: SITE + b.img } : {}), ...(b.blurb ? { description: b.blurb } : {}) } })) }).replace(/</g, '\\u003c')}</script>`;
   const css = `<style>
-.wk-toc{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 8px}
+.shop-hero{background:var(--deep);color:var(--on-deep);border-radius:8px;padding:clamp(28px,5vw,56px)}
+.shop-hero h1{color:var(--on-deep)}.shop-hero .eyebrow{color:#E59A6B}
+.shop-hero .lead{color:var(--on-deep);opacity:.86}
+.shop-cta{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0}
+.shop-hero .btn{border-color:var(--on-deep);color:var(--on-deep)}
+.shop-hero .btn.primary{background:var(--on-deep);color:var(--deep)}
+.shop-hero .btn:hover{background:#E59A6B;border-color:#E59A6B;color:#17232B}
+.wk-sec{margin-top:52px;scroll-margin-top:80px}
+.shelf{margin-top:30px;scroll-margin-top:80px}
+.shelf-h{font-size:1.25rem;margin:0 0 4px}
+.shelf>.muted{margin:0;font-size:15px}
+.bk-filter{display:flex;flex-wrap:wrap;gap:8px}
+.bk-filter button{font:500 14px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:7px 14px;cursor:pointer}
+.bk-filter button:hover{border-color:var(--accent)}
+.bk-filter button.on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.bk-grid{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(min(100%,15rem),1fr))}
+.bk{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.bk[hidden]{display:none}
+.bk-cover{display:flex;align-items:center;justify-content:center;height:250px;background:var(--bg);border-radius:4px;padding:14px}
+.bk-cover img{max-height:100%;max-width:100%;width:auto;height:auto;box-shadow:0 3px 14px rgba(0,0,0,.25);transition:transform .3s ease}
+.bk-cover:hover img{transform:translateY(-4px)}
+.bk-nocover{font-family:var(--display);text-align:center;color:var(--ink-2)}
+.bk-body{display:flex;flex-direction:column;gap:6px;flex:1;min-width:0}
+.bk h3{font-size:1.14rem}.bk h3 a{color:var(--ink);text-decoration:none}.bk h3 a:hover{color:var(--accent)}
+.bk-sub{margin:0;font-size:14px;color:var(--ink-2);font-style:italic}
+.bk-blurb{margin:2px 0 0;font-size:14.5px;color:var(--ink-2)}
+.bk-formats{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:5px}
+.bk-formats li{font-family:var(--mono);font-size:11px;letter-spacing:.03em;color:var(--ink-2);border:1px solid var(--rule);border-radius:3px;padding:1px 6px}
+.bk-buy{margin-top:auto;padding-top:10px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bk-buy .btn{padding:9px 14px;font-size:14px}
+.bk-alt{font-size:13.5px}
+.bk-featured{grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr))}
+.bk-big{flex-direction:row;padding:20px;border-color:var(--ink)}
+.bk-big .bk-cover{flex:0 0 132px;height:auto;min-height:200px;padding:0;background:none;align-items:flex-start}
+.bk-big h3{font-size:1.3rem}
+.bk-free .bk-cover{height:190px}
+.shop-note{font-size:14px;margin-top:22px}
+.shop-net{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 28px;margin:22px 0 0;padding:18px 20px;border:1px solid var(--rule);border-radius:6px;background:var(--surface)}
+.shop-net span{max-width:62ch;color:var(--ink-2)}.shop-net b{color:var(--ink)}
+.shop-band{margin-top:52px;background:var(--accent-soft);border-radius:8px;padding:clamp(22px,4vw,36px);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px 32px}
+.shop-band h2{font-size:1.45rem}.shop-band p{margin:0;max-width:60ch;color:var(--ink-2)}
+.shop-band .btn{flex:none}
+.wk-toc{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
 .wk-toc a{border:1px solid var(--rule);border-radius:999px;padding:5px 12px;font-size:14px;text-decoration:none;color:var(--ink)}
 .wk-toc a b{font-family:var(--mono);font-weight:500;color:var(--accent);margin-left:4px}
-.wk-sec{margin-top:44px;scroll-margin-top:80px}
 .wk-list{list-style:none;margin:8px 0 0;padding:0}
 .wk-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 24px;padding:14px 0;border-bottom:1px solid var(--rule)}
 .wk-item.has-cover{grid-template-columns:64px minmax(0,1fr) auto}
@@ -197,9 +284,10 @@ ${sections.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-he
 .wk-by{display:block;font-size:13.5px;color:var(--ink-3);margin-top:3px}
 .wk-links{display:flex;flex-wrap:wrap;gap:6px;align-content:start;justify-content:flex-end}
 .wk-links a{font-size:13px;border:1px solid currentColor;border-radius:999px;padding:2px 10px;white-space:nowrap}
-@media (max-width:720px){.wk-item{grid-template-columns:1fr}.wk-item.has-cover{grid-template-columns:52px minmax(0,1fr)}.wk-cover,.wk-cover img{width:52px}.wk-item.has-cover .wk-links{grid-column:2}.wk-links{justify-content:flex-start}}
+@media (max-width:720px){.wk-item{grid-template-columns:1fr}.wk-item.has-cover{grid-template-columns:52px minmax(0,1fr)}.wk-cover,.wk-cover img{width:52px}.wk-item.has-cover .wk-links{grid-column:2}.wk-links{justify-content:flex-start}.bk-big{flex-direction:column}.bk-big .bk-cover{flex:none;min-height:0;height:220px;align-items:center}}
+@media (prefers-reduced-motion:reduce){.bk-cover:hover img{transform:none}}
 </style>`;
-  const html = page({ title: 'Works by Richard Hewitt (Risbek) — Lost Tribes Institute', desc: `All ${count} works by Richard Hewitt (Risbek): books, papers, essays, screenplays and videos.`, url: '/risbek', body })
+  const html = page({ title: 'Bookshop: books by Richard Hewitt (Risbek) — Lost Tribes Institute', desc: `Books on history, Scripture and the oral traditions of Asia by Richard Hewitt (Risbek): ${nBooks} books on Amazon, plus free books, papers and essays to read here.`, url: '/risbek', body })
     .replace('</head>', css + '</head>')
     .replace(' aria-current="page"', '');
   fs.writeFileSync(path.join(OUT, 'risbek.html'), html);
