@@ -217,7 +217,8 @@ ${featured ? `<section class="wk-sec" id="start-here"><div class="section-head">
 ${filter}
 ${shopSecs.map(s => `<div class="shelf" id="${s.id}"><h3 class="shelf-h">${esc(s.title)}</h3>${s.intro ? `<p class="muted">${esc(s.intro)}</p>` : ''}<ul class="bk-grid">${s.html}</ul></div>`).join('\n')}
 <p class="bk-none muted" hidden>No books on this shelf yet.</p>
-<p class="muted shop-note">Books are sold and shipped by Amazon, where you will find current prices for each format.</p></section>
+<p class="muted shop-note">Books are sold and shipped by Amazon, where you will find current prices for each format.</p>
+<p class="shop-net"><span><b>More from the LTI network.</b> Books by Howard Ha-Sung Chung, Mikkel S. Kragh, Arimasa Kubo, Susanne Ratcliffe and Margot Crossing are on the Institute's Books page.</span><a class="btn" href="/books.html#network">Books from the LTI network</a></p></section>
 <aside class="shop-band"><div><h2>For classes, libraries and reading groups</h2><p>Teaching a course on biblical history, Central Asia or world religions, or choosing the next book for a study group? Write to Richard about using these books, or about a talk for your class or group.</p></div><a class="btn" href="/contact.html">Write to Richard</a></aside>
 ${freeSecs.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-head"><h2>Free reading room: ${esc(s.title.replace(/^In /, 'in '))}</h2></div>${s.intro ? `<p class="muted">${esc(s.intro)}</p>` : ''}<ul class="bk-grid bk-free">${s.html}</ul>${s.rows ? `<h3 class="shelf-h" style="margin-top:30px">Shorter pieces</h3><ul class="wk-list">${s.rows}</ul>` : ''}</section>`).join('\n')}
 <section class="wk-sec" id="study"><div class="section-head"><h2>From the study</h2></div><p class="muted">Papers, essays, screenplays and talks, free to read and watch.</p><nav class="wk-toc" aria-label="Sections">${toc}</nav></section>
@@ -263,6 +264,8 @@ ${restSecs.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-he
 .bk-big h3{font-size:1.3rem}
 .bk-free .bk-cover{height:190px}
 .shop-note{font-size:14px;margin-top:22px}
+.shop-net{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 28px;margin:22px 0 0;padding:18px 20px;border:1px solid var(--rule);border-radius:6px;background:var(--surface)}
+.shop-net span{max-width:62ch;color:var(--ink-2)}.shop-net b{color:var(--ink)}
 .shop-band{margin-top:52px;background:var(--accent-soft);border-radius:8px;padding:clamp(22px,4vw,36px);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px 32px}
 .shop-band h2{font-size:1.45rem}.shop-band p{margin:0;max-width:60ch;color:var(--ink-2)}
 .shop-band .btn{flex:none}
