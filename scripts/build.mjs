@@ -266,10 +266,11 @@ if (redirects.length) fs.appendFileSync(path.join(OUT, '_redirects'), redirects.
 const library = JSON.parse(fs.readFileSync(path.join(ROOT, 'assets', 'library.json'), 'utf8'));
 const YT = 'https://www.youtube.com/@LostTribesInstitute';
 const IG = 'https://www.instagram.com/lost.tribes.cafe/';
+const X = 'https://x.com/LostTribesCafe';
 const followBox = `<section class="follow" aria-label="Follow the Institute"><div class="in">
 <div><h2>New essays and videos by email</h2><p>We write only when something new is published.</p>
 <div id="sf-signup" class="sf-signup"></div><script src="https://cdn.sendfox.com/js/embed.js" data-form="3zk5xw" data-api="https://sendfox.com" data-target="#sf-signup" async></script></div>
-<div><h2>Watch on YouTube</h2><p>More than 27,000 people subscribe to the Institute's talks and interviews.</p><p class="follow-links"><a class="btn" href="${YT}?sub_confirmation=1" rel="noopener">Subscribe on YouTube</a><a href="${IG}" rel="noopener">Instagram</a><a href="/essays.xml">Essays by RSS</a></p></div>
+<div><h2>Watch on YouTube</h2><p>More than 27,000 people subscribe to the Institute's talks and interviews.</p><p class="follow-links"><a class="btn" href="${YT}?sub_confirmation=1" rel="noopener">Subscribe on YouTube</a><a href="${IG}" rel="noopener">Instagram</a><a href="${X}" rel="noopener">X</a><a href="/essays.xml">Essays by RSS</a></p></div>
 </div></section>
 `;
 const bookData = html => {
@@ -288,9 +289,9 @@ for (const f of pages) {
   let h = fs.readFileSync(file, 'utf8');
   if (!h.includes('application/rss+xml')) h = h.replace('<link rel="preconnect"', '<link rel="alternate" type="application/rss+xml" title="Lost Tribes Institute essays" href="/essays.xml"><link rel="preconnect"');
   if (!NO_FOLLOW.has(f) && !h.includes('class="follow"')) h = h.replace('<footer class="foot">', followBox + '<footer class="foot">');
-  // Instagram joins YouTube in the footer's "Elsewhere" list and in the site details on the home page
-  if (!h.includes(`<li><a href="${IG}"`)) h = h.replace(`<li><a href="${YT}" rel="noopener">YouTube</a></li>`, `<li><a href="${YT}" rel="noopener">YouTube</a></li><li><a href="${IG}" rel="noopener">Instagram</a></li>`);
-  if (f === 'index.html') h = h.replace(`"sameAs": ["${YT}",`, `"sameAs": ["${YT}", "${IG}",`);
+  // Instagram and X join YouTube in the footer's "Elsewhere" list and in the site details on the home page
+  if (!h.includes(`<li><a href="${IG}"`)) h = h.replace(`<li><a href="${YT}" rel="noopener">YouTube</a></li>`, `<li><a href="${YT}" rel="noopener">YouTube</a></li><li><a href="${IG}" rel="noopener">Instagram</a></li><li><a href="${X}" rel="noopener">X</a></li>`);
+  if (f === 'index.html') h = h.replace(`"sameAs": ["${YT}",`, `"sameAs": ["${YT}", "${IG}", "${X}",`);
   if (f === 'index.html') {
     h = h.replace(/<b>\d+<\/b><span>books, papers &amp; videos<\/span>/, `<b>${library.length}</b><span>books, papers &amp; videos</span>`);
     h = h.replace('</head>', ld({ '@context': 'https://schema.org', '@type': 'WebSite', name: 'Lost Tribes Institute', url: `${SITE}/` }) + '</head>');
