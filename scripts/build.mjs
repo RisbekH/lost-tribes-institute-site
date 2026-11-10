@@ -6,6 +6,8 @@ import path from 'node:path';
 import { marked } from 'marked';
 import markedFootnote from 'marked-footnote';
 import yaml from 'js-yaml';
+import { Resvg } from '@resvg/resvg-js';
+import { execSync } from 'node:child_process';
 
 marked.use(markedFootnote({ description: 'Notes' }));
 
@@ -71,7 +73,7 @@ const shareRow = e => {
 };
 const shareScript = `<script>document.querySelectorAll('.share-copy').forEach(b=>b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(b.dataset.url);b.textContent='Link copied';}catch(_){prompt('Copy this link:',b.dataset.url);}setTimeout(()=>b.textContent='Copy link',2500);}));</script>`;
 
-const page = ({ title, desc, url, body, type = 'website' }) => `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${SITE}${url}"><meta property="og:type" content="${type}"><meta property="og:site_name" content="Lost Tribes Institute"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${SITE}${url}"><meta property="og:image" content="${SITE}/images/brand/lti-banner.jpg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/images/brand/lti-mark-180.png"><link rel="alternate" type="application/rss+xml" title="Lost Tribes Institute essays" href="/essays.xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/site.css"><style>
+const page = ({ title, desc, url, body, type = 'website', image = '', head = '' }) => `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${SITE}${url}"><meta property="og:type" content="${type}"><meta property="og:site_name" content="Lost Tribes Institute"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${SITE}${url}"><meta property="og:image" content="${image || `${SITE}/images/brand/lti-banner.jpg`}"><meta name="twitter:card" content="summary_large_image">${head}<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/images/brand/lti-mark-180.png"><link rel="alternate" type="application/rss+xml" title="Lost Tribes Institute essays" href="/essays.xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/site.css"><style>
 .es-list{list-style:none;margin:28px 0 0;padding:0;border-top:2px solid var(--ink)}
 .es-item{display:grid;grid-template-columns:minmax(0,11rem) minmax(0,1fr);gap:4px 28px;padding:24px 0;border-bottom:1px solid var(--rule)}
 .es-item time{font-family:var(--mono);font-size:12.5px;color:var(--accent);padding-top:6px}
@@ -108,6 +110,42 @@ ${body.includes('share-copy') ? shareScript : ''}
 </body></html>
 `;
 
+// 3b. A share image for every essay (the picture shown when a link is posted on X, Facebook, WhatsApp...)
+const FONTS = path.join(ROOT, 'scripts', 'fonts');
+const markB64 = fs.readFileSync(path.join(ROOT, 'images', 'brand', 'lti-mark-180.png')).toString('base64');
+const wrapText = (text, max) => {
+  const lines = []; let line = '';
+  for (const w of text.split(/\s+/)) {
+    if (line && (line + ' ' + w).length > max) { lines.push(line); line = w; } else line = line ? line + ' ' + w : w;
+  }
+  if (line) lines.push(line);
+  return lines;
+};
+const shareImage = e => {
+  const t = e.title.trim();
+  const [size, max] = t.length <= 34 ? [84, 21] : t.length <= 70 ? [68, 26] : t.length <= 110 ? [56, 32] : [47, 38];
+  let lines = wrapText(t, max);
+  if (lines.length > 5) { lines = lines.slice(0, 5); lines[4] = lines[4].replace(/[\s,:;.-]*$/, '') + '…'; }
+  const lh = Math.round(size * 1.16), top = 300 - (lines.length * lh) / 2 + size * 0.8;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#17232B"/><rect width="1200" height="10" fill="#E59A6B"/>
+<defs><clipPath id="c"><circle cx="102" cy="84" r="32"/></clipPath></defs><image x="70" y="52" width="64" height="64" xlink:href="data:image/png;base64,${markB64}" clip-path="url(#c)"/>
+<text x="152" y="94" font-family="Figtree" font-weight="600" font-size="26" letter-spacing="3" fill="#E6ECEE">LOST TRIBES INSTITUTE</text>
+${lines.map((l, i) => `<text x="70" y="${Math.round(top + i * lh)}" font-family="Young Serif" font-size="${size}" fill="#FFFFFF">${esc(l)}</text>`).join('\n')}
+<text x="70" y="572" font-family="Figtree" font-weight="500" font-size="27" fill="#E59A6B">${esc(e.author.replace(/^Lost Tribes Institute's /, ''))}</text>
+<text x="1130" y="572" text-anchor="end" font-family="Figtree" font-weight="500" font-size="27" fill="#A9B6BC">losttribesinstitute.com</text>
+</svg>`;
+  return new Resvg(svg, { font: { fontFiles: [path.join(FONTS, 'YoungSerif-Regular.ttf'), path.join(FONTS, 'Figtree.ttf')], loadSystemFonts: true, defaultFontFamily: 'Figtree' } }).render().asPng();
+};
+fs.mkdirSync(path.join(OUT, 'images', 'og'), { recursive: true });
+for (const e of essays) {
+  try { fs.writeFileSync(path.join(OUT, 'images', 'og', `${e.slug}.png`), shareImage(e)); e.image = `${SITE}/images/og/${e.slug}.png`; }
+  catch (err) { console.warn(`No share image for ${e.slug}: ${err.message}`); }
+}
+// Details search engines read to list an essay as an article
+const ld = o => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\\u003c')}</script>`;
+const articleData = e => ld({ '@context': 'https://schema.org', '@type': 'Article', headline: e.title.slice(0, 110), description: e.summary || undefined, datePublished: iso(e.date), author: { '@type': 'Person', name: e.author.replace(/^Lost Tribes Institute's /, '') }, publisher: { '@type': 'NGO', name: 'Lost Tribes Institute', url: `${SITE}/`, logo: { '@type': 'ImageObject', url: `${SITE}/images/brand/lti-mark-180.png` } }, image: e.image || `${SITE}/images/brand/lti-banner.jpg`, mainEntityOfPage: `${SITE}/essays/${e.slug}` });
+
 // 4. Essays list
 const list = essays.length
   ? `<ol class="es-list" reversed>${essays.map((e, i) => `<li class="es-item${i === 0 ? ' latest' : ''}"><time datetime="${iso(e.date)}">${fmt(e.date)}</time><div><h2><a href="/essays/${e.slug}.html">${esc(e.title)}</a></h2>${e.summary ? `<p>${esc(e.summary)}</p>` : ''}<div class="by">${esc(e.author)}</div></div></li>`).join('')}</ol>`
@@ -129,6 +167,8 @@ essays.forEach((e, i) => {
     desc: e.summary || e.title,
     url: `/essays/${e.slug}`,
     type: 'article',
+    image: e.image,
+    head: articleData(e),
     // layout: wide lets an essay (such as a reading list) bring its own full-width header
     body: e.layout === 'wide' ? `<article class="essay essay-wide"><div class="body">${e.html}</div>${shareRow(e)}${pager}</article>` : `<article class="essay"><p class="eyebrow"><a href="/essays.html" style="text-decoration:none">Essays</a></p><h1>${esc(e.title)}</h1><p class="dateline"><time datetime="${iso(e.date)}">${fmt(e.date)}</time> · ${esc(e.author)}</p><div class="body">${e.html}</div>${shareRow(e)}${pager}</article>`,
   }));
@@ -221,5 +261,57 @@ const extra = [`  <url><loc>${SITE}/risbek</loc></url>`, `  <url><loc>${SITE}/es
 fs.writeFileSync(smPath, fs.readFileSync(smPath, 'utf8').replace('</urlset>', `${extra}\n</urlset>`));
 
 if (redirects.length) fs.appendFileSync(path.join(OUT, '_redirects'), redirects.join('\n') + '\n');
+
+// 7. Finishing pass over every page: follow box, feed link, live counts, book and site details
+const library = JSON.parse(fs.readFileSync(path.join(ROOT, 'assets', 'library.json'), 'utf8'));
+const YT = 'https://www.youtube.com/@LostTribesInstitute';
+const IG = 'https://www.instagram.com/lost.tribes.cafe/';
+const followBox = `<section class="follow" aria-label="Follow the Institute"><div class="in">
+<div><h2>New essays and videos by email</h2><p>We write only when something new is published.</p>
+<div id="sf-signup" class="sf-signup"></div><script src="https://cdn.sendfox.com/js/embed.js" data-form="3zk5xw" data-api="https://sendfox.com" data-target="#sf-signup" async></script></div>
+<div><h2>Watch on YouTube</h2><p>More than 27,000 people subscribe to the Institute's talks and interviews.</p><p class="follow-links"><a class="btn" href="${YT}?sub_confirmation=1" rel="noopener">Subscribe on YouTube</a><a href="${IG}" rel="noopener">Instagram</a><a href="/essays.xml">Essays by RSS</a></p></div>
+</div></section>
+`;
+const bookData = html => {
+  const items = [...html.matchAll(/<article class="card book[^"]*">([\s\S]*?)<\/article>/g)].map(m => {
+    const a = m[1].match(/<h3><a href="([^"]+)"[^>]*>([\s\S]*?)<\/a><\/h3>/); if (!a) return null;
+    const img = m[1].match(/<img src="([^"]+)"/), by = m[1].match(/<span class="kicker">([^<]+)<\/span>/), about = m[1].match(/<p>([\s\S]*?)<\/p>/);
+    const plain = s => s.replace(/<[^>]+>/g, '').replace(/&#x27;/g, "'").replace(/&amp;/g, '&').replace(/&quot;/g, '"');
+    return { '@type': 'Book', name: plain(a[2]), url: a[1], image: img ? (img[1].startsWith('/') ? SITE + img[1] : img[1]) : undefined, author: by ? { '@type': 'Person', name: plain(by[1]) } : undefined, description: about ? plain(about[1]) : undefined };
+  }).filter(Boolean);
+  return items.length ? ld({ '@context': 'https://schema.org', '@type': 'ItemList', name: 'Books from the Lost Tribes Institute', itemListElement: items.map((b, i) => ({ '@type': 'ListItem', position: i + 1, item: b })) }) : '';
+};
+const NO_FOLLOW = new Set(['404.html', 'thanks.html']);
+const pages = [...fs.readdirSync(OUT).filter(f => f.endsWith('.html')).map(f => f), ...fs.readdirSync(path.join(OUT, 'essays')).map(f => `essays/${f}`)];
+for (const f of pages) {
+  const file = path.join(OUT, f);
+  let h = fs.readFileSync(file, 'utf8');
+  if (!h.includes('application/rss+xml')) h = h.replace('<link rel="preconnect"', '<link rel="alternate" type="application/rss+xml" title="Lost Tribes Institute essays" href="/essays.xml"><link rel="preconnect"');
+  if (!NO_FOLLOW.has(f) && !h.includes('class="follow"')) h = h.replace('<footer class="foot">', followBox + '<footer class="foot">');
+  // Instagram joins YouTube in the footer's "Elsewhere" list and in the site details on the home page
+  if (!h.includes(`<li><a href="${IG}"`)) h = h.replace(`<li><a href="${YT}" rel="noopener">YouTube</a></li>`, `<li><a href="${YT}" rel="noopener">YouTube</a></li><li><a href="${IG}" rel="noopener">Instagram</a></li>`);
+  if (f === 'index.html') h = h.replace(`"sameAs": ["${YT}",`, `"sameAs": ["${YT}", "${IG}",`);
+  if (f === 'index.html') {
+    h = h.replace(/<b>\d+<\/b><span>books, papers &amp; videos<\/span>/, `<b>${library.length}</b><span>books, papers &amp; videos</span>`);
+    h = h.replace('</head>', ld({ '@context': 'https://schema.org', '@type': 'WebSite', name: 'Lost Tribes Institute', url: `${SITE}/` }) + '</head>');
+  }
+  if (f === 'library.html') h = h.replace(/\b\d+ books, papers, articles and videos/g, `${library.length} books, papers, articles and videos`);
+  if (f === 'books.html') h = h.replace('</head>', bookData(h) + '</head>');
+  fs.writeFileSync(file, h);
+}
+
+// Sitemap dates: the day each hand-made page last changed (skipped when the build has no page history)
+try {
+  if (execSync('git rev-parse --is-shallow-repository', { cwd: ROOT, encoding: 'utf8' }).trim() === 'false') {
+    let sm = fs.readFileSync(smPath, 'utf8');
+    sm = sm.replace(/<url><loc>https:\/\/losttribesinstitute\.com\/([a-z]*)<\/loc><lastmod>[^<]+<\/lastmod><\/url>/g, (all, name) => {
+      const src = `${name || 'index'}.html`;
+      if (!fs.existsSync(path.join(ROOT, src))) return all;
+      const day = execSync(`git log -1 --format=%cs -- ${src}`, { cwd: ROOT, encoding: 'utf8' }).trim();
+      return day ? `<url><loc>${SITE}/${name}</loc><lastmod>${day}</lastmod></url>` : all;
+    });
+    fs.writeFileSync(smPath, sm);
+  }
+} catch { /* keep the dates already in sitemap.xml */ }
 
 console.log(`Built ${essays.length} essay(s) into dist/`);

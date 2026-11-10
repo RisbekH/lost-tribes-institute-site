@@ -46,4 +46,6 @@ draft: false
   , which he suggests absorbed Christian ideas through the Chinese monk Shandao.
 * The “three Creator gods” (Zoka Sanshin), the three-pillar torii, and everyday threes such as triangular omusubi, which he links to the Trinity.
 
-**What it means now.** He closes on God’s purpose for the next generation in Japan. He takes up whether Japanese people with Israelite roots should return to Israel. His conclusion is that the symbols matter less than the faith they point to. Look for the interview on our YouTube Channel @LostTribesInstitute
+**What it means now.** He closes on God’s purpose for the next generation in Japan. He takes up whether Japanese people with Israelite roots should return to Israel. His conclusion is that the symbols matter less than the faith they point to. 
+
+**Watch the full interview:** [Israelites in Ancient Japan? Arimasa Kubo Interview](https://www.youtube.com/watch?v=Yyieml-qL4Y) on the Lost Tribes Institute YouTube channel.
