@@ -289,7 +289,7 @@ for (const f of pages) {
   if (!h.includes('application/rss+xml')) h = h.replace('<link rel="preconnect"', '<link rel="alternate" type="application/rss+xml" title="Lost Tribes Institute essays" href="/essays.xml"><link rel="preconnect"');
   if (!NO_FOLLOW.has(f) && !h.includes('class="follow"')) h = h.replace('<footer class="foot">', followBox + '<footer class="foot">');
   // Instagram joins YouTube in the footer's "Elsewhere" list and in the site details on the home page
-  if (!h.includes(IG)) h = h.replace(`<li><a href="${YT}" rel="noopener">YouTube</a></li>`, `<li><a href="${YT}" rel="noopener">YouTube</a></li><li><a href="${IG}" rel="noopener">Instagram</a></li>`);
+  if (!h.includes(`<li><a href="${IG}"`)) h = h.replace(`<li><a href="${YT}" rel="noopener">YouTube</a></li>`, `<li><a href="${YT}" rel="noopener">YouTube</a></li><li><a href="${IG}" rel="noopener">Instagram</a></li>`);
   if (f === 'index.html') h = h.replace(`"sameAs": ["${YT}",`, `"sameAs": ["${YT}", "${IG}",`);
   if (f === 'index.html') {
     h = h.replace(/<b>\d+<\/b><span>books, papers &amp; videos<\/span>/, `<b>${library.length}</b><span>books, papers &amp; videos</span>`);
