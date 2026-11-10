@@ -16,6 +16,17 @@ const SKIP = new Set(['dist', 'node_modules', 'content', 'scripts', '.git', '.gi
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
+// Structured data (schema.org) so search engines and AI answer engines know who wrote what
+const ld = o => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\\u003c')}</script>`;
+const ORG = { '@type': 'NGO', '@id': `${SITE}/#org`, name: 'Lost Tribes Institute', url: `${SITE}/`, logo: { '@type': 'ImageObject', url: `${SITE}/images/brand/lti-mark-180.png` } };
+const PEOPLE = {
+  hewitt: { '@type': 'Person', '@id': `${SITE}/risbek#person`, name: 'Richard Hewitt', alternateName: ['Risbek', 'Richard Hewitt (Risbek)'], url: `${SITE}/risbek`, affiliation: { '@id': `${SITE}/#org` }, sameAs: ['https://www.amazon.com/author/richardhewitt', 'https://losttribesinstitute.academia.edu/RichardRisbekHewitt'] },
+  crossing: { '@type': 'Person', '@id': `${SITE}/#margot-crossing`, name: 'Margot Crossing', jobTitle: 'Founder, Lost Tribes Institute', url: `${SITE}/#founder`, affiliation: { '@id': `${SITE}/#org` }, sameAs: ['https://losttribesinstitute.academia.edu/MargotCROSSING'] },
+};
+// The author line is typed by hand in the posting screen, so match on the name inside it
+const authorLd = a => /Crossing/.test(a) ? PEOPLE.crossing : /Hewitt|Risbek/.test(a) ? PEOPLE.hewitt : ORG;
+const crumbs = (...items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: `${SITE}${url}` })) });
+
 // 1. Copy the static site
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
@@ -43,6 +54,11 @@ for (const file of fs.existsSync(dir) ? fs.readdirSync(dir) : []) {
     .replace(/['’‘`]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   if (slug !== fileSlug) redirects.push(`/essays/${encodeURI(fileSlug)}  /essays/${slug}  301`, `/essays/${encodeURI(fileSlug)}.html  /essays/${slug}  301`);
   essays.push({ slug, title: String(data.title), date, author: data.author || 'Richard Hewitt (Risbek)', summary: data.summary || '', layout: data.layout || '', html: marked.parse(body) });
+  // First photo in the essay becomes its share image (SVG drawings do not work on social sites)
+  const e = essays[essays.length - 1];
+  const img = e.html.match(/<img[^>]+src="(\/[^"]+\.(?:jpe?g|png|webp))"/i);
+  e.image = img ? SITE + encodeURI(decodeURI(img[1])) : `${SITE}/images/brand/lti-banner.jpg`;
+  e.words = e.html.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
 }
 essays.sort((a, b) => b.date - a.date || a.title.localeCompare(b.title));
 
@@ -71,7 +87,7 @@ const shareRow = e => {
 };
 const shareScript = `<script>document.querySelectorAll('.share-copy').forEach(b=>b.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(b.dataset.url);b.textContent='Link copied';}catch(_){prompt('Copy this link:',b.dataset.url);}setTimeout(()=>b.textContent='Copy link',2500);}));</script>`;
 
-const page = ({ title, desc, url, body, type = 'website' }) => `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${SITE}${url}"><meta property="og:type" content="${type}"><meta property="og:site_name" content="Lost Tribes Institute"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${SITE}${url}"><meta property="og:image" content="${SITE}/images/brand/lti-banner.jpg"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/images/brand/lti-mark-180.png"><link rel="alternate" type="application/rss+xml" title="Lost Tribes Institute essays" href="/essays.xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/site.css"><style>
+const page = ({ title, desc, url, body, type = 'website', image = `${SITE}/images/brand/lti-banner.jpg`, head = '' }) => `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>${esc(title)}</title><meta name="description" content="${esc(desc)}"><link rel="canonical" href="${SITE}${url}"><meta property="og:type" content="${type}"><meta property="og:site_name" content="Lost Tribes Institute"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${SITE}${url}"><meta property="og:image" content="${esc(image)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(desc)}">${head}<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/images/brand/lti-mark-180.png"><link rel="alternate" type="application/rss+xml" title="Lost Tribes Institute essays" href="/essays.xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/site.css"><style>
 .es-list{list-style:none;margin:28px 0 0;padding:0;border-top:2px solid var(--ink)}
 .es-item{display:grid;grid-template-columns:minmax(0,11rem) minmax(0,1fr);gap:4px 28px;padding:24px 0;border-bottom:1px solid var(--rule)}
 .es-item time{font-family:var(--mono);font-size:12.5px;color:var(--accent);padding-top:6px}
@@ -116,6 +132,9 @@ fs.writeFileSync(path.join(OUT, 'essays.html'), page({
   title: 'Essays — Lost Tribes Institute',
   desc: 'Short essays from the Lost Tribes Institute on peoples who trace their descent to ancient Israel, newest first.',
   url: '/essays',
+  head: ld({ '@context': 'https://schema.org', '@type': 'Blog', '@id': `${SITE}/essays#blog`, name: 'Lost Tribes Institute Essays', url: `${SITE}/essays`, description: 'Essays from the Lost Tribes Institute on peoples who trace their descent to ancient Israel.', publisher: ORG, inLanguage: 'en',
+    blogPost: essays.slice(0, 50).map(e => ({ '@type': 'BlogPosting', headline: e.title, url: `${SITE}/essays/${e.slug}`, datePublished: iso(e.date), author: { '@type': authorLd(e.author)['@type'], name: authorLd(e.author).name } })) })
+    + ld(crumbs(['Home', '/'], ['Essays', '/essays'])),
   body: `<p class="eyebrow">Essays</p><h1>Essays</h1><p class="lead">Short pieces from the Institute's ongoing research, newest first. <a href="/essays.xml">Follow by RSS</a>.</p>${list}`,
 }));
 
@@ -129,6 +148,10 @@ essays.forEach((e, i) => {
     desc: e.summary || e.title,
     url: `/essays/${e.slug}`,
     type: 'article',
+    image: e.image,
+    head: `<meta name="author" content="${esc(authorLd(e.author).name)}"><meta property="article:published_time" content="${iso(e.date)}"><meta property="article:author" content="${esc(authorLd(e.author).name)}">`
+      + ld({ '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${SITE}/essays/${e.slug}#article`, mainEntityOfPage: `${SITE}/essays/${e.slug}`, headline: e.title, description: e.summary || e.title, datePublished: iso(e.date), dateModified: iso(e.date), author: authorLd(e.author), publisher: ORG, image: e.image, wordCount: e.words, inLanguage: 'en', isPartOf: { '@id': `${SITE}/essays#blog` } })
+      + ld(crumbs(['Home', '/'], ['Essays', '/essays'], [e.title, `/essays/${e.slug}`])),
     // layout: wide lets an essay (such as a reading list) bring its own full-width header
     body: e.layout === 'wide' ? `<article class="essay essay-wide"><div class="body">${e.html}</div>${shareRow(e)}${pager}</article>` : `<article class="essay"><p class="eyebrow"><a href="/essays.html" style="text-decoration:none">Essays</a></p><h1>${esc(e.title)}</h1><p class="dateline"><time datetime="${iso(e.date)}">${fmt(e.date)}</time> · ${esc(e.author)}</p><div class="body">${e.html}</div>${shareRow(e)}${pager}</article>`,
   }));
@@ -199,7 +222,8 @@ ${sections.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-he
 .wk-links a{font-size:13px;border:1px solid currentColor;border-radius:999px;padding:2px 10px;white-space:nowrap}
 @media (max-width:720px){.wk-item{grid-template-columns:1fr}.wk-item.has-cover{grid-template-columns:52px minmax(0,1fr)}.wk-cover,.wk-cover img{width:52px}.wk-item.has-cover .wk-links{grid-column:2}.wk-links{justify-content:flex-start}}
 </style>`;
-  const html = page({ title: 'Works by Richard Hewitt (Risbek) — Lost Tribes Institute', desc: `All ${count} works by Richard Hewitt (Risbek): books, papers, essays, screenplays and videos.`, url: '/risbek', body })
+  const html = page({ title: 'Works by Richard Hewitt (Risbek) — Lost Tribes Institute', desc: `All ${count} works by Richard Hewitt (Risbek): books, papers, essays, screenplays and videos.`, url: '/risbek', body,
+    head: ld({ '@context': 'https://schema.org', '@type': 'ProfilePage', '@id': `${SITE}/risbek`, name: 'Works by Richard Hewitt (Risbek)', mainEntity: { ...PEOPLE.hewitt, description: 'Researcher, speaker and author with the Lost Tribes Institute. Lived in Kyrgyzstan from 1994 to 2013; writes on the Kyrgyz, Scripture and the nations.' } }) + ld(crumbs(['Home', '/'], ['Works by Richard Hewitt (Risbek)', '/risbek'])) })
     .replace('</head>', css + '</head>')
     .replace(' aria-current="page"', '');
   fs.writeFileSync(path.join(OUT, 'risbek.html'), html);
@@ -209,7 +233,7 @@ ${sections.map(s => `<section class="wk-sec" id="${s.id}"><div class="section-he
 
 // 6. RSS feed and sitemap
 const rss = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>Lost Tribes Institute — Essays</title><link>${SITE}/essays</link><description>Essays from the Lost Tribes Institute</description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lost Tribes Institute — Essays</title><link>${SITE}/essays</link><atom:link href="${SITE}/essays.xml" rel="self" type="application/rss+xml"/><language>en</language><description>Essays from the Lost Tribes Institute</description>
 ${essays.slice(0, 50).map(e => `<item><title>${esc(e.title)}</title><link>${SITE}/essays/${e.slug}</link><guid>${SITE}/essays/${e.slug}</guid><pubDate>${e.date.toUTCString()}</pubDate><description>${esc(e.summary)}</description></item>`).join('\n')}
 </channel></rss>
 `;
@@ -219,6 +243,31 @@ const smPath = path.join(OUT, 'sitemap.xml');
 const extra = [`  <url><loc>${SITE}/risbek</loc></url>`, `  <url><loc>${SITE}/essays</loc>${essays[0] ? `<lastmod>${iso(essays[0].date)}</lastmod>` : ''}</url>`,
   ...essays.map(e => `  <url><loc>${SITE}/essays/${e.slug}</loc><lastmod>${iso(e.date)}</lastmod></url>`)].join('\n');
 fs.writeFileSync(smPath, fs.readFileSync(smPath, 'utf8').replace('</urlset>', `${extra}\n</urlset>`));
+
+// 7. llms.txt: a plain-text guide to the site for AI assistants and answer engines
+const unesc = s => s.replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+const metaDesc = f => { const m = fs.readFileSync(path.join(OUT, f), 'utf8').match(/<meta name="description" content="([^"]*)"/); return m ? unesc(m[1]) : ''; };
+const mainPages = [['World map of peoples claiming descent from Israel', '/map', 'map.html'], ['Research library', '/library', 'library.html'], ['Essays', '/essays', 'essays.html'], ['Symposiums', '/symposiums', 'symposiums.html'], ['Books', '/books', 'books.html'], ['Videos', '/videos', 'videos.html'], ['Works by Richard Hewitt (Risbek)', '/risbek', 'risbek.html'], ['Contact and speaking invitations', '/contact', 'contact.html']];
+const llms = `# Lost Tribes Institute
+
+> ${metaDesc('index.html')} Lost Tribes Institute Corp. is a California nonprofit corporation founded June 24, 2024 by Margot Crossing.
+
+The "lost tribes" are the tribes of Israel's northern kingdom, exiled by Assyria in the 8th century BC. The Institute records the peoples around the world who say they descend from them, the reasons given, and what the Hebrew prophets say about their return. Essays are by Margot Crossing and Richard Hewitt (Risbek) unless noted. Contact: Richard@LostTribesInstitute.com
+
+## Main pages
+
+${mainPages.filter(([, , f]) => fs.existsSync(path.join(OUT, f))).map(([n, u, f]) => `- [${n}](${SITE}${u}): ${metaDesc(f)}`).join('\n')}
+
+## Essays (newest first)
+
+${essays.map(e => `- [${e.title}](${SITE}/essays/${e.slug}): ${iso(e.date)}. ${authorLd(e.author).name}. ${e.summary}`.trim()).join('\n')}
+
+## Feeds
+
+- [Essays RSS feed](${SITE}/essays.xml)
+- [Sitemap](${SITE}/sitemap.xml)
+`;
+fs.writeFileSync(path.join(OUT, 'llms.txt'), llms);
 
 if (redirects.length) fs.appendFileSync(path.join(OUT, '_redirects'), redirects.join('\n') + '\n');
 
