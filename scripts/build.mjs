@@ -267,15 +267,10 @@ const library = JSON.parse(fs.readFileSync(path.join(ROOT, 'assets', 'library.js
 const YT = 'https://www.youtube.com/@LostTribesInstitute';
 const followBox = `<section class="follow" aria-label="Follow the Institute"><div class="in">
 <div><h2>New essays and videos by email</h2><p>We write only when something new is published.</p>
-<form class="follow-form" name="newsletter" method="POST" action="/subscribed" data-netlify="true" netlify-honeypot="bot-field"><input type="hidden" name="form-name" value="newsletter"><p hidden><label>Leave this empty <input name="bot-field"></label></p><label class="sr-only" for="nl-email">Email address</label><input id="nl-email" type="email" name="email" required placeholder="you@example.com" autocomplete="email"><button class="btn primary" type="submit">Subscribe</button></form></div>
+<div id="sf-signup" class="sf-signup"></div><script src="https://cdn.sendfox.com/js/embed.js" data-form="3zk5xw" data-api="https://sendfox.com" data-target="#sf-signup" async></script></div>
 <div><h2>Watch on YouTube</h2><p>More than 27,000 people subscribe to the Institute's talks and interviews.</p><p class="follow-links"><a class="btn" href="${YT}?sub_confirmation=1" rel="noopener">Subscribe on YouTube</a><a href="/essays.xml">Essays by RSS</a></p></div>
 </div></section>
 `;
-fs.writeFileSync(path.join(OUT, 'subscribed.html'), page({
-  title: 'You are subscribed — Lost Tribes Institute', desc: 'Thank you for subscribing to the Lost Tribes Institute.', url: '/subscribed',
-  body: `<div style="max-width:44rem"><p class="eyebrow">Thank you</p><h1>You are on the list</h1><p class="lead">We will email you when a new essay or video is published.</p><div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:24px"><a class="btn primary" href="/essays.html">Read the essays</a><a class="btn" href="/videos.html">Watch the videos</a></div></div>`,
-}).replace(' aria-current="page"', '').replace('</head>', '<meta name="robots" content="noindex"></head>'));
-
 const bookData = html => {
   const items = [...html.matchAll(/<article class="card book[^"]*">([\s\S]*?)<\/article>/g)].map(m => {
     const a = m[1].match(/<h3><a href="([^"]+)"[^>]*>([\s\S]*?)<\/a><\/h3>/); if (!a) return null;
@@ -285,7 +280,7 @@ const bookData = html => {
   }).filter(Boolean);
   return items.length ? ld({ '@context': 'https://schema.org', '@type': 'ItemList', name: 'Books from the Lost Tribes Institute', itemListElement: items.map((b, i) => ({ '@type': 'ListItem', position: i + 1, item: b })) }) : '';
 };
-const NO_FOLLOW = new Set(['404.html', 'thanks.html', 'subscribed.html']);
+const NO_FOLLOW = new Set(['404.html', 'thanks.html']);
 const pages = [...fs.readdirSync(OUT).filter(f => f.endsWith('.html')).map(f => f), ...fs.readdirSync(path.join(OUT, 'essays')).map(f => `essays/${f}`)];
 for (const f of pages) {
   const file = path.join(OUT, f);
