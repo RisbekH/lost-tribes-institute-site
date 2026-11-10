@@ -15,5 +15,6 @@ To save an essay without showing it on the site, turn on **Draft**, then publish
 
 - `content/essays/` holds one Markdown file per essay (written by the posting screen).
 - `admin/` is the posting screen (Decap CMS).
-- `scripts/build.mjs` copies the site into `dist/` and builds the Essays page, one page per essay, an RSS feed (`/essays.xml`) and the sitemap.
+- `scripts/build.mjs` copies the site into `dist/` and builds the Essays page, one page per essay, an RSS feed (`/essays.xml`) and the sitemap. It also makes a share picture for each essay (`/images/og/`), adds the email signup and YouTube box above the footer of every page, and fills in the library count on the home page from `assets/library.json`.
+- Email signups arrive in Netlify under Forms → `newsletter`. The site only collects the addresses; sending the emails is done by hand or with a mail service.
 - All other pages (`index.html`, `library.html`, etc.) are edited by hand, as before.

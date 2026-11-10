@@ -100,3 +100,17 @@ a.ph:hover img{transform:scale(1.04)}
 @media (prefers-reduced-motion:reduce){.card .cover:hover img{transform:none}}
 
 .more.scribd{align-self:flex-start;padding:4px 12px;border:1px solid currentColor;border-radius:999px}
+
+/* follow box above the footer: email signup + YouTube */
+.follow{border-top:1px solid var(--rule);margin-top:40px;background:var(--surface)}
+.follow + .foot{margin-top:0}
+.follow .in{max-width:1180px;margin:0 auto;padding:30px 20px;display:grid;gap:24px 48px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.follow h2{font-family:var(--display);font-weight:400;font-size:1.3rem;margin:0 0 4px}
+.follow p{margin:0 0 12px;color:var(--ink-2);font-size:15px}
+.follow-form{display:flex;flex-wrap:wrap;gap:8px}
+.follow-form input[type=email]{flex:1 1 14rem;min-width:0;font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--ink-3);border-radius:4px;background:var(--bg);color:var(--ink)}
+.follow-form button{cursor:pointer}
+.follow-links{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin:0}
+.follow-links a:not(.btn){font-size:14.5px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (max-width:720px){.follow .in{grid-template-columns:1fr}}
