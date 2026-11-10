@@ -15,5 +15,5 @@ To save an essay without showing it on the site, turn on **Draft**, then publish
 
 - `content/essays/` holds one Markdown file per essay (written by the posting screen).
 - `admin/` is the posting screen (Decap CMS).
-- `scripts/build.mjs` copies the site into `dist/` and builds the Essays page, one page per essay, an RSS feed (`/essays.xml`) and the sitemap.
+- `scripts/build.mjs` copies the site into `dist/` and builds the Essays page, one page per essay, an RSS feed (`/essays.xml`), the sitemap, a guide for AI assistants (`/llms.txt`) and the search-engine labels (structured data) on each essay.
 - All other pages (`index.html`, `library.html`, etc.) are edited by hand, as before.
