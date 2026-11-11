@@ -155,6 +155,50 @@
   "id": "article-the-eastafrican-kalenjin-another-lost-tribe"
  },
  {
+  "author": "Kipkoeech araap Sambu",
+  "availability": "online",
+  "entries": [
+   "kalenjin"
+  ],
+  "kind": "book",
+  "linkLabel": "View at Project MUSE",
+  "note": "University of Nairobi Press. A Kalenjin Egyptologist argues from language that the Misri (Egypt) origin tradition is historical.",
+  "publicDomain": false,
+  "title": "The Misiri Legend Explored: A Linguistic Inquiry into the Kalenjiin People's Oral Tradition of Ancient Egyptian Origin",
+  "url": "https://muse.jhu.edu/book/39866",
+  "year": 2011,
+  "id": "book-sambu-misiri-legend-explored"
+ },
+ {
+  "author": "Burnette C. Fish and Gerald W. Fish",
+  "availability": "online",
+  "entries": [
+   "kalenjin"
+  ],
+  "kind": "book",
+  "linkLabel": "Find in a library",
+  "note": "Detailed account of Kalenjin prayer to Asis, the family altar (mabwaita) and the stages of initiation.",
+  "publicDomain": false,
+  "title": "The Kalenjiin Heritage: Traditional Religious and Social Practices",
+  "url": "https://search.worldcat.org/oclc/40199906",
+  "year": null,
+  "id": "book-fish-kalenjiin-heritage"
+ },
+ {
+  "author": "Regina Smith Oboler",
+  "availability": "online",
+  "entries": [
+   "kalenjin"
+  ],
+  "kind": "article",
+  "note": "Encyclopedia of World Cultures overview by an anthropologist of the Nandi: religion, age sets, orkoiyot, marriage.",
+  "publicDomain": false,
+  "title": "Nandi and Other Kalenjin Peoples",
+  "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/nandi-and-other-kalenjin-peoples",
+  "year": null,
+  "id": "article-oboler-nandi-and-other-kalenjin-peoples"
+ },
+ {
   "author": "",
   "availability": "online",
   "entries": [
@@ -1763,6 +1807,51 @@
   "id": "paper-margot-crossing-oral-histories-intersecting-to-build-a-picture-of-ancient-israel",
   "file": "papers/Oral%20Histories%20Intersecting%20to%20Build%20a%20Picture%20of%20Ancient%20Israelites%20throughout%20Asia.pdf",
   "linkLabel": "Academia.edu"
+ },
+ {
+  "author": "G. Kanato Chophy",
+  "availability": "online",
+  "entries": [
+   "naga"
+  ],
+  "kind": "book",
+  "linkLabel": "View at SUNY Press",
+  "note": "SUNY Press. Ethnohistory of the American Baptist mission and its role in Naga nationalism.",
+  "publicDomain": false,
+  "title": "Christianity and Politics in Tribal India: Baptist Missionaries and Naga Nationalism",
+  "url": "https://sunypress.edu/p-7204-christianity-and-politics-in-tr.aspx",
+  "year": 2021,
+  "id": "book-chophy-christianity-and-politics-in-tribal-india"
+ },
+ {
+  "author": "Arkotong Longkumer",
+  "availability": "online",
+  "entries": [
+   "naga"
+  ],
+  "kind": "paper",
+  "linkLabel": "Read PDF",
+  "note": "Nations and Nationalism 24(4): biblical symbols such as the covenant and the camp name Hebron in Naga nationalism.",
+  "publicDomain": false,
+  "title": "Bible, guns, and land: Sovereignty and nationalism amongst the Nagas of India",
+  "url": "https://core.ac.uk/download/322480584.pdf",
+  "year": 2018,
+  "id": "paper-longkumer-bible-guns-and-land"
+ },
+ {
+  "author": "Iliyana Angelova",
+  "availability": "online",
+  "entries": [
+   "naga"
+  ],
+  "kind": "paper",
+  "linkLabel": "Read PDF",
+  "note": "The South Asianist 5(1): head-hunting, the morung, feasts of merit and conversion among the Sumi.",
+  "publicDomain": false,
+  "title": "Colonial rule, Christianity and sociocultural (dis)continuities among the Sumi Naga",
+  "url": "https://www.southasianist.ed.ac.uk/southasianist/article/download/1852/2498/7486",
+  "year": 2017,
+  "id": "paper-angelova-sumi-naga-colonial-rule-christianity"
  },
  {
   "author": "",
@@ -5135,5 +5224,50 @@
   "url": "https://jurnal.uinsu.ac.id/index.php/JISA/article/view/5405",
   "year": 2019,
   "id": "paper-suharyanto-parmalim-worship"
+ },
+ {
+  "author": "Matthew Restall and John F. Chuchiak IV",
+  "availability": "online",
+  "entries": [
+   "maya"
+  ],
+  "kind": "paper",
+  "linkLabel": "View abstract",
+  "note": "Ethnohistory 49(3): the surviving Relación manuscript and how scholars should use it.",
+  "publicDomain": false,
+  "title": "A Reevaluation of the Authenticity of Fray Diego de Landa's Relación de las cosas de Yucatán",
+  "url": "https://pure.psu.edu/en/publications/a-reevaluation-of-the-authenticity-of-fray-diego-de-landas-relaci/",
+  "year": 2002,
+  "id": "paper-restall-chuchiak-reevaluation-landa-relacion"
+ },
+ {
+  "author": "Allen J. Christenson (ed.)",
+  "availability": "online",
+  "entries": [
+   "maya"
+  ],
+  "kind": "book",
+  "linkLabel": "View publisher page",
+  "note": "New translation from the K'iche' of the 1554 document that calls the K'iche' descendants of the Ten Tribes of Israel.",
+  "publicDomain": false,
+  "title": "The Title of Totonicapán",
+  "url": "https://ubcpress.ca/the-title-of-totonicapan",
+  "year": 2022,
+  "id": "book-christenson-title-of-totonicapan"
+ },
+ {
+  "author": "Bradley T. Lepper",
+  "availability": "online",
+  "entries": [
+   "mounds"
+  ],
+  "kind": "article",
+  "linkLabel": "Read article",
+  "note": "Traces the Decalogue Stone's design to an Assyrian carving in Layard's 1853 book and names a key suspect.",
+  "publicDomain": false,
+  "title": "A Likely Source for the Design of the Newark Decalogue Stone",
+  "url": "https://www.ohiohistory.org/?p=10257",
+  "year": null,
+  "id": "article-lepper-likely-source-newark-decalogue-stone"
  }
 ]
