@@ -91,7 +91,7 @@ const page = ({ title, desc, url, body, type = 'website' }) => `<!doctype html><
 .essay .body blockquote{margin:22px 0;padding:4px 0 4px 18px;border-left:3px solid var(--accent);color:var(--ink-2)}
 .essay .body img{max-width:100%;height:auto;border-radius:4px;display:block;margin:0 auto 6px}
 .essay .body table{border-collapse:collapse;display:block;overflow-x:auto}
-.essay .body td,.essay .body th{border:1px solid var(--rule);padding:6px 10px}
+.essay .body td,.essay .body th{border:1px solid var(--rule);padding:8px 12px;overflow-wrap:normal;word-break:normal;vertical-align:top;text-align:left;font-size:.95rem;line-height:1.55}.essay .body td:first-child,.essay .body th:first-child{min-width:6.5em;font-weight:600}
 .essay .body pre{overflow-x:auto}
 .share{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:40px;padding-top:18px;border-top:1px solid var(--rule)}
 .share-h{font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin-right:4px}
