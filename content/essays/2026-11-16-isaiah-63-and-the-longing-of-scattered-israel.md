@@ -8,13 +8,13 @@ draft: false
 
 ## Isaiah 63: a people cut off from their own lineage
 
-Isaiah 63:7 to 64:12 is a communal lament, and its voice is a people who have been away so long they're no longer sure they belong. But they do remember the loving-kindness of their ancient God. In verse 16 the people address God, "But you are our Father, though Abraham does not know us or Israel acknowledge us; you, LORD, are our Father, our Redeemer from of old is your name."
+Isaiah 63:7 to 64:12 is a communal lament, and its voice is a people who have been away so long they're no longer sure they belong. In their anguish, they remember the loving-kindness of their ancient God. In verse 16 the people address God, "But you are our Father, though Abraham does not know us or Israel acknowledge us; you, Lord, are our Father, our Redeemer from of old is your name."
 
-That sounds like people cut off from their own lineage, holding on to God when they can no longer hold on to their family tree. The Jews of Judah were still in their land, but the northern tribes of Israel had already been exiled. Then 63:19 says, "We have become like those you never ruled, like those not called by your name."
+That sounds like people cut off from their own lineage, holding on to God when they can no longer hold on to their family tree. The Jews of Judah's southern kingdom, distinct from Israel, were still in their land. The northern tribes of Israel had already been exiled. Then 63:19 says, "We have become like those you never ruled, like those not called by your name." They were no longer distinct from the nations they lived among.
 
-God's response comes after the lament, in 65:1: "I was found by those who did not seek me... to a nation that was not called by my name, I said, 'Here I am, here I am.'" The lament says "we've become like people not called by your name," and the answer is that God reaches exactly those people.
+God's response comes after the lament, in 65:1: "I was found by those who did not seek me... to a nation that was not called by my name, I said, 'Here I am, here I am.'" The lament says "we've become like people not called by your name," and the answer is that God reaches those exact people.
 
-Paul applies this verse to the nations (Gentiles) in Romans 10:20, suggesting that those who are not God's people are Gentiles. In other words, the line between scattered Israel and the nations that oppressed Israel is blurred on purpose.
+Paul applies this verse to the nations (Gentiles) in Romans 10:20, suggesting that those who are not God's people (Gentiles) are the object of his love. In other words, the line between scattered Israel and the nations is blurred.
 
 ## How much of Isaiah carries this longing
 
@@ -45,8 +45,6 @@ Behind all of them stands Deuteronomy 30:1–4. When you "call these things to m
 
 ## Where it leads
 
-The longing doesn't stay in the Old Testament. The Servant in Isaiah 49:6 is sent "to restore the preserved of Israel," and also to be a light to the nations.
+The longing carries into the New Testament after the Servant in Isaiah 49:6 was sent "to restore the preserved of Israel," and also to be a light to the nations, the Messiah says he was sent "to the lost sheep of the house of Israel" (Matt. 15:24). He also speaks of "other sheep not of this fold" (John 10:16). He was obviously talking about the nations. John adds that Jesus would die to "gather into one the scattered children of God" (John 11:52), a reference to the scattered tribes of Israel. James writes "to the twelve tribes scattered abroad" (James 1:1). The prophets voiced the yearning, and the New Testament presents the Anointed One as the answer.
 
-The Messiah says he was sent "to the lost sheep of the house of Israel" (Matt. 15:24). He also speaks of "other sheep not of this fold" (John 10:16). John adds that he would die to "gather into one the scattered children of God" (John 11:52). James writes "to the twelve tribes scattered abroad" (James 1:1). The prophets voiced the yearning, and the New Testament presents the Anointed One as the answer to it.
-
-A rough answer to the question of how much: in Isaiah, the major prophets and several of the Twelve, scattering and longing to be gathered is one of the two or three main threads, along with judgment and the coming King. The prophets themselves tie those threads together.
+The longing of scattered Israel for the love of their ancient God is a major theme in scripture. Jesus' fulfillment of this worldwide longing often is not addressed in the context of Israel's lostness.
