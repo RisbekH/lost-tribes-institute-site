@@ -1,5 +1,5 @@
 ---
-title: "Isaiah 63 and the Longing of Scattered Israel"
+title: "Isaiah 63 - The Longing of Scattered Israel"
 date: 2026-11-16
 author: Richard Hewitt (Risbek) - Lost Tribes Institute
 summary: "Isaiah 63 gives voice to a people so long away that Abraham would not know them. The same longing of scattered Israel runs through Isaiah and the other prophets, and God answers it by reaching those not called by his name."
