@@ -18,7 +18,7 @@ The Zulu are South Africa's largest ethnic group, and isiZulu is the country's m
 
 *Utimuni, nephew of King Shaka, in full regimental dress. Painting by George French Angas. Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Utimuni.png).*
 
-The Zulu tongue carries the memory of older neighbours. Its click sounds were borrowed from the Khoisan languages of the first peoples of the south.[^clicks] The Bantu languages, isiZulu among them, began around the present border of Cameroon and Nigeria some five thousand years ago, and geneticists find Khoisan ancestry mixed into the Bantu-speaking peoples of southern Africa.[^genes] In short: a people from far to the north who took in the first peoples of the south.
+The Zulu tongue carries the memory of older neighbours. Its click sounds were borrowed from the Khoisan languages of the first peoples of the south.[^clicks] The Bantu languages, isiZulu among them, began around the present border of Cameroon and Nigeria some five thousand years ago, and geneticists find Khoisan ancestry mixed into the Bantu-speaking peoples of southern Africa.[^genes] In short, they are a people from the north.
 
 ## Their own story, and the stories told about them
 
@@ -30,7 +30,7 @@ The more striking voices are Zulu. The Natal official James Stuart spent years w
 
 Not every Zulu writer went that way. Magema Fuze, raised in Bishop Colenso's mission and trained as a printer, published *Abantu Abamnyama* ("The Black People and Whence They Came") in 1922, the first book written in isiZulu by a native speaker. Fuze looked to Egypt and Nubia, not Israel, as the cradle of black Africans.[^fuze]
 
-So the Zulu story itself holds both the claim and the doubt. That is a good place to start.
+So the Zulu story itself holds both the claim of an Israelite origin, and the doubt. That is a good place to start.
 
 ## The Institute's reading
 
@@ -62,7 +62,7 @@ There is a tension here, and we name it: the Torah forbids asking the dead for g
 
 The skeptic has a strong hand, and should be heard.
 
-First, the Zulu writers came to the Israelite idea through the Bible itself. Mokoena calls their accounts "explicitly speculative, religious, fantastical, magical and ultimately destabilising."[^mokoena] A people who read a book and see themselves in it are telling us about the book's power, not proving descent.
+First, the Zulu writers came to the Israelite idea through the Bible itself. Mokoena calls their accounts "explicitly speculative, religious, fantastical, magical and ultimately destabilising."[^mokoena] A skeptic will say that a people who read a book and see themselves in it are telling us about the book's power, not proving descent. The Institute sees it the other way round. No one can recognise their own culture in the Bible without first reading and knowing the Bible. That the Zulu saw the likeness only once the Bible reached them in isiZulu is exactly what we would expect.
 
 Second, Isaacs was a lonely young Jew far from home. Rovner calls his idea wishful thinking.
 
@@ -72,7 +72,7 @@ Fourth, the history and the genes point north and west, not to Israel. The Bantu
 
 Fifth, Fuze, the first Zulu writer to publish a whole book in isiZulu, did not make the Israelite claim. He pointed to Egypt and Nubia.
 
-All of this is fair. The Institute's answer is modest. We do not say the Zulu are a lost tribe. We say that a people with first fruits held back for the king, a covenant knife put away in wartime and taken up again, offerings for the fathers, and a brother's duty to the widow found something of themselves in the Hebrew Bible, and said so in their own words long before anyone asked them to.
+All of this is fair. The Institute's answer is modest. We do not say the Zulu are a lost tribe. We say that a people with first fruits held back for the king, a covenant knife put away in wartime and taken up again, offerings for the fathers, and a brother's duty to the widow found something of themselves in the Hebrew Bible as soon as they could read it in their own language, and said so in their own words long before anyone asked them to.
 
 ## Close
 
