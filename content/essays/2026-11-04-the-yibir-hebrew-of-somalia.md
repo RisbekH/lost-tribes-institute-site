@@ -10,7 +10,7 @@ A son is born in a camp outside Hargeisa. Within a few days a stranger turns up 
 
 The gift is called *samanyo*. Somalis have paid it for centuries. And the people who receive it carry a name that many hear as *ʿIvri*, the Hebrew word for “Hebrew.”
 
-This essay looks at the Yibir with the Torah open. We are not claiming a DNA result or a lost scroll, like we have with other tribes. We are setting one people's customs beside another people's laws and asking why they line up so well.
+This essay looks at the Yibir with the Torah open. We are not claiming a DNA result or a lost scroll. We are setting one people's customs beside another people's laws and asking why they line up so well.
 
 ## Who Are the Yibir
 

@@ -61,9 +61,9 @@ Throughout the 20th century, Jung’s idea of “archetypes” helped scholars a
 
 Instead of exploring real historical diffusion—through Phoenician trade, Assyrian deportations, Babylonian exile, or general human migration—many scholars waved away correlating traditions or legends as examples of Jung’s “collective unconscious” theory. The theory was unfalsifiable, but it protected the assumption that biblical narratives were mythic rather than historical (Segal, 1998). This again reflects the same biased explanations that avoid an honest biblical application to history.
 
-## 5. Genetics: When DNA Undercuts the Academic Consensus
+## 5. Genetics: When DNA Reopens a Closed Question
 
-The Lemba people of southern Africa preserve a set of practices and traditions pointing to ancient Israelite origins. Scholars long dismissed these claims as “invented tradition.” Then genetics revealed that their priestly line carries the Cohen Modal Haplotype—the same paternal marker found among Jewish kohanim (Thomas et al., 2000). The academic reaction was predictable: rapid attempts to reinterpret or downplay the findings. But the data stood firm. Once again, the Bible was treated as unlikely—until DNA said otherwise.
+The Lemba people of southern Africa preserve a set of practices and traditions pointing to ancient Israelite origins. Scholars long dismissed these claims as “invented tradition.” Then a genetic study found the Cohen Modal Haplotype, the paternal marker common among Jewish kohanim, at high frequency in the Buba, the clan Lemba tradition holds to be their priestly line (Thomas et al., 2000). DNA does not prove descent. Family lines run on long after any one ancestor's DNA has faded, and a single marker cannot settle a people's ancestry. But the finding showed that an oral tradition scholars had waved away deserved a serious hearing. Once again, the Bible's world was treated as unlikely until new evidence reopened the question.
 
 ## 6. Psychology and Sociology: Biblical Ethics Work
 
