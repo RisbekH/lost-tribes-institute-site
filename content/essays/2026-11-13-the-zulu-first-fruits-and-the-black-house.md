@@ -14,6 +14,10 @@ The Zulu call this festival *Umkhosi Wokweshwama*, the first-fruits festival. In
 
 The Zulu are South Africa's largest ethnic group, and isiZulu is the country's most widely spoken home language.[^collector] Their heartland is KwaZulu-Natal, on the Indian Ocean coast. In the early 1800s Shaka built them into a kingdom whose name became famous across the world. The British broke that kingdom in the Anglo-Zulu War of 1879, but the royal house survived, and the king still leads the old festivals.
 
+![Painting of Utimuni, a Zulu warrior in feathered headdress and cattle-tail regalia, pointing ahead and carrying a large cowhide shield, with a line of shield-bearing men behind him](/images/essays/zulu-utimuni.png)
+
+*Utimuni, nephew of King Shaka, in full regimental dress. Painting by George French Angas. Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Utimuni.png).*
+
 The Zulu tongue carries the memory of older neighbours. Its click sounds were borrowed from the Khoisan languages of the first peoples of the south.[^clicks] The Bantu languages, isiZulu among them, began around the present border of Cameroon and Nigeria some five thousand years ago, and geneticists find Khoisan ancestry mixed into the Bantu-speaking peoples of southern Africa.[^genes] In short: a people from far to the north who took in the first peoples of the south.
 
 ## Their own story, and the stories told about them
