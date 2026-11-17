@@ -2404,6 +2404,35 @@
   "id": "video-from-babylon-to-timbuktu"
  },
  {
+  "author": "John O. Hunwick",
+  "availability": "online",
+  "entries": [
+   "timbuktu"
+  ],
+  "kind": "book",
+  "linkLabel": "Publisher page",
+  "note": "Al-Maghili's campaign against the Jews of Tuat in the 1490s, with the Arabic sources in translation.",
+  "publicDomain": false,
+  "title": "Jews of a Saharan Oasis: The Elimination of the Tamantit Community",
+  "url": "https://markuswiener.com/?p=1762",
+  "year": 2006,
+  "id": "book-hunwick-jews-of-a-saharan-oasis"
+ },
+ {
+  "author": "",
+  "availability": "online",
+  "entries": [
+   "timbuktu"
+  ],
+  "kind": "article",
+  "note": "The Forward on the Zakhor families, Kulanu visits and the 2012 occupation.",
+  "publicDomain": false,
+  "title": "After Islamist Threat Repelled, Spotlight Hits 'Jews' of Fabled Timbuktu",
+  "url": "https://forward.com/news/171642/after-islamist-threat-repelled-spotlight-hits-j",
+  "year": 2013,
+  "id": "article-forward-jews-of-fabled-timbuktu"
+ },
+ {
   "author": "",
   "availability": "online",
   "entries": [
@@ -2416,6 +2445,65 @@
   "url": "https://www.youtube.com/watch?v=UISF0HZpgdY",
   "year": null,
   "id": "video-hagoth-nephites-in-polynesia"
+ },
+ {
+  "author": "Hokulani K. Aikau",
+  "availability": "online",
+  "entries": [
+   "poly"
+  ],
+  "kind": "book",
+  "linkLabel": "Project MUSE",
+  "note": "University of Minnesota Press. How Native Hawaiian Latter-day Saints at Lāʻie took up the teaching that Polynesians are of Israel.",
+  "publicDomain": false,
+  "title": "A Chosen People, a Promised Land: Mormonism and Race in Hawai'i",
+  "url": "https://muse.jhu.edu/book/24720",
+  "year": 2012,
+  "id": "book-aikau-a-chosen-people-a-promised-land"
+ },
+ {
+  "author": "Abraham Fornander",
+  "availability": "online",
+  "entries": [
+   "poly"
+  ],
+  "kind": "book",
+  "linkLabel": "HathiTrust",
+  "note": "Three volumes (1878–85). Hawaiian genealogies and traditions, including the first man and the flood of Nuʻu, set beside Genesis.",
+  "publicDomain": true,
+  "title": "An Account of the Polynesian Race: Its Origins and Migrations",
+  "url": "https://catalog.hathitrust.org/Record/001286778",
+  "year": 1878,
+  "id": "book-fornander-an-account-of-the-polynesian-race"
+ },
+ {
+  "author": "William Ellis",
+  "availability": "online",
+  "entries": [
+   "poly"
+  ],
+  "kind": "book",
+  "linkLabel": "Smithsonian Libraries",
+  "note": "Missionary account of the 1823 tour that described the puʻuhonua at Hōnaunau as a city of refuge.",
+  "publicDomain": true,
+  "title": "Narrative of a Tour through Hawaii, or Owhyhee",
+  "url": "https://library.si.edu/digital-library/book/narrativeoftour00elli",
+  "year": 1826,
+  "id": "book-ellis-narrative-of-a-tour-through-hawaii"
+ },
+ {
+  "author": "",
+  "availability": "online",
+  "entries": [
+   "poly"
+  ],
+  "kind": "article",
+  "note": "On Ioannidis et al., Nature 2020.",
+  "publicDomain": false,
+  "title": "Polynesians, Native Americans made contact before European arrival, genetic study finds",
+  "url": "https://phys.org/news/2020-07-polynesians-native-americans-contact-european.html",
+  "year": 2020,
+  "id": "article-physorg-polynesians-native-americans-contact"
  },
  {
   "author": "",
@@ -3728,6 +3816,20 @@
   "id": "video-the-knanaya-of-kerala-part-1"
  },
  {
+  "author": "Sunish George",
+  "availability": "online",
+  "entries": [
+   "nasrani"
+  ],
+  "kind": "paper",
+  "note": "Draft of a paper for the Journal of Indo-Judaic Studies 13 (2013): the household Passover meal and other Jewish echoes among Saint Thomas Christians.",
+  "publicDomain": false,
+  "title": "Pesaha Celebration of Nasranis: A Socio-Cultural Analysis",
+  "url": "https://www.nasrani.net/2012/11/11/pesaha-celebration-of-nasranis-a-socio-cultural-analysis/",
+  "year": 2012,
+  "id": "paper-george-pesaha-celebration-of-nasranis"
+ },
+ {
   "author": "Richard M. Swiderski",
   "availability": "online",
   "entries": [
@@ -4053,6 +4155,34 @@
   "url": "https://www.youtube.com/watch?v=FTxaVNtn5HM",
   "year": null,
   "id": "video-yair-davidiy-issachar-and-finland"
+ },
+ {
+  "author": "Thiseas C. Lamnidis et al.",
+  "availability": "online",
+  "entries": [
+   "finno"
+  ],
+  "kind": "paper",
+  "note": "Nature Communications 9:5018.",
+  "publicDomain": false,
+  "title": "Ancient Fennoscandian genomes reveal origin and spread of Siberian ancestry in Europe",
+  "url": "https://core.ac.uk/download/224636295.pdf",
+  "year": 2018,
+  "id": "paper-lamnidis-ancient-fennoscandian-genomes"
+ },
+ {
+  "author": "Rainer Salomaa and Allan Reipas",
+  "availability": "online",
+  "entries": [
+   "finno"
+  ],
+  "kind": "article",
+  "note": "Claimants' case that the Finns are the tribe of Issachar.",
+  "publicDomain": false,
+  "title": "The Identity of Finland",
+  "url": "https://friendsofsabbath.org/G&S/www.giveshare.org/israel/finland.html",
+  "year": null,
+  "id": "article-salomaa-reipas-the-identity-of-finland"
  },
  {
   "author": "",
