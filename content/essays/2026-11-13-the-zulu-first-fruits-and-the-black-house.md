@@ -8,7 +8,7 @@ draft: false
 
 December in the hills of KwaZulu-Natal. The new crops are ripening, but custom holds them back. At the royal homestead young men gather inside the cattle kraal. They carry no spears. A bull is driven in, and they kill it with their bare hands. The Zulu believe its power now passes to the king.[^bull] Then the king eats the first of the new produce, and the harvest is open.[^gluckman]
 
-The Zulu call this festival *Umkhosi Wokweshwama*, the first-fruits festival. In 2009 an animal-rights group went to court to stop it, and lost. The late King Goodwill Zwelithini was furious that anyone had tried to ban it.[^court] And anyone who has read Leviticus will stop and look twice.
+The Zulu call this festival *Umkhosi Wokweshwama*, the first-fruits festival. In 2009 an animal-rights group went to court to stop it, and lost. The late King Goodwill Zwelithini was furious that anyone had tried to ban it.[^court] Readers of Leviticus will recognise the pattern.
 
 ## Who the Zulu are
 
@@ -22,49 +22,45 @@ The Zulu tongue carries the memory of older neighbours. Its click sounds were bo
 
 ## Their own story, and the stories told about them
 
-Zulu origin talk has never been one story. It has always been an argument.
-
 In 1825 a young English Jew named Nathaniel Isaacs was shipwrecked near Durban and came to know Shaka's court. In a letter he wrote that Shaka's face showed "a Hebrew expression," and he suspected the Zulu had a Jewish origin. The historian Adam Rovner calls this wishful thinking, an echo of a wider belief of the time, and notes that Isaacs kept such speculation out of his published memoir.[^rovner]
 
-The more striking voices are Zulu. The Natal official James Stuart spent years writing down what Zulu informants told him, and some of them speculated that the Zulu were descendants of the Jews, or one of the ten lost tribes. The Wits historian Hlonipha Mokoena studied these records in a 2018 paper, "'The Black House', or How the Zulus Became Jews." She found that literate Zulu of the 1800s, reading the Bible in their own language, used Israel's scattering as a template for their own migration stories. They called it *indlu emnyama*: "the black house."[^mokoena]
+Zulu voices said more. The Natal official James Stuart spent years writing down what Zulu informants told him, and some of them speculated that the Zulu were descendants of the Jews, or one of the ten lost tribes. The Wits historian Hlonipha Mokoena studied these records in a 2018 paper, "'The Black House', or How the Zulus Became Jews." She found that literate Zulu of the 1800s, reading the Bible in their own language, used Israel's scattering as a template for their own migration stories. They called it *indlu emnyama*: "the black house."[^mokoena]
 
-Not every Zulu writer went that way. Magema Fuze, raised in Bishop Colenso's mission and trained as a printer, published *Abantu Abamnyama* ("The Black People and Whence They Came") in 1922, the first book written in isiZulu by a native speaker. Fuze looked to Egypt and Nubia, not Israel, as the cradle of black Africans.[^fuze]
+Magema Fuze, raised in Bishop Colenso's mission and trained as a printer, published *Abantu Abamnyama* ("The Black People and Whence They Came") in 1922, the first book written in isiZulu by a native speaker. Fuze looked to Egypt and Nubia as the cradle of black Africans.[^fuze]
 
-So the Zulu story itself holds both the claim of an Israelite origin, and the doubt. That is a good place to start.
+So the Zulu story itself holds both the claim of an Israelite origin, and the doubt.
 
 ## The Institute's reading
 
-What follows is the Institute's reading. These are likenesses, not proofs. We set them out because Zulu thinkers of the 1800s saw them first, and their instinct deserves a fair hearing.
+What follows is the Institute's reading. We present these likenesses as comparisons, not proofs. Zulu thinkers of the 1800s noticed them first.
 
 **1. Nobody eats before the first fruits.** In Leviticus 23, God tells Israel: when you reap the harvest of the land, bring the first sheaf to the priest, and he will lift it up before God (Leviticus 23:10–11). "You must not eat any bread, or roasted grain, or new grain, until the very day you bring this offering to your God" (Leviticus 23:14). The first sheaf belongs to God, and it opens the harvest for everyone else. Exodus 23:16 makes the Festival of Harvest one of three times a year the whole nation gathers.
 
-Now look at the Zulu festival. The new crops are held back. The nation gathers at the royal place. Then one person acts for everyone. In Israel the priest lifts up a single sheaf on behalf of every farmer in the land. In Zululand the king takes that place for every homestead in the nation. Until he has been strengthened and has eaten the first of the new crops, the harvest is not yet open, and eating from it early would mean taking what has not been released. Once the king has eaten, every family may eat. The anthropologist Max Gluckman, writing in 1938, called it "a great tribal ceremony," and recorded the taboos against eating the first fruits too early.[^gluckman]
+At the Zulu festival the new crops are also held back. The nation gathers at the royal place. Then one person acts for everyone. In Israel the priest lifts up a single sheaf on behalf of every farmer in the land. In Zululand the king takes that place for every homestead in the nation. Until he has been strengthened and has eaten the first of the new crops, the harvest is not yet open, and eating from it early would mean taking what has not been released. Once the king has eaten, every family may eat. The anthropologist Max Gluckman, writing in 1938, called it "a great tribal ceremony," and recorded the taboos against eating the first fruits too early.[^gluckman]
 
-The order of events is the same. The difference is the address: in Israel the first sheaf goes up to God; in Zululand it strengthens the king. Even this has an echo. In Israel the king's welfare and the land's harvest were tied together (Psalm 72:1–6, 16), and the first fruits fed the priests who stood for the people (Numbers 18:12–13).
+The order of events matches. In Israel the first sheaf goes up to God, while in Zululand the rite strengthens the king. In Israel, too, the king's welfare and the land's harvest were tied together (Psalm 72:1–6, 16), and the first fruits fed the priests who stood for the people (Numbers 18:12–13).
 
-The Zulu are not alone. Their Swazi neighbours hold *iNcwala*, where the king eats of the first fruits at the climax of the rite.[^incwala] On the other side of the continent, the Ga of Ghana, who are on our map, keep *Homowo*, a harvest festival whose name means "hooting at hunger."[^homowo]
+Their Swazi neighbours hold *iNcwala*, where the king eats of the first fruits at the climax of the rite.[^incwala] On the other side of the continent, the Ga of Ghana, who are on our map, keep *Homowo*, a harvest festival whose name means "hooting at hunger."[^homowo]
 
 **2. The knife put away, and taken up again.** Circumcision is the covenant sign God gives Abraham: every male among you must be circumcised (Genesis 17:10–14). Yet the Hebrew Bible records a strange gap. All through the forty years of marching and fighting in the wilderness, the boys born on the road were never circumcised (Joshua 5:5). Only at Gilgal, after crossing the Jordan, did Joshua circumcise the whole generation at once, and God said: today I have rolled the shame of Egypt off you (Joshua 5:9).
 
-The Zulu have the same gap in their own history. Neighbouring Xhosa and Sotho peoples kept circumcision as the doorway to manhood. The Zulu let it go in the 19th century, when Shaka banned it because initiation took his warrior-age men away for months at a time. An army on the march put the knife away. In December 2009, King Goodwill Zwelithini announced that he would bring circumcision back to young Zulu men, mainly to fight HIV.[^circ] A warrior generation set the knife aside; a later generation, settled in the land, took it up again. The Kalenjin of Kenya, also on our map, still circumcise a whole age set together, as Joshua did.
+Zulu history has a similar gap. Neighbouring Xhosa and Sotho peoples kept circumcision as the doorway to manhood. The Zulu let it go in the 19th century, when Shaka banned it because initiation took his warrior-age men away for months at a time. In December 2009, King Goodwill Zwelithini announced that he would bring circumcision back to young Zulu men, mainly to fight HIV.[^circ] In both stories a generation at war went without the rite, and a later generation took it up again. The Kalenjin of Kenya, also on our map, still circumcise a whole age set together, as Joshua did.
 
 **3. Offerings for the fathers.** When someone in a Zulu family dies, the family slaughters a cow or a goat the day before the burial. When misfortune strikes and the ancestors, the *amadlozi*, must be set right, a beast is killed for them, most often a goat.[^ancestors] In Israel, too, the family killed animals at its turning points. David's family held a yearly sacrifice for the whole clan in Bethlehem (1 Samuel 20:6, 29). Job rose early to offer for his children in case they had gone wrong (Job 1:5). In the patriarchs' world a dead man is "gathered to his people" (Genesis 25:8), and God is named by the fathers: the God of Abraham, Isaac and Jacob (Exodus 3:6).
 
-There is a tension here, and we name it: the Torah forbids asking the dead for guidance (Deuteronomy 18:11). Zulu custom does not. But the shape of the family offering, a beast killed at a turning point in the presence of the unseen fathers, is close to what Israel's clans did before the Temple took over. The Nuer of South Sudan, also on our map, keep cattle sacrifices of the same family kind.
+The Torah forbids asking the dead for guidance (Deuteronomy 18:11), and Zulu custom does not share that rule. Still, the family offering, a beast killed at a turning point in the presence of the unseen fathers, is close to what Israel's clans did before the Temple took over. The Nuer of South Sudan, also on our map, keep cattle sacrifices of the same family kind.
 
-**4. The brother takes the widow.** Under the old Zulu custom called *ukungena*, a widow could be taken by her late husband's brother or another male relative. South Africa's Law Reform Commission describes it as a union entered for the dead man, to raise an heir in his place, and a brother would take over both the care of the widow and his late brother's estate.[^ukungena] Deuteronomy 25:5–6 gives the same law: if a man dies without a son, his brother takes the widow, and the first son "will carry on the name of the dead brother, so that his name will not be wiped out of Israel." Tamar fights for this right in Genesis 38. Ruth wins it through Boaz (Ruth 4:5, 10). The purpose is the same in both places: the house outlives the man.
+**4. The brother takes the widow.** Under the old Zulu custom called *ukungena*, a widow could be taken by her late husband's brother or another male relative. South Africa's Law Reform Commission describes it as a union entered for the dead man, to raise an heir in his place, and a brother would take over both the care of the widow and his late brother's estate.[^ukungena] Deuteronomy 25:5–6 gives the same law: if a man dies without a son, his brother takes the widow, and the first son "will carry on the name of the dead brother, so that his name will not be wiped out of Israel." Tamar fights for this right in Genesis 38. Ruth wins it through Boaz (Ruth 4:5, 10). In both, the aim is to keep the dead man's house alive.
 
-**5. A mountain and a high place.** In 1910 a Zulu healer named Isaiah Shembe began a ministry, and a year later he founded the Nazareth Baptist Church. He acquired a farm and made it his holy city, *Ekuphakameni*, "the High Place," and he set up a yearly pilgrimage to the sacred mountain Nhlangakazi.[^shembe] His followers keep the Sabbath on Saturday: no fires, no cooking, no washing.[^sabbath] They worship in Zulu dance. The picture is Sinai: a leader who takes the people up a mountain to meet God (Exodus 19:3, 17), a day of rest when no fire is lit (Exodus 35:3), and then a holy city where they gather. Shembe's followers did not need to argue that they were Israelites. They acted it out.
+**5. A mountain and a high place.** In 1910 a Zulu healer named Isaiah Shembe began a ministry, and a year later he founded the Nazareth Baptist Church. He acquired a farm and made it his holy city, *Ekuphakameni*, "the High Place," and he set up a yearly pilgrimage to the sacred mountain Nhlangakazi.[^shembe] His followers keep the Sabbath on Saturday: no fires, no cooking, no washing.[^sabbath] They worship in Zulu dance. This mirrors Sinai: a leader who takes the people up a mountain to meet God (Exodus 19:3, 17), a day of rest when no fire is lit (Exodus 35:3), and then a holy city where they gather. Shembe's followers live out these Israelite patterns in their worship.
 
-**6. The black house.** Under all of this is the story the Zulu thinkers told: a house scattered, a people far from where they began. The prophets promised that God would gather the scattered of Israel "from the four corners of the earth" (Isaiah 11:12) and bring back the exiles even from "the ends of the heavens" (Deuteronomy 30:4). The Zulu writers who read those words in isiZulu saw a family likeness. They did not ask a missionary for permission to see it.
+**6. The black house.** Under all of this is the story the Zulu thinkers told: a house scattered, a people far from where they began. The prophets promised that God would gather the scattered of Israel "from the four corners of the earth" (Isaiah 11:12) and bring back the exiles even from "the ends of the heavens" (Deuteronomy 30:4). The Zulu writers who read those words in isiZulu saw a family likeness in them.
 
 ## Where a skeptic will push back
 
-The skeptic has a strong hand, and should be heard.
-
 First, the Zulu writers came to the Israelite idea through the Bible itself. Mokoena calls their accounts "explicitly speculative, religious, fantastical, magical and ultimately destabilising."[^mokoena] A skeptic will say that a people who read a book and see themselves in it are telling us about the book's power, not proving descent. The Institute sees it the other way round. No one can recognise their own culture in the Bible without first reading and knowing the Bible. That the Zulu saw the likeness only once the Bible reached them in isiZulu is exactly what we would expect.
 
-Second, Isaacs was a lonely young Jew far from home. Rovner calls his idea wishful thinking.
+Second, Isaacs was a young Jew far from home. Rovner calls his idea wishful thinking.
 
 Third, these customs are not rare. First-fruits rites are found across southern Africa, as the Swazi iNcwala shows, and across the world. Circumcision is common across Africa. Levirate marriage is found on several continents. Offerings to the ancestors run against the Torah, not with it.
 
@@ -72,11 +68,11 @@ Fourth, the history and the genes point north and west, not to Israel. The Bantu
 
 Fifth, Fuze, the first Zulu writer to publish a whole book in isiZulu, did not make the Israelite claim. He pointed to Egypt and Nubia.
 
-All of this is fair. The Institute's answer is modest. We do not say the Zulu are a lost tribe. We say that a people with first fruits held back for the king, a covenant knife put away in wartime and taken up again, offerings for the fathers, and a brother's duty to the widow found something of themselves in the Hebrew Bible as soon as they could read it in their own language, and said so in their own words long before anyone asked them to.
+The Institute does not claim the Zulu are a lost tribe. It notes that a people with first fruits held back for the king, a covenant knife put away in wartime and taken up again, offerings for the fathers, and a brother's duty to the widow found something of themselves in the Hebrew Bible as soon as they could read it in their own language, and said so in their own words long before anyone asked them to.
 
 ## Close
 
-The bull goes down in the kraal. The king eats the first of the new crops. Then the nation eats. Three thousand years ago, at the edge of a field in Canaan, a farmer brought the first sheaf to the priest before he touched his bread. Neither would have understood the other's language. Both would have understood the gesture.
+The bull goes down in the kraal. The king eats the first of the new crops. Then the nation eats. Three thousand years ago in Canaan, a farmer brought the first sheaf to the priest before he touched his bread. The two peoples spoke different languages, yet they kept the same order at harvest.
 
 *See the Zulu entry on the [map](/map) and the sources in the [Library](/library?q=Zulu).*
 
