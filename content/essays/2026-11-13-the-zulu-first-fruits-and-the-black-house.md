@@ -3,7 +3,7 @@ title: "The Zulu: First Fruits, the Knife and the Black House"
 date: 2026-11-13
 author: Lost Tribes Institute
 summary: "Literate Zulu of the 1800s read the Bible in their own tongue and saw their grandparents in it. The Institute sets the first-fruits festival, the knife, the offerings for the fathers and the widow's claim beside the Hebrew Bible and asks what the likeness may mean."
-draft: true
+draft: false
 ---
 
 December in the hills of KwaZulu-Natal. The new crops are ripening, but custom holds them back. At the royal homestead young men gather inside the cattle kraal. They carry no spears. A bull is driven in, and they kill it with their bare hands. The Zulu believe its power now passes to the king.[^bull] Then the king eats the first of the new produce, and the harvest is open.[^gluckman]
