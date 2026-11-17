@@ -103,17 +103,17 @@
       "title": "Videos, audio and podcast",
       "intro": "On the Lost Tribes Institute YouTube channel.",
       "items": [
-        {"title": "Richard Hewitt (Risbek) from Lost Tribes Institute", "note": "Talks and interviews.", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWIZmimMeOz6qDhWYha4w_z2"}]},
-        {"title": "Lost Tribes of Israel Podcast", "note": "Conversations with researchers.", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWL_K05SIinddq7lZ94x8-Vs"}]},
-        {"title": "Кыргыз бабалардын Чаар китеби (audio)", "note": "Audio readings in Kyrgyz.", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWJP_GPhhxE05S3lkwSByF4E"}]},
-        {"title": "History: Come Home", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLMaDXK-BUdfSomFdILOAKA"}]},
-        {"title": "The Most Popular Man in India", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWJ0pV0yNNXiSpZqAJmaNRBL"}]},
-        {"title": "The Nations", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLxE0WBN7Asbf0hIu94xeL0"}]},
-        {"title": "Jezreel", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLNQDFWWAB0v4Tia8mPwbs_"}]},
-        {"title": "Symposium", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWIM9mc0zQq9Jem65Wns_kAV"}]},
-        {"title": "Book ads", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWK0sa9sAIXVIcvN3pvgeM06"}]},
-        {"title": "In Russian, Persian, Japanese and from India", "links": [{"label": "Russian", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWJ8A4hGHgLNioEra1Zu1kOT"}, {"label": "Persian", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWKBLGQi5VqwH2qb3pqEu5Yi"}, {"label": "Japanese", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLmwdsXhR-0FQb4vJHNc13x"}, {"label": "India", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWIjftWPpRWmpitNgW2gfuCK"}]},
-        {"title": "All videos", "links": [{"label": "YouTube channel", "url": "https://www.youtube.com/@LostTribesInstitute"}]}
+        {"thumb": "https://i.ytimg.com/vi/PBf2zdgt6lw/mqdefault.jpg", "title": "Richard Hewitt (Risbek) from Lost Tribes Institute", "note": "Talks and interviews.", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWIZmimMeOz6qDhWYha4w_z2"}]},
+        {"thumb": "https://i.ytimg.com/vi/Yyieml-qL4Y/mqdefault.jpg", "title": "Lost Tribes of Israel Podcast", "note": "Conversations with researchers.", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWL_K05SIinddq7lZ94x8-Vs"}]},
+        {"thumb": "https://i.ytimg.com/vi/ReDQ94rX5vI/mqdefault.jpg", "title": "Кыргыз бабалардын Чаар китеби (audio)", "note": "Audio readings in Kyrgyz.", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWJP_GPhhxE05S3lkwSByF4E"}]},
+        {"thumb": "https://i.ytimg.com/vi/lAj61-EAqqk/mqdefault.jpg", "title": "History: Come Home", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLMaDXK-BUdfSomFdILOAKA"}]},
+        {"thumb": "https://i.ytimg.com/vi/E2niO4MoylY/mqdefault.jpg", "title": "The Most Popular Man in India", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWJ0pV0yNNXiSpZqAJmaNRBL"}]},
+        {"thumb": "https://i.ytimg.com/vi/BM1Se0uDIIM/mqdefault.jpg", "title": "The Nations", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLxE0WBN7Asbf0hIu94xeL0"}]},
+        {"thumb": "https://i.ytimg.com/vi/nM738-PH1-8/mqdefault.jpg", "title": "Jezreel", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLNQDFWWAB0v4Tia8mPwbs_"}]},
+        {"thumb": "https://i.ytimg.com/vi/gk6kgYq9PKM/mqdefault.jpg", "title": "Symposium", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWIM9mc0zQq9Jem65Wns_kAV"}]},
+        {"thumb": "https://i.ytimg.com/vi/rJfdVJNkf6U/mqdefault.jpg", "title": "Book ads", "links": [{"label": "YouTube", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWK0sa9sAIXVIcvN3pvgeM06"}]},
+        {"thumb": "https://i.ytimg.com/vi/v58h7phm_z4/mqdefault.jpg", "title": "In Russian, Persian, Japanese and from India", "links": [{"label": "Russian", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWJ8A4hGHgLNioEra1Zu1kOT"}, {"label": "Persian", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWKBLGQi5VqwH2qb3pqEu5Yi"}, {"label": "Japanese", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWLmwdsXhR-0FQb4vJHNc13x"}, {"label": "India", "url": "https://www.youtube.com/playlist?list=PLUuMWdJQCRWIjftWPpRWmpitNgW2gfuCK"}]},
+        {"thumb": "https://i.ytimg.com/vi/jINLaZuYCs0/mqdefault.jpg", "title": "All videos", "links": [{"label": "YouTube channel", "url": "https://www.youtube.com/@LostTribesInstitute"}]}
       ]
     }
   ],
