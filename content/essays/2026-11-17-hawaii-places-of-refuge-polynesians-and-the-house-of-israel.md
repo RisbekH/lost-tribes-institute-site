@@ -10,6 +10,10 @@ A man runs along the black lava of the Kona coast. He ate with the women, or let
 
 That was the puʻuhonua at Hōnaunau, on the island of Hawaiʻi. It sheltered kapu-breakers, defeated warriors, children, the old, and anyone else who could not fight.[^nps] When the missionary William Ellis walked the coast in 1823, he called it a "City of Refuge." He was a Bible reader, and he knew where that phrase came from.[^ellis]
 
+![Puʻuhonua o Hōnaunau on the Kona coast: a thatched temple house behind a wooden fence with carved figures, palms, and a black lava shore](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Pu%CA%BBuhonua_o_H%C5%8Dnaunau.jpg/1280px-Pu%CA%BBuhonua_o_H%C5%8Dnaunau.jpg)
+
+*The place of refuge at Hōnaunau today, with the restored Hale o Keawe temple and its carved kiʻi figures. Photograph by Carol M. Highsmith, 2005, for the Library of Congress. Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pu%CA%BBuhonua_o_H%C5%8Dnaunau.jpg).*
+
 ## Who the Polynesians are
 
 Polynesians are the sailors of the great triangle between Hawaiʻi, Aotearoa (New Zealand) and Rapa Nui (Easter Island). It was the last large region of the earth that humans settled. Most of their ancestry comes from Austronesian-speaking voyagers who set out from the Taiwan region thousands of years ago, mixed with Papuan-speaking peoples in Melanesia, and reached the open Pacific with the Lapita culture about 3,000 years ago.[^genes] Hawaiʻi was reached much later, around 900 to 1100 CE, probably from the Marquesas.[^nps]

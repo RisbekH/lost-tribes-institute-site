@@ -18,6 +18,10 @@ They speak Southern Nilotic languages, cousins of the Maasai and, further back, 
 
 They were a hard people to conquer. The Nandi held off the British for a decade. Their ritual leader, the *orkoiyot* Koitalel Arap Samoei, was shot at a truce meeting in 1905.
 
+![Old black-and-white photograph of three Nandi men wrapped in cloaks, one holding a spear, standing in an open field](https://upload.wikimedia.org/wikipedia/commons/f/f5/Nandi_warriors_from_the_LOC.jpg)
+
+*Nandi warriors, one of the Kalenjin peoples, in a photograph taken before 1923. Publishers Photo Service, New York, from the Library of Congress. Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nandi_warriors_from_the_LOC.jpg).*
+
 ## Their own story
 
 The Kalenjin origin tradition runs like this. Long ago the forefathers lived in a hot country to the north, called Misri, or *Emetab Burgei*, "the hot country." They left, walked south, and stopped at a great mountain, Mount Elgon, which they call Tulwet ab Kony. Some still call it *Kapkugo*, "the grandparents' place." From Elgon the clans spread out across the hills.

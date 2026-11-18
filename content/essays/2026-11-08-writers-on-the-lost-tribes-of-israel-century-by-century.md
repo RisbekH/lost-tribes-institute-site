@@ -72,6 +72,10 @@ A list of people who have written about the fate of the ten northern tribes of I
 
 **Menasseh ben Israel** (1604–1657) — Amsterdam rabbi, scholar, and founder of the city's first Hebrew printing press, and a friend of Rembrandt's circle. His *Hope of Israel* (1650) used Montezinos's report to argue the tribes were scattered to the ends of the earth, including America. That scattering, he believed, had to be complete before the redemption. The idea helped drive his 1655 mission to Oliver Cromwell, which opened the way for Jews to resettle in England.
 
+![Engraved portrait of Menasseh ben Israel, a bearded man in a dark skullcap and white collar, inside an oval frame with a Latin inscription](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Portret_van_Menasseh_Ben_Isra%C3%ABl%2C_RP-P-1935-502.jpg/1280px-Portret_van_Menasseh_Ben_Isra%C3%ABl%2C_RP-P-1935-502.jpg)
+
+*Menasseh ben Israel, engraved by Salom Italia in Amsterdam in the 1640s. Rijksmuseum, Amsterdam. Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Portret_van_Menasseh_Ben_Isra%C3%ABl,_RP-P-1935-502.jpg).*
+
 **Thomas Thorowgood** (1595–1669) — English Puritan minister whose *Jews in America* (1650) argued that Native Americans were Israelites, encouraging missionary work in New England.
 
 **Hamon L'Estrange** (1605–1660) — English writer whose *Americans No Jews* (1652) answered Thorowgood point by point.

@@ -89,7 +89,7 @@ const page = ({ title, desc, url, body, type = 'website' }) => `<!doctype html><
 .essay .body .footnotes{font-size:.95rem;border-top:1px solid var(--rule);margin-top:40px}
 .essay .body h2{margin:36px 0 10px}.essay .body h3{margin:28px 0 8px}
 .essay .body blockquote{margin:22px 0;padding:4px 0 4px 18px;border-left:3px solid var(--accent);color:var(--ink-2)}
-.essay .body img{max-width:100%;height:auto;border-radius:4px;display:block;margin:0 auto 6px}
+.essay .body img{max-width:100%;max-height:75vh;width:auto;height:auto;border-radius:4px;display:block;margin:0 auto 6px}
 .essay .body table{border-collapse:collapse;display:block;overflow-x:auto}
 .essay .body td,.essay .body th{border:1px solid var(--rule);padding:8px 12px;overflow-wrap:normal;word-break:normal;vertical-align:top;text-align:left;font-size:.95rem;line-height:1.55}.essay .body td:first-child,.essay .body th:first-child{min-width:6.5em;font-weight:600}
 .essay .body pre{overflow-x:auto}

@@ -12,6 +12,10 @@ Around 721 BC the northern kingdom of Israel dropped out of the record. Within a
 
 Collins puts the hinge of that change in a specific place: the highlands between the Black Sea and the Caspian, the land the Assyrians called Urartu and the Bible calls Ararat. In his telling, Israelites went into Urartu as refugees and came out as Scythians.
 
+![Map of the kingdom of Urartu around 743 BC, stretching across the highlands around Lake Van between the Black Sea and the Caspian Sea, with the Assyrian Empire to the south](https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Urartu_743-en.svg/1280px-Urartu_743-en.svg.png)
+
+*Urartu at its greatest extent under King Sardur II, about 743 BC, a generation before Samaria fell. Assyria is shown in purple to the south. Map by Sémhur, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Urartu_743-en.svg).*
+
 ## Why Urartu
 
 **Two groups left Israel, and only one was in chains.** Collins separates the captives from the fugitives. The captives had no say in where they went. Assyria marched Naphtali and the tribes east of the Jordan away first (2 Kings 15:29), then settled Samaria's survivors in Halah, Habor and the cities of the Medes (2 Kings 17:6). Collins treats that last group as the smallest. The larger body, he says, saw the end coming and left on its own terms, with flocks, families and fighting men. He leans on the medieval Jewish traveler Eldad, who described a chief able to field 120,000 horsemen and 100,000 foot soldiers, and concludes that well over a million people were on the move.

@@ -6,6 +6,10 @@ summary: "Isaiah 63 gives voice to a people so long away that Abraham would not 
 draft: false
 ---
 
+![The Great Isaiah Scroll from Qumran, shown as three long strips of aged parchment covered in columns of Hebrew text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Great_Isaiah_Scroll.jpg/1280px-Great_Isaiah_Scroll.jpg)
+
+*The Great Isaiah Scroll from Qumran, copied about the second century BC. It holds the whole book of Isaiah, the lament of chapter 63 included, and is kept at the Israel Museum in Jerusalem. Photographs by Ardon Bar Hama. Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Great_Isaiah_Scroll.jpg).*
+
 ## Isaiah 63: a people cut off from their own lineage
 
 Isaiah 63:7 to 64:12 is a communal lament, and its voice is a people who have been away so long they're no longer sure they belong. In their anguish, they remember the loving-kindness of their ancient God. In verse 16 the people address God, "But you are our Father, though Abraham does not know us or Israel acknowledge us; you, Lord, are our Father, our Redeemer from of old is your name."
