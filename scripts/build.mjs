@@ -224,7 +224,8 @@ const extra = [`  <url><loc>${SITE}/risbek</loc></url>`, `  <url><loc>${SITE}/su
   ...essays.map(e => `  <url><loc>${SITE}/essays/${e.slug}</loc><lastmod>${iso(e.date)}</lastmod></url>`)].join('\n');
 fs.writeFileSync(smPath, fs.readFileSync(smPath, 'utf8').replace('</urlset>', `${extra}\n</urlset>`));
 
-// 7. Email sign-up band above the footer on every page (one Netlify form, "subscribe", shared with /subscribe)
+// 7. Email sign-up band above the footer on every page (one Netlify form, "subscribe", shared with /subscribe).
+//    assets/subscribe.js also sends each sign-up to the Kit mailing list, tagged by topic.
 const NO_BAND = new Set(['subscribe.html', 'subscribed.html', 'thanks.html', '404.html']);
 const band = src => `<section class="sub-band" aria-labelledby="sub-band-h"><div class="in"><div><h2 id="sub-band-h">Get updates from the Institute</h2><p>Upcoming symposiums, project news and new essays, by email. <a href="/subscribe">Choose what you receive</a>.</p></div><form name="subscribe" method="POST" action="/subscribed" data-netlify="true" netlify-honeypot="bot-field"><input type="hidden" name="form-name" value="subscribe"><input type="hidden" name="source" value="${esc(src)}"><input type="hidden" name="name" value=""><input type="hidden" name="symposiums" value="yes"><input type="hidden" name="projects" value="yes"><input type="hidden" name="essays" value="yes"><p class="hp"><label>Leave this empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p><label class="hp" for="sub-band-email">Email</label><input type="email" id="sub-band-email" name="email" autocomplete="email" placeholder="Your email address" required><button class="btn primary" type="submit">Sign up</button></form></div></section>\n`;
 const addBand = d => {
@@ -235,7 +236,7 @@ const addBand = d => {
     const html = fs.readFileSync(f, 'utf8');
     if (!html.includes('<footer class="foot">') || html.includes('class="sub-band"')) continue;
     const rel = '/' + path.relative(OUT, f).replace(/\\/g, '/').replace(/\.html$/, '').replace(/^index$/, '');
-    fs.writeFileSync(f, html.replace('<footer class="foot">', band(rel) + '<footer class="foot">'));
+    fs.writeFileSync(f, html.replace('<footer class="foot">', band(rel) + '<footer class="foot">').replace('</body>', '<script src="/assets/subscribe.js" defer></script>\n</body>'));
   }
 };
 addBand(OUT);

@@ -15,7 +15,7 @@
 <label><input type="checkbox" name="essays" value="yes" checked><span><b>Essays</b>New essays as they are posted on this site.</span></label>
 </fieldset>
 <p class="sub-err" id="sub-err" role="alert" hidden>Please choose at least one kind of update.</p>
-<div class="sub-go"><button class="btn primary" type="submit">Sign me up</button><p class="sub-note">We use your address only for these updates and never sell or share it. To stop them at any time, reply “unsubscribe” or write to <a href="mailto:Richard@LostTribesInstitute.com">Richard@LostTribesInstitute.com</a>.</p></div>
+<div class="sub-go"><button class="btn primary" type="submit">Sign me up</button><p class="sub-note">We use your address only for these updates and never sell or share it. Every email has a link to stop them at any time, or write to <a href="mailto:Richard@LostTribesInstitute.com">Richard@LostTribesInstitute.com</a>.</p></div>
 </form>
 <p class="muted" style="margin-top:28px">Prefer to follow along another way? Watch the <a href="https://www.youtube.com/@LostTribesInstitute" rel="noopener">YouTube channel</a> or follow the essays by <a href="/essays.xml">RSS</a>.</p>
 </div></main>
@@ -28,4 +28,5 @@
   <div><h4>Elsewhere</h4><ul><li><a href="https://www.youtube.com/@LostTribesInstitute" rel="noopener">YouTube</a></li><li><a href="https://www.amazon.com/author/richardhewitt" rel="noopener">Books on Amazon</a></li><li><a href="https://losttribesinstitute.academia.edu/MargotCROSSING" rel="noopener">Margot Crossing on Academia.edu</a></li><li><a href="https://losttribesinstitute.academia.edu/RichardRisbekHewitt" rel="noopener">Richard Hewitt on Academia.edu</a></li></ul></div>
 </div></footer>
 <script>document.querySelectorAll('.sub-topics input').forEach(i=>i.addEventListener('change',()=>document.getElementById('sub-err').hidden=true));document.querySelector('form.sub-full').addEventListener('submit',e=>{const f=e.target;if(![...f.querySelectorAll('.sub-topics input')].some(i=>i.checked)){e.preventDefault();document.getElementById('sub-err').hidden=false;}});</script>
+<script src="/assets/subscribe.js" defer></script>
 </body></html>
