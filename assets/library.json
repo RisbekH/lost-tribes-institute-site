@@ -241,6 +241,34 @@
   "id": "article-wikipedia-bagrationi-claim-of-biblical-descent"
  },
  {
+  "author": "Richard Gottheil and Herman Rosenthal",
+  "availability": "online",
+  "entries": [
+   "bagrat"
+  ],
+  "kind": "article",
+  "note": "Jewish Encyclopedia. The Bagratuni claim to descend from King David through the captive Shambat.",
+  "publicDomain": false,
+  "title": "Bagratuni",
+  "url": "https://www.jewishencyclopedia.com/articles/2355-bagratuni.html",
+  "year": 1906,
+  "id": "article-jewish-encyclopedia-bagratuni"
+ },
+ {
+  "author": "Nina Garsoïan",
+  "availability": "online",
+  "entries": [
+   "bagrat"
+  ],
+  "kind": "article",
+  "note": "Encyclopaedia Iranica. The “Father of Armenian History,” his disputed date, and his glorification of the Bagratuni.",
+  "publicDomain": false,
+  "title": "Movsēs Xorenacʿi",
+  "url": "https://www.iranicaonline.org/?p=10546",
+  "year": null,
+  "id": "article-garsoian-movses-xorenaci-iranica"
+ },
+ {
   "author": "",
   "availability": "online",
   "entries": [
@@ -3689,6 +3717,62 @@
   "id": "video-the-god-culture-youtube-channel"
  },
  {
+  "author": "Maximilian Larena et al.",
+  "availability": "online",
+  "entries": [
+   "phil"
+  ],
+  "kind": "paper",
+  "note": "PNAS. Genomes of 1,028 people from 115 indigenous communities show at least five waves of migration.",
+  "publicDomain": false,
+  "title": "Multiple migrations to the Philippines during the last 50,000 years",
+  "url": "https://ui.adsabs.harvard.edu/abs/2021PNAS..11826132L",
+  "year": 2021,
+  "id": "paper-larena-multiple-migrations-to-the-philippines"
+ },
+ {
+  "author": "Encyclopaedia Judaica",
+  "availability": "online",
+  "entries": [
+   "phil"
+  ],
+  "kind": "article",
+  "note": "Location theories for Solomon's Ophir (Arabia, the Somali coast, India) and the Tell Qasile “gold of Ophir” shard.",
+  "publicDomain": false,
+  "title": "Ophir",
+  "url": "https://www.jewishvirtuallibrary.org/jsource/judaica/ejud_0002_0015_0_15122.html",
+  "year": 2007,
+  "id": "article-encyclopaedia-judaica-ophir"
+ },
+ {
+  "author": "Manila Bulletin",
+  "availability": "online",
+  "entries": [
+   "phil"
+  ],
+  "kind": "article",
+  "note": "Spanish-era and Filipino writers who placed Ophir in the Moluccas and the Philippines.",
+  "publicDomain": false,
+  "title": "King Solomon's gold from Ophir",
+  "url": "https://www.pressreader.com/philippines/manila-bulletin/20181111/281728385540191",
+  "year": 2018,
+  "id": "article-manila-bulletin-king-solomons-gold-from-ophir"
+ },
+ {
+  "author": "The God Culture",
+  "availability": "online",
+  "entries": [
+   "phil"
+  ],
+  "kind": "book",
+  "note": "The claimants' own book arguing that the Philippines is Ophir and Eden.",
+  "publicDomain": false,
+  "title": "The Search for King Solomon's Treasure: The Lost Isles of Gold and the Garden of Eden",
+  "url": "https://issuu.com/thegodculture/docs/solomons_gold_book/146",
+  "year": null,
+  "id": "book-the-god-culture-search-for-king-solomons-treasure"
+ },
+ {
   "author": "",
   "availability": "online",
   "entries": [
@@ -4056,6 +4140,62 @@
   "url": "https://www.youtube.com/watch?v=tKpZi2I-27U",
   "year": null,
   "id": "video-tutsi-people-of-israel-jews-of-kush-in-africa-part-1"
+ },
+ {
+  "author": "René Lemarchand",
+  "availability": "online",
+  "entries": [
+   "tutsi"
+  ],
+  "kind": "paper",
+  "note": "University of Copenhagen occasional paper. How the Hamitic myth was used from 1959 to the 1994 genocide.",
+  "publicDomain": false,
+  "title": "Ethnicity as Myth: The View from the Central Africa",
+  "url": "https://teol.ku.dk/cas/publications/publications/occ._papers/lemarchand1999.pdf",
+  "year": 1999,
+  "id": "paper-lemarchand-ethnicity-as-myth-central-africa"
+ },
+ {
+  "author": "Jan Vansina",
+  "availability": "online",
+  "entries": [
+   "tutsi"
+  ],
+  "kind": "paper",
+  "note": "History in Africa 27. The ubwiru, the memorized ritual code of Rwanda's kings, and when it took shape.",
+  "publicDomain": false,
+  "title": "Useful Anachronisms: The Rwandan Esoteric Code of Kingship",
+  "url": "https://core-cms.cambridgecore.org/core/services/aop-cambridge-core/content/view/067D28B20A40BF1BFED43CF887B59DEA/S0361541300005039a.pdf/useful-anachronisms-the-rwandan-esoteric-code-of-kingship.pdf",
+  "year": 2000,
+  "id": "paper-vansina-useful-anachronisms-rwandan-esoteric-code"
+ },
+ {
+  "author": "Yochanan Bwejeri",
+  "availability": "online",
+  "entries": [
+   "tutsi"
+  ],
+  "kind": "article",
+  "note": "Kulanu. The Havila Institute founder's own statement of the Tutsi Israelite claim.",
+  "publicDomain": false,
+  "title": "The Tutsi Jews and the Pan-Kush Hebrew Diaspora",
+  "url": "https://kulanu.org/archive/communities/tutsi/tutsi-jews-pan-kush-hebrew-diaspora/",
+  "year": null,
+  "id": "article-bwejeri-tutsi-jews-and-the-pan-kush-hebrew-diaspora"
+ },
+ {
+  "author": "Amani Athar",
+  "availability": "online",
+  "entries": [
+   "tutsi"
+  ],
+  "kind": "article",
+  "note": "The New Times (Rwanda). A Rwandan critique of the Havila movement.",
+  "publicDomain": false,
+  "title": "Is the Havila ideology a new tool of imperialism in the Great Lakes region?",
+  "url": "https://www.newtimes.co.rw/article/26735/opinions/is-the-havila-ideology-a-new-tool-of-imperialism-in-the-great-lakes-region",
+  "year": 2025,
+  "id": "article-athar-is-the-havila-ideology-a-new-tool-of-imperialism"
  },
  {
   "author": "",
@@ -4663,6 +4803,48 @@
   "url": "https://www.academia.edu/83361421/The_History_of_the_Israelites_in_China_from_1122_BC_to_1919_AD_As_documented_in_Manzhou_Yuanliu_Kao_%E6%BB%BF%E6%B4%B2%E6%BA%90%E6%B5%81%E8%80%83_",
   "year": null,
   "id": "paper-chung-history-of-the-israelites-in-china"
+ },
+ {
+  "author": "Adam Brown, Michael Waas, Harold Rhode et al.",
+  "availability": "online",
+  "entries": [
+   "kaifeng"
+  ],
+  "kind": "paper",
+  "note": "Avotaynu DNA. Y-DNA of four Kaifeng paternal lines: one East Asian, others matching Kurdish, Bukharan and possibly Iraqi Jewish men. Pre-publication.",
+  "publicDomain": false,
+  "title": "The Genetic Origins of the Jews of Kaifeng, China: Preliminary Findings",
+  "url": "https://avotaynuonline.com/2024/07/the-genetic-origins-of-the-jews-of-kaifeng-china-preliminary-findings/",
+  "year": 2024,
+  "id": "paper-brown-genetic-origins-of-the-jews-of-kaifeng"
+ },
+ {
+  "author": "Aaron Demsky",
+  "availability": "online",
+  "entries": [
+   "kaifeng"
+  ],
+  "kind": "article",
+  "note": "TheTorah.com. How the sciatic-nerve rule of Genesis 32 became the Kaifeng community's Chinese name.",
+  "publicDomain": false,
+  "title": "The Sect that Plucks out the Sinews: Kaifeng Jews",
+  "url": "https://www.thetorah.com/article/the-sect-that-plucks-out-the-sinews-kaifeng-jews",
+  "year": 2025,
+  "id": "article-demsky-the-sect-that-plucks-out-the-sinews"
+ },
+ {
+  "author": "Jordyn Haime",
+  "availability": "online",
+  "entries": [
+   "kaifeng"
+  ],
+  "kind": "article",
+  "note": "Made in China Journal. The 1990s–2000s revival and the restrictions since 2015.",
+  "publicDomain": false,
+  "title": "From Revival to Erasure: Ebbs and Flows of Judaism in Kaifeng",
+  "url": "https://madeinchinajournal.com/?p=27095",
+  "year": 2026,
+  "id": "article-haime-from-revival-to-erasure-judaism-in-kaifeng"
  },
  {
   "author": "Howard Ha-Sung Chung",
