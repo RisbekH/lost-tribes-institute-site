@@ -108,6 +108,8 @@ form.ask .note{font-size:13.5px;color:var(--ink-3);margin:0}
 <fieldset class="tabs"><legend>What would you like to do?</legend>
 <label><input type="radio" name="request" value="Question" checked> Ask a question</label>
 <label><input type="radio" name="request" value="Speaking invitation"> Invite us to speak</label>
+<label><input type="radio" name="request" value="Comment"> Leave a comment</label>
+<label><input type="radio" name="request" value="Tribe or community lead"> Share a lead on a tribe or community with an Israelite heritage</label>
 </fieldset>
 <div class="row2">
 <label class="f"><span>Your name</span><input name="name" autocomplete="name" required></label>
@@ -154,7 +156,7 @@ form.ask .note{font-size:13.5px;color:var(--ink-3);margin:0}
   <div><h4>Elsewhere</h4><ul><li><a href="https://www.youtube.com/@LostTribesInstitute" rel="noopener">YouTube</a></li><li><a href="https://www.amazon.com/author/richardhewitt" rel="noopener">Books on Amazon</a></li><li><a href="https://losttribesinstitute.academia.edu/MargotCROSSING" rel="noopener">Margot Crossing on Academia.edu</a></li><li><a href="https://losttribesinstitute.academia.edu/RichardRisbekHewitt" rel="noopener">Richard Hewitt on Academia.edu</a></li></ul></div>
 </div></footer>
 <script>document.getElementById('copy').addEventListener('click',async()=>{const a=document.getElementById('addr').textContent;const s=document.getElementById('copied');try{await navigator.clipboard.writeText(a);s.textContent='Copied.';}catch(_){const r=document.createRange();r.selectNodeContents(document.getElementById('addr'));const sel=getSelection();sel.removeAllRanges();sel.addRange(r);s.textContent='Selected; press Ctrl+C or ⌘C to copy.';}});</script><script>(()=>{const f=document.querySelector('form.ask');const inv=document.getElementById('invite');const lab=document.getElementById('msg-label');const ta=f.querySelector('textarea');
-const set=v=>{const i=v==='Speaking invitation';inv.hidden=!i;lab.textContent=i?'Tell us about your event':'Your question';ta.placeholder=i?'Who will be there, what you hope the talk covers, and anything else we should know.':'';};
+const M={'Speaking invitation':['Tell us about your event','Who will be there, what you hope the talk covers, and anything else we should know.'],'Comment':['Your comment',''],'Tribe or community lead':['Tell us about this tribe or community','Its name, where its people live, the customs, stories or memories that point to Israel, and any books, videos, websites or contacts we can follow up.']};const set=v=>{const i=v==='Speaking invitation';inv.hidden=!i;const [l,ph]=M[v]||['Your question',''];lab.textContent=l;ta.placeholder=ph;};
 f.addEventListener('change',e=>{if(e.target.name==='request')set(e.target.value);});
 document.querySelectorAll('[data-pick]').forEach(a=>a.addEventListener('click',()=>{const v=a.dataset.pick==='invite'?'Speaking invitation':'Question';f.querySelector(`input[value="${v}"]`).checked=true;set(v);}));
 if(location.hash==='#invite'){f.querySelector('input[value="Speaking invitation"]').checked=true;set('Speaking invitation');document.getElementById('write').scrollIntoView();}
