@@ -38,7 +38,7 @@
         {"lib": "book-hewitt-manas-jogolgonu-tabyldy", "cover": "/images/covers/manas-jogolgonu-tabyldy.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/64510772"}]},
         {"lib": "book-hewitt-kydyr-okuya", "cover": "/images/covers/kydyr-okuya.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/77978972"}]},
         {"lib": "article-hewitt-kydyr-tizme", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/115591197"}]},
-        {"lib": "article-hewitt-kydyr-russian", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/81758807"}]},
+        {"lib": "article-hewitt-kydyr-russian", "cover": "/images/covers/kydyr-russian.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/81758807"}]},
         {"lib": "book-hewitt-ala-toodogu-kyrk-iz", "cover": "/images/covers/ala-toodogu-kyrk-iz.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/140000663"}]},
         {"lib": "book-hewitt-boz-uy", "cover": "/images/covers/boz-uy.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/139988640"}]},
         {"lib": "book-hewitt-ak-kalpak", "cover": "/images/covers/ak-kalpak.jpg"},
