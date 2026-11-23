@@ -45,7 +45,7 @@
 .kinds button{font:500 13px var(--body);border:1px solid var(--rule);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:6px 12px;cursor:pointer}
 .kinds button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .count{font-family:var(--mono);font-size:12.5px;color:var(--ink-3);margin:8px 0}
-.list{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.list{list-style:none;margin:0;padding:0}
 .it{display:grid;grid-template-columns:4.8rem minmax(0,1fr);gap:4px 14px;padding:13px 0;border-bottom:1px solid var(--rule);align-items:baseline}
 .it .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3)}
 .it .k.book{color:#2F5D9B}.it .k.video{color:#B4472A}.it .k.paper{color:var(--accent)}.it .k.article{color:#1D7A6B}
@@ -63,6 +63,16 @@
 .go:hover{filter:brightness(1.1)}
 .go.here{background:var(--ink,#1d2a33)}
 .more{margin-top:14px;font:500 14px var(--body);background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:4px;padding:9px 16px;cursor:pointer}
+.langs{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 10px}
+.langs button{font:500 13px var(--body);border:1px solid var(--rule);background:var(--surface);color:var(--ink-2);border-radius:999px;padding:6px 12px;cursor:pointer}
+.langs button[aria-pressed="true"]{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+.langs button small{font-family:var(--mono);font-size:11px;opacity:.75;margin-left:4px}
+.lang-h{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:34px 0 10px;border-bottom:2px solid var(--ink);scroll-margin-top:80px}
+.lang-h:first-child{padding-top:8px}
+.lang-h h2{margin:0;font-size:1.5rem}
+.lang-h h2 span{font-family:var(--body);font-size:1rem;color:var(--ink-3);font-weight:400;margin-left:8px}
+.lang-h .n{font-family:var(--mono);font-size:12.5px;color:var(--ink-3)}
+.lang-more{list-style:none;padding:0 0 6px}
 </style></head><body>
 <a class="skip" href="#main">Skip to content</a><div class="topbar"><div class="in"><a class="brand" href="index.html"><img src="images/brand/lti-mark-64.png" alt="" width="34" height="34"><b>Lost Tribes Institute</b><span>Est. 2024</span></a><nav class="nav" aria-label="Main"><a href="index.html">Home</a><a href="map.html">Map</a><a href="library.html" aria-current="page">Library</a><a href="essays.html">Essays</a><a href="symposiums.html">Symposiums</a><a href="books.html">Books</a><a href="videos.html">Videos</a><a href="contact.html">Contact</a></nav></div></div>
 <main id="main"><div class="wrap"><p class="eyebrow">Library</p><h1>Research library</h1>
@@ -74,9 +84,9 @@
   <label><input type="checkbox" id="here"> Hosted here</label>
   <div class="kinds" role="group" aria-label="LTI network authors" id="authors"><span class="meta" style="align-self:center">LTI network:</span><button type="button" data-q="Crossing">Margot Crossing</button><button type="button" data-q="Risbek">Richard Hewitt</button><button type="button" data-q="Chung">Howard Ha-Sung Chung</button><button type="button" data-q="Kragh">Mikkel S. Kragh</button><button type="button" data-q="Kubo">Arimasa Kubo</button><button type="button" data-q="Ratcliffe">Susanne Ratcliffe</button><button type="button" data-q="Liebenberg">WA Liebenberg</button></div>
 </div>
+<div class="langs" id="langs" role="group" aria-label="Language"></div>
 <p class="count" id="count" role="status">Loading the library…</p>
 <ul class="list" id="list"></ul>
-<button type="button" class="more" id="more" hidden>Show more</button>
 </div></main>
 <footer class="foot"><div class="in">
   <div><p><b style="font-family:var(--display);font-weight:400;font-size:1.1rem;color:var(--ink)">Lost Tribes Institute</b></p>
@@ -92,15 +102,18 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\u0400-\u04ff ]/g,' ').replace(/\s+/g,' ').trim();
 const KO={book:0,paper:1,article:2,video:3}, KL={book:'Book',paper:'Paper',article:'Article',video:'Video'};
+const LN={en:['English',''],ky:['Kyrgyz','Кыргызча'],ru:['Russian','Русский'],es:['Spanish','Español'],pt:['Portuguese','Português'],fr:['French','Français'],de:['German','Deutsch'],ja:['Japanese','日本語'],lus:['Mizo','Mizo ṭawng']};
+const LO=['en','ky','ru','ja','es','pt','fr','de','lus'];
+const lname=l=>(LN[l]||[l])[0], lnat=l=>(LN[l]||['',''])[1];
 let items=[], names={};
 try{ [items, names] = await Promise.all([fetch('assets/library.json').then(r=>r.json()), fetch('assets/entries.json').then(r=>r.json()).then(a=>Object.fromEntries(a.map(x=>[x.id,x.name])))]); }
 catch(err){ $('count').textContent='The library could not be loaded. Reload the page to try again.'; return; }
-const S={q:'',kind:'',entry:'',here:false,shown:80};
-const p=new URLSearchParams(location.search); if(p.get('q')){S.q=p.get('q');$('q').value=S.q;} if(p.get('entry')) S.entry=p.get('entry');
+const S={q:'',kind:'',entry:'',here:false,lang:'',shown:{}};
+const p=new URLSearchParams(location.search); if(p.get('q')){S.q=p.get('q');$('q').value=S.q;} if(p.get('entry')) S.entry=p.get('entry'); if(p.get('lang')) S.lang=p.get('lang');
 $('kinds').innerHTML=[['','All'],['book','Books'],['paper','Papers'],['article','Articles'],['video','Videos']].map(([k,n])=>`<button type="button" data-k="${k}" aria-pressed="${k===''}">${n}</button>`).join('');
 $('entry').insertAdjacentHTML('beforeend',Object.entries(names).sort((a,b)=>a[1].localeCompare(b[1])).map(([id,n])=>`<option value="${esc(id)}">${esc(n)}</option>`).join(''));
 $('entry').value=S.entry;
-const filt=()=>{const q=norm(S.q);return items.filter(r=>(!S.kind||r.kind===S.kind)&&(!S.entry||(r.entries||[]).includes(S.entry))&&(!S.here||r.file)&&(!q||norm([r.title,r.author,r.note,r.year].join(' ')).includes(q)))
+const filt=(ign)=>{const q=norm(S.q);return items.filter(r=>(ign||!S.lang||(r.lang||'en')===S.lang)&&(!S.kind||r.kind===S.kind)&&(!S.entry||(r.entries||[]).includes(S.entry))&&(!S.here||r.file)&&(!q||norm([r.title,r.author,r.note,r.year].join(' ')).includes(q)))
  .sort((a,b)=>(KO[a.kind]??9)-(KO[b.kind]??9)||(a.year??9999)-(b.year??9999)||String(a.title).localeCompare(String(b.title),undefined,{numeric:true}));};
 const row=r=>{const href=r.file?r.file:(/^https?:/.test(r.url||'')?r.url:'');
  const t=href?`<a class="t" href="${esc(href)}" rel="noopener">${esc(r.title)}</a>`:`<span class="t">${esc(r.title)}</span>`;
@@ -110,13 +123,24 @@ const row=r=>{const href=r.file?r.file:(/^https?:/.test(r.url||'')?r.url:'');
  const b=[go,r.publicDomain?'<span class="badge pd">Public domain</span>':'',r.availability==='none'?'<span class="badge">No online copy</span>':'',r.availability==='unpublished'?'<span class="badge">Unpublished</span>':''].join('');
  const tags=(r.entries||[]).filter(x=>names[x]).map(x=>`<a href="map.html#e-${esc(x)}">${esc(names[x])}</a>`).join('');
  return `<li class="it"><span class="k ${esc(r.kind)}">${esc(KL[r.kind]||r.kind)}</span><div style="min-width:0">${t}${meta?`<div class="meta">${meta}</div>`:''}${b?`<div class="meta">${b}</div>`:''}${r.note?`<div class="note">${esc(r.note)}</div>`:''}${tags?`<div class="tags">${tags}</div>`:''}</div></li>`;};
-const render=()=>{const l=filt(); $('count').textContent=`${l.length} of ${items.length} works`; $('list').innerHTML=l.slice(0,S.shown).map(row).join('')||'<li class="it"><span></span><span class="meta">Nothing matches these filters.</span></li>'; $('more').hidden=l.length<=S.shown; $('more').textContent=`Show more (${l.length-S.shown} left)`;};
-$('kinds').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;S.kind=b.dataset.k;S.shown=80;$('kinds').querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));render();});
-let tm;$('q').addEventListener('input',ev=>{clearTimeout(tm);tm=setTimeout(()=>{S.q=ev.target.value;S.shown=80;render();},150);});
-$('entry').addEventListener('change',ev=>{S.entry=ev.target.value;S.shown=80;render();});
+const langs=()=>{const all=filt(true), c={}; all.forEach(r=>{const l=r.lang||'en'; c[l]=(c[l]||0)+1;});
+ const ls=LO.filter(l=>c[l]).concat(Object.keys(c).filter(l=>!LO.includes(l)));
+ $('langs').innerHTML=`<button type="button" data-l="" aria-pressed="${!S.lang}">All languages<small>${all.length}</small></button>`+ls.map(l=>`<button type="button" data-l="${esc(l)}" aria-pressed="${S.lang===l}">${esc(lname(l))}${lnat(l)?' · '+esc(lnat(l)):''}<small>${c[l]}</small></button>`).join('');};
+const render=()=>{langs(); const l=filt(); $('count').textContent=`${l.length} of ${items.length} works`;
+ const g={}; l.forEach(r=>{const k=r.lang||'en'; (g[k]=g[k]||[]).push(r);});
+ const order=LO.filter(k=>g[k]).concat(Object.keys(g).filter(k=>!LO.includes(k)));
+ $('list').innerHTML=order.map(k=>{const rs=g[k], n=S.shown[k]||(k==='en'&&!S.lang?80:Infinity);
+  return `<li class="lang-h" id="lang-${esc(k)}"><h2>${esc(lname(k))}${lnat(k)?`<span lang="${esc(k)}">${esc(lnat(k))}</span>`:''}</h2><span class="n">${rs.length} ${rs.length===1?'work':'works'}</span></li>`
+   +rs.slice(0,n).map(row).join('')
+   +(rs.length>n?`<li class="lang-more"><button type="button" class="more" data-more="${esc(k)}">Show more ${esc(lname(k))} works (${rs.length-n} left)</button></li>`:'');}).join('')||'<li class="it"><span></span><span class="meta">Nothing matches these filters.</span></li>';};
+$('langs').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;S.lang=b.dataset.l;S.shown={};render();const u=new URL(location);if(S.lang)u.searchParams.set('lang',S.lang);else u.searchParams.delete('lang');history.replaceState(null,'',u);});
+$('list').addEventListener('click',ev=>{const b=ev.target.closest('button[data-more]');if(!b)return;const k=b.dataset.more;S.shown[k]=(S.shown[k]||80)+80;render();});
+$('kinds').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;S.kind=b.dataset.k;S.shown={};$('kinds').querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));render();});
+let tm;$('q').addEventListener('input',ev=>{clearTimeout(tm);tm=setTimeout(()=>{S.q=ev.target.value;S.shown={};render();},150);});
+$('entry').addEventListener('change',ev=>{S.entry=ev.target.value;S.shown={};render();});
 $('here').addEventListener('change',ev=>{S.here=ev.target.checked;render();});
-$('more').addEventListener('click',()=>{S.shown+=80;render();});
-$('authors').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;$('q').value=b.dataset.q;S.q=b.dataset.q;S.shown=80;render();});
+$('authors').addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;$('q').value=b.dataset.q;S.q=b.dataset.q;S.shown={};render();});
 render();
+if(location.hash.startsWith('#lang-')){const el=document.getElementById(location.hash.slice(1)); if(el) el.scrollIntoView();}
 })();
 </script></body></html>
