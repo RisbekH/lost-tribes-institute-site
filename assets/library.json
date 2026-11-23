@@ -4975,6 +4975,22 @@
    "kyrgyz"
   ],
   "kind": "book",
+  "note": "Kyrgyz-language edition. The white kalpak read as a sign of the Creator's dealings with people, from the first covering in Eden to the summit where all faiths meet. 39 pages.",
+  "publicDomain": false,
+  "title": "Ак-Калпак",
+  "url": "",
+  "year": null,
+  "file": "papers/%D0%90%D0%BA-%D0%9A%D0%B0%D0%BB%D0%BF%D0%B0%D0%BA.pdf",
+  "id": "book-hewitt-ak-kalpak",
+  "lang": "ky"
+ },
+ {
+  "author": "Richard Hewitt (Risbek)",
+  "availability": "online",
+  "entries": [
+   "kyrgyz"
+  ],
+  "kind": "book",
   "note": "Russian edition, illustrated. 40 pages.",
   "publicDomain": false,
   "title": "Калпак (Russian edition)",
