@@ -6179,5 +6179,40 @@
   "year": null,
   "id": "article-lepper-likely-source-newark-decalogue-stone",
   "lang": "en"
+ },
+ {
+  "author": "Lost Tribes Institute",
+  "availability": "online",
+  "entries": [
+   "kyrgyz"
+  ],
+  "kind": "book",
+  "note": "Ыйык Жазуунун кыргызча котормосу, 66 китеп. Kyrgyz translation of the whole Bible, with a book, chapter and verse finder (type “Жакан 3:16” or “John 3:16”). Job translated in verse by Медет Акынов; Proverbs by Аскар Мамбеталиев. 2026.",
+  "publicDomain": false,
+  "title": "Олуя-пайгамбарлардын кол жазмасы",
+  "url": "",
+  "year": 2026,
+  "file": "kol-jazma/",
+  "id": "book-kol-jazma",
+  "lang": "ky",
+  "linkLabel": "Read online",
+  "downloads": [
+   [
+    "EPUB",
+    "kol-jazma/files/Oluya-paigambarlardyn-kol-jazmasy.epub"
+   ],
+   [
+    "PDF",
+    "kol-jazma/files/Oluya-paigambarlardyn-kol-jazmasy.pdf"
+   ],
+   [
+    "Word",
+    "kol-jazma/files/Oluya-paigambarlardyn-kol-jazmasy.docx"
+   ],
+   [
+    "Markdown",
+    "kol-jazma/files/Oluya-paigambarlardyn-kol-jazmasy.md"
+   ]
+  ]
  }
 ]

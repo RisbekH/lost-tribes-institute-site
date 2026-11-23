@@ -17,3 +17,9 @@ To save an essay without showing it on the site, turn on **Draft**, then publish
 - `admin/` is the posting screen (Decap CMS).
 - `scripts/build.mjs` copies the site into `dist/` and builds the Essays page, one page per essay, an RSS feed (`/essays.xml`) and the sitemap.
 - All other pages (`index.html`, `library.html`, etc.) are edited by hand, as before.
+
+## Kyrgyz scripture («Олуя-пайгамбарлардын кол жазмасы»)
+
+- The master text is `content/kol-jazma/master.md`. Edit only that file.
+- `python3 scripts/kol-jazma/build.py --pdf` rebuilds everything from it: the reading pages in `kol-jazma/` (one page per book, with the book/chapter/verse finder) and the EPUB, PDF, Word and Markdown downloads in `kol-jazma/files/`. It needs pandoc 3 and, for the PDF, LibreOffice.
+- Commit the rebuilt `kol-jazma/` folder; Netlify publishes it as is.
