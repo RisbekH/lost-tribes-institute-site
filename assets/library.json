@@ -2117,7 +2117,8 @@
   "availability": "online",
   "entries": [
    "korea",
-   "qiang"
+   "qiang",
+   "han"
   ],
   "kind": "video",
   "note": "",
@@ -5124,7 +5125,8 @@
   "author": "Howard Ha-Sung Chung",
   "availability": "online",
   "entries": [
-   "korea"
+   "korea",
+   "han"
   ],
   "kind": "paper",
   "linkLabel": "Academia.edu",
@@ -6230,5 +6232,65 @@
     "kol-jazma/files/Oluya-paigambarlardyn-kol-jazmasy.md"
    ]
   ]
+ },
+ {
+  "author": "Truth Shall Prevail (official)",
+  "availability": "online",
+  "entries": [
+   "han"
+  ],
+  "kind": "video",
+  "note": "Isaiah 49:12 and the “land of Sinim” as China.",
+  "publicDomain": false,
+  "title": "Isaiah wrote that Lost 10 Tribes of Israel settled in China!",
+  "url": "https://www.youtube.com/watch?v=Fbz1xrlbTcM",
+  "year": 2026,
+  "id": "video-isaiah-wrote-that-lost-10-tribes-settled-in-china",
+  "lang": "en"
+ },
+ {
+  "author": "Raanan Eichler",
+  "availability": "online",
+  "entries": [
+   "han"
+  ],
+  "kind": "paper",
+  "note": "Argues that Sinim in Isaiah 49:12 means China, not Aswan.",
+  "publicDomain": false,
+  "title": "China Is in the Bible",
+  "url": "https://doi.org/10.1163/15685330-bja10124",
+  "year": 2023,
+  "id": "paper-eichler-china-is-in-the-bible",
+  "lang": "en"
+ },
+ {
+  "author": "C. H. Kang and Ethel R. Nelson",
+  "availability": "online",
+  "entries": [
+   "han"
+  ],
+  "kind": "book",
+  "note": "Genesis themes read in early Chinese characters.",
+  "publicDomain": false,
+  "title": "The Discovery of Genesis: How the Truths of Genesis Were Found Hidden in the Chinese Language",
+  "url": "https://archive.org/search?query=Kang%20Nelson%20Discovery%20of%20Genesis%20Chinese%20language",
+  "year": 1979,
+  "id": "book-kang-nelson-discovery-of-genesis",
+  "lang": "en"
+ },
+ {
+  "author": "Chan Kei Thong",
+  "availability": "online",
+  "entries": [
+   "han"
+  ],
+  "kind": "book",
+  "note": "Shangdi and the Border Sacrifice at the Altar of Heaven.",
+  "publicDomain": false,
+  "title": "Faith of Our Fathers: God in Ancient China",
+  "url": "https://archive.org/search?query=Chan%20Kei%20Thong%20Faith%20of%20Our%20Fathers",
+  "year": 2006,
+  "id": "book-chan-kei-thong-faith-of-our-fathers",
+  "lang": "en"
  }
 ]
