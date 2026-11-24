@@ -40,7 +40,7 @@
         {"lib": "article-hewitt-kydyr-tizme", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/115591197"}]},
         {"lib": "article-hewitt-kydyr-russian", "cover": "/images/covers/kydyr-russian.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/81758807"}]},
         {"lib": "book-hewitt-ala-toodogu-kyrk-iz", "cover": "/images/covers/ala-toodogu-kyrk-iz.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/140000663"}]},
-        {"lib": "book-hewitt-boz-uy", "cover": "/images/covers/boz-uy.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/139988640"}]},
+        {"lib": "book-hewitt-boz-uy", "cover": "/images/covers/boz-uy.jpg", "links": [{"label": "Amazon", "url": "https://www.amazon.com/dp/1959466240"}, {"label": "Scribd", "url": "https://www.scribd.com/document/139988640"}]},
         {"lib": "book-hewitt-ak-kalpak", "cover": "/images/covers/ak-kalpak.jpg"},
         {"lib": "book-hewitt-kalpak-russian-edition", "cover": "/images/covers/kalpak-russian-edition.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/397278791"}]},
         {"lib": "book-hewitt-come-home-russian-edition", "cover": "/images/covers/come-home-russian-edition.jpg", "links": [{"label": "Scribd", "url": "https://www.scribd.com/document/699632862"}]},
