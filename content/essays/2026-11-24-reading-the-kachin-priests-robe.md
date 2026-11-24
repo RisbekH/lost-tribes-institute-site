@@ -6,9 +6,9 @@ summary: "Three patterns on the ceremonial robe of a Kachin priest in Chiang Mai
 draft: false
 ---
 
-The Kachin, who call themselves Jinghpaw, live in the hills of northern Myanmar, in Yunnan in China, where they are called Jingpo, and in smaller communities in India and Thailand. Like the Karen, they remember a book that the Creator, Karai Kasang, gave their forefathers and that was later lost. This paper reads three patterns on the ceremonial robe of a Kachin priest in Chiang Mai, Thailand, and sets each one beside ancient Israel. It was written in Chinese. We give it here in Chinese and English.
+The Kachin, who call themselves Jinghpaw, live in the hills of northern Myanmar, in Yunnan in China, where they are called Jingpo, and in smaller communities in India and Thailand. Like the Karen, they remember a book the Creator gave their forefathers. Theirs was written on parchment, and its keeper ate it, so the priests kept its words by memory. This paper reads three patterns on the ceremonial robe of a Kachin priest in Chiang Mai, Thailand, and sets each one beside ancient Israel. It was written in Chinese. We give it here in Chinese and English.
 
-克钦人自称“景颇”（Jinghpaw），居住在缅甸北部山区和中国云南（称景颇族），在印度和泰国也有较小的社群。与克伦人一样，他们记得造物主 Karai Kasang 曾赐给祖先一本书，后来那本书失落了。本文解读泰国清迈一位克钦族祭司法袍上的三个图案，并将每一个与古代以色列对照。本文原以中文写成，现以中英文对照刊出。
+克钦人自称“景颇”（Jinghpaw），居住在缅甸北部山区和中国云南（称景颇族），在印度和泰国也有较小的社群。与克伦人一样，他们记得造物主曾赐给祖先一本书。他们的书写在羊皮上，被保管的人吃掉了，所以祭司们凭记忆保存书中的话。本文解读泰国清迈一位克钦族祭司法袍上的三个图案，并将每一个与古代以色列对照。本文原以中文写成，现以中英文对照刊出。
 
 ![A Kachin priest in Chiang Mai wearing the ceremonial robe](/images/essays/kachin-robe-priest.jpg)
 
