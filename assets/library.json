@@ -3839,6 +3839,22 @@
   "lang": "en"
  },
  {
+  "author": "Serkan Dogan et al.",
+  "availability": "online",
+  "entries": [
+   "assyr"
+  ],
+  "kind": "paper",
+  "linkLabel": "Read open access",
+  "note": "PLoS ONE: Syriac Christians, Kurds, Yazidis, Arabs and Turkmens of northern Iraq share old Mesopotamian paternal lineages.",
+  "publicDomain": false,
+  "title": "A Glimpse at the Intricate Mosaic of Ethnicities from Mesopotamia: Paternal Lineages of the Northern Iraqi Arabs, Kurds, Syriacs, Turkmens and Yazidis",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5669434/",
+  "year": 2017,
+  "id": "paper-dogan-a-glimpse-at-the-intricate-mosaic-mesopotamia",
+  "lang": "en"
+ },
+ {
   "author": "",
   "availability": "online",
   "entries": [
@@ -4151,6 +4167,36 @@
   "url": "https://www.youtube.com/watch?v=6g_yVIaWmY4",
   "year": null,
   "id": "video-the-khazar-myth-and-the-national-identity-of-the-crimean-karaites",
+  "lang": "en"
+ },
+ {
+  "author": "Kevin Alan Brook",
+  "availability": "online",
+  "entries": [
+   "karaim"
+  ],
+  "kind": "paper",
+  "note": "Karadeniz Araştırmaları (Journal of Black Sea Studies): Crimean Karaites cluster with other Jews, not with Turkic peoples.",
+  "publicDomain": false,
+  "title": "The Genetics of Crimean Karaites",
+  "url": "https://dergipark.org.tr/tr/pub/karadearas/article/123925",
+  "year": 2014,
+  "id": "paper-brook-the-genetics-of-crimean-karaites",
+  "lang": "en"
+ },
+ {
+  "author": "Jewish Encyclopedia",
+  "availability": "online",
+  "entries": [
+   "karaim"
+  ],
+  "kind": "article",
+  "note": "Firkovich's life, collections and the tombstone and colophon forgeries charged against him.",
+  "publicDomain": true,
+  "title": "Firkovich, Abraham b. Samuel",
+  "url": "https://www.jewishencyclopedia.com/articles/6134-firkovich-abraham-b-samuel-aben-reshef",
+  "year": 1906,
+  "id": "article-jewish-encyclopedia-firkovich-abraham",
   "lang": "en"
  },
  {
@@ -6071,6 +6117,85 @@
   "url": "https://www.amazon.com/dp/B0DH2Y2BWK",
   "year": 1883,
   "id": "book-jenkins-the-ten-tribes-of-israel-north-american-indians",
+  "lang": "en"
+ },
+ {
+  "author": "Daniel M. Fernandes et al.",
+  "availability": "online",
+  "entries": [
+   "taino"
+  ],
+  "kind": "paper",
+  "linkLabel": "Read open access",
+  "note": "Nature 590: genomes of 174 ancient islanders; the pre-contact population was tens of thousands, not millions.",
+  "publicDomain": false,
+  "title": "A Genetic History of the Pre-Contact Caribbean",
+  "url": "https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/s41586-020-03053-2.pdf",
+  "year": 2021,
+  "id": "paper-fernandes-a-genetic-history-of-the-pre-contact-caribbean",
+  "lang": "en"
+ },
+ {
+  "author": "Juan Carlos Martínez-Cruzado et al.",
+  "availability": "online",
+  "entries": [
+   "taino"
+  ],
+  "kind": "paper",
+  "note": "Human Biology 73(4): Native American maternal lines in about six in ten Puerto Ricans.",
+  "publicDomain": false,
+  "title": "Mitochondrial DNA Analysis Reveals Substantial Native American Ancestry in Puerto Rico",
+  "url": "https://digitalcommons.wayne.edu/humbiol/vol73/iss4/1",
+  "year": 2001,
+  "id": "paper-martinez-cruzado-mitochondrial-dna-puerto-rico",
+  "lang": "en"
+ },
+ {
+  "author": "Diego Andrés Rocha",
+  "availability": "online",
+  "entries": [
+   "taino",
+   "native"
+  ],
+  "kind": "book",
+  "linkLabel": "See at John Carter Brown Library",
+  "note": "Lima jurist: Mexican Indians from the Lost Tribes, Peruvians from ancient Iberians.",
+  "publicDomain": true,
+  "title": "Tratado único y singular del origen de los indios occidentales del Pirú, México, Santa Fe y Chile",
+  "url": "https://www.brown.edu/Facilities/John_Carter_Brown_Library/exhibitions/peru/peru/ind_tratado.php",
+  "year": 1681,
+  "id": "book-rocha-tratado-unico-y-singular",
+  "lang": "es"
+ },
+ {
+  "author": "Ripan S. Malhi et al.",
+  "availability": "online",
+  "entries": [
+   "dine"
+  ],
+  "kind": "paper",
+  "linkLabel": "Read open access",
+  "note": "American Journal of Physical Anthropology 137(4): a small band of Subarctic migrants founded the Navajo and Apache.",
+  "publicDomain": false,
+  "title": "Distribution of Y Chromosomes among Native North Americans: A Study of Athapaskan Population History",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2584155",
+  "year": 2008,
+  "id": "paper-malhi-distribution-of-y-chromosomes-athapaskan",
+  "lang": "en"
+ },
+ {
+  "author": "Smithsonian National Museum of the American Indian",
+  "availability": "online",
+  "entries": [
+   "dine"
+  ],
+  "kind": "article",
+  "note": "Teaching module on the Long Walk, Bosque Redondo and the treaty that sent the Diné home.",
+  "publicDomain": false,
+  "title": "The Navajo Treaty of 1868",
+  "url": "https://americanindian.si.edu/nk360/navajo/index.cshtml",
+  "year": null,
+  "id": "article-nmai-the-navajo-treaty-of-1868",
   "lang": "en"
  },
  {
