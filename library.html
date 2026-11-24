@@ -104,8 +104,8 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=s=>String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\u0400-\u04ff ]/g,' ').replace(/\s+/g,' ').trim();
 const KO={book:0,paper:1,article:2,video:3}, KL={book:'Book',paper:'Paper',article:'Article',video:'Video'};
-const LN={en:['English',''],ky:['Kyrgyz','Кыргызча'],ru:['Russian','Русский'],es:['Spanish','Español'],pt:['Portuguese','Português'],fr:['French','Français'],de:['German','Deutsch'],ja:['Japanese','日本語'],lus:['Mizo','Mizo ṭawng']};
-const LO=['en','ky','ru','ja','es','pt','fr','de','lus'];
+const LN={en:['English',''],ky:['Kyrgyz','Кыргызча'],ru:['Russian','Русский'],es:['Spanish','Español'],pt:['Portuguese','Português'],fr:['French','Français'],de:['German','Deutsch'],ja:['Japanese','日本語'],ko:['Korean','한국어'],lus:['Mizo','Mizo ṭawng']};
+const LO=['en','ky','ru','ja','ko','es','pt','fr','de','lus'];
 const lname=l=>(LN[l]||[l])[0], lnat=l=>(LN[l]||['',''])[1];
 let items=[], names={};
 try{ [items, names] = await Promise.all([fetch('assets/library.json').then(r=>r.json()), fetch('assets/entries.json').then(r=>r.json()).then(a=>Object.fromEntries(a.map(x=>[x.id,x.name])))]); }
