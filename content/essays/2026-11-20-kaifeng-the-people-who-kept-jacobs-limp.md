@@ -3,7 +3,7 @@ title: "Kaifeng: The People Who Kept Jacob's Limp"
 date: 2026-11-20
 author: Lost Tribes Institute
 summary: "For eight centuries a Chinese community on the Yellow River called itself Israel, and its neighbours named it after a single cut of meat. The Institute reads the Kaifeng story as a living picture of how Israel's tribes were scattered, kept and nearly lost."
-draft: true
+draft: false
 ---
 
 A butcher's shop in old Kaifeng. A leg of mutton lies on the block. The knife does not go for the joint. It goes deep along the back of the thigh and draws out a long pale cord, the sciatic nerve. The cord goes in the scrap bucket. The meat goes home to a family that hangs Chinese couplets on its door and sends its sons to sit the Confucian exams.

@@ -3,7 +3,7 @@ title: "Hawaiʻi's Places of Refuge: Polynesians and the House of Israel"
 date: 2026-11-17
 author: Lost Tribes Institute
 summary: "Old Hawaiʻi kept walled places of refuge, a harvest season when war was forbidden, and chants that run from the first darkness to the living chiefs. The Institute sets these beside the Hebrew Bible and asks what the likeness may mean."
-draft: true
+draft: false
 ---
 
 A man runs along the black lava of the Kona coast. He ate with the women, or let his shadow fall on a chief, or touched what was kapu, forbidden. The penalty is death, and the chief's men are behind him. Ahead lies a great wall of fitted stone, ten feet high, and beyond it a temple with carved wooden images staring out to sea. If he can swim the bay and get inside the wall, no one may touch him. A priest will see to him. In a few days he will walk home a free man.

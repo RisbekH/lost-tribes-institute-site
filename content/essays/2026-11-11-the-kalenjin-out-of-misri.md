@@ -3,7 +3,7 @@ title: "The Kalenjin: Out of Misri, Through the Knife, Into a New Name"
 date: 2026-11-11
 author: Lost Tribes Institute
 summary: "Kenya's Kalenjin remember a homeland called Misri and still mark manhood with circumcision, seclusion, washing and a new name. The Institute sets their old ways beside the Hebrew Bible and asks what the likeness may mean."
-draft: true
+draft: false
 ---
 
 A cold morning in the Kipsigis hills, late in the year. A line of boys walks down to the river. Their faces are smeared white with clay. For months they have lived apart in huts away from the village, eating with small wooden spoons because their hands were not clean enough to touch food, speaking little, fed by mothers who cooked for them but were not allowed to see them. Now an elder watches as each boy goes under the water, comes up, and walks beneath an arch of green branches. When he comes out on the far side he is no longer just Kimutai. He is *arap* Rotich, son of Rotich. A few days later his mother shaves his head. It is the last time she will groom him. Her boy is a man.

@@ -3,7 +3,7 @@ title: "The Nuer: Cattle, Spirit and the Hebrews of the Upper Nile"
 date: 2026-11-06
 author: Lost Tribes Institute
 summary: "A cattle people of South Sudan reminded the great anthropologist who studied them of the Hebrews. The Institute sets Nuer sacrifice, ghost marriage and blood sanctuary beside the Torah and asks what the likeness means."
-draft: true
+draft: false
 ---
 
 Dusk in a dry-season cattle camp on the Sobat River. Smoke from smouldering dung hangs low to keep off the flies. Hundreds of cattle stand tethered to pegs, and young men, their bodies dusted grey with ash, walk among them singing to the oxen they are named after. A man has fallen ill. His kinsmen lead an ox to a peg in front of the hut. An elder steps up with a spear, rubs ash along the animal's back, and speaks to God at length, swinging the spear as he talks. Then he drives it in. The meat is shared out by rule, a leg to this kinsman, a shoulder to that one.

@@ -3,7 +3,7 @@ title: "The Diné and the Long Walk Home"
 date: 2026-11-24
 author: Lost Tribes Institute
 summary: "The Navajo purify their returning warriors, face their doors to the dawn, name themselves by four clans and remember an exile and a homecoming. The Institute reads these customs beside the Hebrew Bible, and lets the skeptics speak."
-draft: true
+draft: false
 ---
 
 A young veteran comes home to the high desert. He has been to a war on the other side of the world, and he has seen the dead. His family does not throw him a party first. They call a singer. For several days and nights there are songs, a painted staff carried from one camp to another, and a blackening of his body. The point is plain to everyone there: he has touched the enemy dead, and he must be made clean before he can live among his own people again.
