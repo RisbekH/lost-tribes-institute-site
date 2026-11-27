@@ -463,7 +463,8 @@
   "author": "Diego Durán",
   "availability": "online",
   "entries": [
-   "native"
+   "native",
+   "nahua"
   ],
   "kind": "book",
   "linkLabel": "Read at Internet Archive",
@@ -1315,7 +1316,8 @@
   "author": "Lord Kingsborough",
   "availability": "online",
   "entries": [
-   "native"
+   "native",
+   "nahua"
   ],
   "kind": "book",
   "linkLabel": "Read at Internet Archive",
@@ -1325,6 +1327,21 @@
   "url": "https://archive.org/details/AntiquitiesMexi6King",
   "year": 1831,
   "id": "book-lord-kingsborough-antiquities-of-mexico",
+  "lang": "en"
+ },
+ {
+  "author": "Elisa Eastwood Pulido",
+  "availability": "online",
+  "entries": [
+   "nahua"
+  ],
+  "kind": "paper",
+  "note": "Mormon Studies Review. By the author of the first full biography of Bautista (Oxford, 2020).",
+  "publicDomain": false,
+  "title": "Margarito Bautista, Mexican Politics, and the Third Convention",
+  "url": "https://scholarsarchive.byu.edu/msr2/vol8/iss1/5",
+  "year": 2021,
+  "id": "paper-pulido-margarito-bautista-third-convention",
   "lang": "en"
  },
  {
@@ -4580,6 +4597,83 @@
   "lang": "en"
  },
  {
+  "author": "C. A. Fortes-Lima, M. Y. Diallo, V. Janoušek, V. Černý, C. M. Schlebusch",
+  "availability": "online",
+  "entries": [
+   "fulani"
+  ],
+  "kind": "paper",
+  "note": "Genomes of about 460 Fulani from 18 places: West African base plus an ancestry shared by all Fulani tied to ancient North Africans.",
+  "publicDomain": false,
+  "title": "Population History and Admixture of the Fulani People from the Sahel",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11866953/",
+  "year": 2025,
+  "id": "paper-fortes-lima-fulani-population-history-admixture",
+  "lang": "en"
+ },
+ {
+  "author": "Mário Vicente, Edita Priehodová, Viktor Černý, Carina M. Schlebusch et al.",
+  "availability": "online",
+  "entries": [
+   "fulani"
+  ],
+  "kind": "paper",
+  "note": "BMC Genomics. Dates two admixture events and traces the Fulani lactase variant to contact with North Africans.",
+  "publicDomain": false,
+  "title": "Population history and genetic adaptation of the Fulani nomads: inferences from genome-wide data and the lactase persistence trait",
+  "url": "https://link.springer.com/10.1186/s12864-019-6296-7",
+  "year": 2019,
+  "id": "paper-vicente-fulani-nomads-lactase-persistence",
+  "lang": "en"
+ },
+ {
+  "author": "Derrick J. Stenning",
+  "availability": "online",
+  "entries": [
+   "fulani"
+  ],
+  "kind": "book",
+  "linkLabel": "Read at webPulaaku",
+  "note": "Classic ethnography of Fulani herders: lineage, cattle, marriage and the origin theories.",
+  "publicDomain": false,
+  "title": "Savannah Nomads: A Study of the Woɗaaɓe Pastoral Fulani of Western Bornu Province, Northern Region, Nigeria",
+  "url": "https://webpulaaku.site/defte/djStenning/toc.html",
+  "year": 1959,
+  "id": "book-stenning-savannah-nomads",
+  "lang": "en"
+ },
+ {
+  "author": "Joseph Earl Harris",
+  "availability": "online",
+  "entries": [
+   "fulani"
+  ],
+  "kind": "book",
+  "linkLabel": "Read at webFuuta",
+  "note": "PhD dissertation; chapter 1 surveys Fulani origin legends and theories, including Delafosse’s Jewish-descent thesis.",
+  "publicDomain": false,
+  "title": "The Kingdom of Fouta-Diallon",
+  "url": "https://webfuuta.site/bibliotheque/joseph_harris/fouta_diallon_history/chap1.html",
+  "year": 1965,
+  "id": "book-harris-kingdom-of-fouta-diallon",
+  "lang": "en"
+ },
+ {
+  "author": "A. G. Adebayo",
+  "availability": "online",
+  "entries": [
+   "fulani"
+  ],
+  "kind": "paper",
+  "note": "History in Africa 18.",
+  "publicDomain": false,
+  "title": "Of Man and Cattle: A Reconsideration of the Traditions of Origin of Pastoral Fulani of Nigeria",
+  "url": "https://cambridge.org/core/journals/history-in-africa/article/abs/of-man-and-cattle-a-reconsideration-of-the-traditions-of-origin-of-pastoral-fulani-of-nigeria/DBD8B2F2410A4AE67DE6079D99546969",
+  "year": 1991,
+  "id": "paper-adebayo-of-man-and-cattle",
+  "lang": "en"
+ },
+ {
   "author": "",
   "availability": "online",
   "entries": [
@@ -6434,5 +6528,112 @@
   "year": 2026,
   "id": "book-jeon-hong-apostle-thomas-hata-clan",
   "lang": "ko"
+ },
+ {
+  "author": "Peter Jones (Kahkewaquonaby)",
+  "availability": "online",
+  "entries": [
+   "anishinaabe"
+  ],
+  "kind": "book",
+  "linkLabel": "Read at Internet Archive",
+  "note": "A Mississauga minister weighs the Israelite theory against his own people’s customs.",
+  "publicDomain": true,
+  "title": "History of the Ojebway Indians",
+  "url": "https://archive.org/details/historyofojebway00jonerich",
+  "year": 1861,
+  "id": "book-jones-history-of-the-ojebway-indians",
+  "lang": "en"
+ },
+ {
+  "author": "Andrew J. Blackbird",
+  "availability": "online",
+  "entries": [
+   "anishinaabe"
+  ],
+  "kind": "book",
+  "linkLabel": "Read at Project Gutenberg",
+  "note": "Odawa legends of the flood and of Nenabozho and the great fish, compared with the Bible.",
+  "publicDomain": true,
+  "title": "History of the Ottawa and Chippewa Indians of Michigan",
+  "url": "https://www.gutenberg.org/ebooks/6988",
+  "year": 1887,
+  "id": "book-blackbird-history-of-the-ottawa-and-chippewa",
+  "lang": "en"
+ },
+ {
+  "author": "Donald B. Smith",
+  "availability": "online",
+  "entries": [
+   "anishinaabe"
+  ],
+  "kind": "book",
+  "note": "Standard biography of Peter Jones (2nd edition).",
+  "publicDomain": false,
+  "title": "Sacred Feathers: The Reverend Peter Jones (Kahkewaquonaby) and the Mississauga Indians",
+  "url": "https://muse.jhu.edu/book/106499",
+  "year": 2013,
+  "id": "book-smith-sacred-feathers",
+  "lang": "en"
+ },
+ {
+  "author": "William Apess; Barry O’Connell (ed.)",
+  "availability": "online",
+  "entries": [
+   "pequot"
+  ],
+  "kind": "book",
+  "note": "All of Apess’s writings, including his lost-tribes appendix and the Eulogy on King Philip.",
+  "publicDomain": false,
+  "title": "On Our Own Ground: The Complete Writings of William Apess, a Pequot",
+  "url": "https://www.si.edu/object/siris_sil_796596",
+  "year": 1992,
+  "id": "book-apess-on-our-own-ground",
+  "lang": "en"
+ },
+ {
+  "author": "William Apess",
+  "availability": "online",
+  "entries": [
+   "pequot"
+  ],
+  "kind": "article",
+  "note": "Apess’s own short case that Native Americans are Israel.",
+  "publicDomain": true,
+  "title": "The Indians: The Ten Lost Tribes",
+  "url": "https://teachingamericanhistory.org/document/the-indians-the-ten-lost-tribes/",
+  "year": 1831,
+  "id": "article-apess-the-indians-the-ten-lost-tribes",
+  "lang": "en"
+ },
+ {
+  "author": "Sandra Gustafson",
+  "availability": "online",
+  "entries": [
+   "pequot"
+  ],
+  "kind": "paper",
+  "note": "Religion and Literature 26.",
+  "publicDomain": false,
+  "title": "Nations of Israelites: Prophecy and Cultural Autonomy in the Writings of William Apess",
+  "url": "https://relbib.de/Record/1637105428?lng=en",
+  "year": 1994,
+  "id": "paper-gustafson-nations-of-israelites",
+  "lang": "en"
+ },
+ {
+  "author": "Rochelle Raineri Zuck",
+  "availability": "online",
+  "entries": [
+   "pequot"
+  ],
+  "kind": "paper",
+  "note": "",
+  "publicDomain": false,
+  "title": "William Apess, the “Lost Tribes,” and Indigenous Survivance",
+  "url": "https://muse.jhu.edu/article/505396",
+  "year": null,
+  "id": "paper-zuck-apess-lost-tribes-survivance",
+  "lang": "en"
  }
 ]
